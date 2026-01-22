@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - हमसे संपर्क करें</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5; 
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            width: 95%; /* Mobile/Tablet par kinare na katein */
+            max-width: 640px; /* Laptop par jyada faila na dikhe */
+            background: #fff;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            box-sizing: border-box; /* Padding ko width ke andar rakhega */
+        }
+
+        /* Text Sections */
+        h2 {
+            text-align: center;
+            color: #1a202c;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #4a5568;
+        }
+
+        /* Direct Email Box Style */
+        .email-box {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border: 2px dashed #2196f3;
+            padding: 20px;
+            text-align: center;
+            border-radius: 12px;
+            margin: 25px 0;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .email-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(33, 150, 243, 0.2);
+        }
+
+        .email-box a {
+            text-decoration: none;
+            color: #0d47a1;
+            font-weight: 700;
+            font-size: 18px;
+            display: block;
+            word-break: break-all; /* Mobile par email box se bahar na nikle */
+        }
+
+        /* Phone Section */
+        .phone-section {
+            background: #f8fafc;
+            padding: 20px;
+            border-left: 5px solid #48bb78;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 30px;
+        }
+
+        /* GOOGLE FORM STYLING (The Wrapper) */
+        .google-form-wrapper {
+            position: relative;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Iframe styling */
+        .google-form-wrapper iframe {
+            width: 100%;
+            border: none;
+            min-height: 1100px; 
+            margin-bottom: -10px;
+        }
+
+        /* Footer Text */
+        .footer-note {
+            font-size: 13px;
+            color: #718096;
+            text-align: center;
+            margin-top: 40px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }
+
+        /* Tablet Responsive (iPad etc.) */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+            }
+        }
+
+        /* Mobile Responsive (Phones) */
+        @media (max-width: 480px) {
+            body {
+                padding: 10px; /* Body padding kam ki taaki jagah bache */
+            }
+            .container {
+                padding: 20px; /* Container padding kam ki */
+            }
+            h2 {
+                font-size: 24px;
+            }
+            .google-form-wrapper iframe {
+                /* Mobile par form lamba ho jata hai, isliye height badha di */
+                min-height: 1300px; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        
+        <p>
+            यदि हमारी वेबसाइट, विज्ञापन सेवाओं या किसी अन्य विषय से संबंधित कोई प्रश्न हो, तो कृपया हमें ईमेल के माध्यम से संपर्क करें।
+        </p>
+
+        <div class="email-box">
+            <a href="mailto:mmitaligarh357@gmail.com">
+                📩 mmitaligarh357@gmail.com
+            </a>
+            <small style="display:block; margin-top:8px; color:#555; font-size: 14px;">(Click to Send Email)</small>
+        </div>
+
+        <div class="phone-section">
+            <p style="margin: 5px 0;">
+                <strong>📞 Phone Number:</strong> 
+                <a href="tel:+919760341070" style="text-decoration: none; color: inherit;" target="_blank"> +91 9760341070 </a>
+            </p>
+            <p style="margin: 5px 0;">हम आपके संदेश का उत्तर यथाशीघ्र देंगे।</p>
+            <p style="margin: 5px 0;">हमसे संपर्क करने के लिए धन्यवाद! आपका दिन शुभ हो।</p>
+        </div>
+
+        <hr style="border: 0; border-top: 2px solid #edf2f7; margin: 30px 0;">
+
+        <h3 style="text-align:center; color:#2d3748; margin-bottom: 20px;">Fill out our Form</h3>
+        
+        <div class="google-form-wrapper">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFagmdGF4y7ZuTYvTwZ3rgGs6PG0hIx4-sAWTOEtKJVaZ_OQ/viewform?embedded=true" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0">
+                Loading…
+            </iframe>
+        </div>
+
+        <p class="footer-note">
+            यह पेज "हमसे संपर्क करें" पेज जेनरेटर की मदद से तैयार किया गया है।<br>
+            
+        </p>
+    </div>
+
+</body>
+</html>

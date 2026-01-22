@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all jobs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            padding-bottom: 50px; /* Button ke liye space */
+        }
+
+        /* Top Heading H1 */
+        h1.main-heading {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 30px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Job Box Container */
+        .job-card {
+            background-color: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+
+        .job-card:hover {
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            border-color: #3498db;
+        }
+
+        /* Job Title and New Badge */
+        .job-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .new-badge {
+            color: red;
+            font-weight: bold;
+            margin-left: 10px;
+            font-size: 16px;
+            animation: blinker 1s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+
+        /* Flex Container for Image and Content */
+        .job-content-wrapper {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        /* Image Styling */
+        .job-image {
+            flex-shrink: 0;
+            width: 150px;
+            height: 150px;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid #eee;
+        }
+
+        .job-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Text Content Styling */
+        .job-details {
+            flex-grow: 1;
+        }
+
+        .company-desc {
+            font-size: 15px;
+            color: #555;
+            margin-top: 0;
+            margin-bottom: 15px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Button Styling */
+        .read-more-btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .read-more-btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* --- NEW SOCIAL BUTTON CSS --- */
+        .social-container {
+            max-width: 800px;
+            margin: 40px auto 20px auto;
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .social-title {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .social-btn-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap; /* Mobile par wrap ho jayega */
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            min-width: 200px;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .wa-btn { background-color: #25D366; }
+        .tg-btn { background-color: #0088cc; }
+
+        /* --- MOBILE RESPONSIVE --- */
+        @media (max-width: 600px) {
+            .job-content-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .job-image {
+                width: 100%;
+                height: 200px;
+                margin-bottom: 15px;
+            }
+
+            .job-title {
+                text-align: center;
+                font-size: 18px;
+            }
+
+            .read-more-btn {
+                display: block;
+                text-align: center;
+            }
+
+            /* Social Mobile */
+            .social-btn-wrapper {
+                flex-direction: column;
+            }
+            .social-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="main-heading">Aadhar 10th 12th ITI Diploma</h1>
+          <div class="job-card">
+        
+        <div class="job-title">
+            OPPO Mobile Company ( Operator)  Kasna Job Gr Noida
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/OPPO.jpg" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> Urgent requirement in OPPO Mobile Company for Operator jobs....
+                </p>
+                
+                <a href="Noida post/OPPO.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div> 
+    <br><br>
+              
+    <div class="job-card">
+        
+        <div class="job-title">
+          Spark Minda Sai Company Job In Greater Noida 
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/Spark.png" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> - Spark Minda Ltd. (Greater Noida) – 100+ Operator Jobs  Direct Joining
+...
+                </p>
+                
+                <a href="Noida post/Sprak.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+    <BR></BR>
+            <div class="job-card">
+        
+        <div class="job-title">
+            Zepto Store Company Job in Ghaziabad 
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/Zopto_y.jpg" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> Zepto Grocery Store में नई भर्ती शुरू हो चुकी है 🔥
+यह कंपनी Online Grocery Delivery, Packing, Scanning, Loading, Unloading आदि कामों के लिए जानी जाती है।...
+                </p>
+                
+                <a href="Noida post/Zepto.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+                <div class="job-card">
+        
+        <div class="job-title">
+            ECDM COMPANY JOB SURAJPUR GR NOIDA
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/post1_y.jpg" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> यह कंपनी ECDM Mobile projects के अंतर्गत काम करती है और manufacturing, assembling तथा operator level jobs के लिए जानी जाती है...
+                </p>
+                
+                <a href="Noida post/ECDM.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="job-card">
+        
+        <div class="job-title">
+           PPS International Choganpur Greater Noida 
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/PPS in.jpg" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> यह कंपनी Production Operator पद के लिए भर्ती कर रही है। यहाँ काम में manufacturing, assembling और quality checking जैसे tasks शामिल होते हैं...
+                </p>
+                
+                <a href="Noida post/PPS.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+         <div class="job-card">
+        
+        <div class="job-title">
+            NEW VIVO MOBILE Company Gr Noida 
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/VIVO.png" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong>यह कंपनी Production Operator पद के लिए भर्ती कर रही है। यहाँ काम में manufacturing, assembling और quality checking जैसे tasks शामिल होते हैं
+...
+                </p>
+                
+                <a href="Noida post/VIVO.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="job-card">
+        
+        <div class="job-title">
+            Kimbal Company MIS & Warehouse Opretor Job  Greater Noida
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/BIG machine.jpg" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> Urgent requirement at M9S Facility Work Pvt. Ltd., Greater Noida. Direct joining for multiple departments....
+                </p>
+                
+                <a href="Noida post/Kimbal.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+        <div class="job-card">
+        
+        <div class="job-title">
+            JBJ Company Job Near Surajpur ( Injection molding ) Greater Noida
+
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/OPPO.jpg" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> - 🏢 JBJ Technologies — A growing tech‑focused company, known for innovation and smart solutions.
+...
+                </p>
+                
+                <a href="Noida post/JBJ.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+    <BR></BR>
+     <div class="job-card">
+        
+        <div class="job-title">
+            Xpro Molding Company Job Surajpur Gr Noida 
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/post1_y.jpg" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> Xpro India Pvt. Ltd. is a trusted manufacturing firm <br>Xpro India Pvt. Ltd. is a big company in manufacturing....
+                </p>
+                
+                <a href="Noida post/Xpro.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="job-card">
+        
+        <div class="job-title">
+            Blinkit Store Job All NCR Multiple Locations
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+
+        <div class="job-content-wrapper">
+            
+            <div class="job-image">
+                <img src="POSTPHOTO/Blinkit.png" alt="Company Image">
+            </div>
+
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> 📦 Blinkit Grocery Warehouse में Urgent Hiring चालू है
+Positions: Picker / Packer / Loader
+Note: यह भर्ती 100% Free है और केवल Male Candidates के लिए है
+...
+                </p>
+                
+                <a href="Noida post/Blinkit.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+
+    </div>
+
+     <div class="job-card">
+        <div class="job-title">
+            Flipkart Warehouse Employment Walk-In Interview 2026
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/Flipkart.png" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> Sourcing Hub Pvt. Ltd. is a private limited firm working in supply chain, warehousing, logistics, and manpower services....
+                </p>
+                <a href="Haryana post/FlipkartWarehouse.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div> 
+    <br><br>
+              
+    <div class="job-card">
+        <div class="job-title">
+            Yazaki India Private Limited Industrial Park, Farukhnagar, Haryana . 
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/post1_y.jpg" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> Yazaki India Pvt. Ltd. फ़रुखनगर, हरियाणा स्थित ऑटोमोटिव वायरिंग हार्नेस निर्माता। में नई भर्ती...
+                </p>
+                <a href="Haryana post/Yazaki.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="job-card">
+        <div class="job-title">
+            . Groz Tools & Engineering Company  Kherki Daula, Gurugram (Haryana)
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/Groz.png" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> Groz Engineering Tools Pvt. Ltd., Kherki Daula, Gurugram (Haryana) एक प्रतिष्ठित औद्योगिक उपकरण निर्माता है।...
+                </p>
+                <a href="Haryana post/GrozTools.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="job-card">
+        <div class="job-title">
+            Bharat Gears Pvt. Ltd. Company Recruitment Faridabad
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/Bharat Gears.png" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> भारत गियर्स लिमिटेड   फ़रीदाबाद स्थित एक प्रमुख ऑटोमोबाइल पार्ट्स एवं कंपोनेंट्स निर्माण कंपनी है...
+                </p>
+                <a href="Haryana post/Bharat_Gears.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="job-card">
+        <div class="job-title">
+            📱 DBG Mobile Pvt. Ltd., Bawal (Haryana)
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/poco  mob.png" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> यह कंपनी Production Operator पद के लिए भर्ती कर रही है। 
+                    DBG Technology (Vsun Mobiles)  बावल, हरियाणा स्थित एक अग्रणी मोबाइल निर्माण कंपनी है...
+                </p>
+                <a href="Haryana post/DBG_Mobile.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="job-card">
+        <div class="job-title">
+            📱 Hella India Pvt. Ltd., गुरुग्राम (हरियाणा)
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/post1_y.jpg" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong>HELLA India Automotive Pvt. Ltd., गुरुग्राम (हरियाणा)  एक अग्रणी ऑटोमोटिव कंपोनेंट्स और लाइटिंग सिस्टम निर्माता कंपनी है...
+                </p>
+                <a href="Haryana post/Hella_India.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="job-card">
+        <div class="job-title">
+            🏢 Ekka Company, Phase 4, Kundli (Sonipat, Haryana)
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/post1_y.jpg" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> 📱 Ekka Electronics Pvt. Ltd.  कुंडली, सोनीपत (हरियाणा) स्थित एक प्रमुख मोबाइल निर्माण कंपनी है。...
+                </p>
+                <a href="Haryana post/ekka_job.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="job-card">
+        <div class="job-title">
+            🏢 Maxop Engineering Pvt. Ltd., मानेसर (गुरुग्राम, हरियाणा)
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/Maxop.jpg" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong>  🏢 Maxop Engineering Co. Pvt. Ltd., मानेसर (गुरुग्राम, हरियाणा)  एक अग्रणी इंजीनियरिंग और ऑटोमोटिव कंपोनेंट्स निर्माण कंपनी है। यहाँ पर CNC मशीनिंग, प्रिसीजन पार्ट्स मैन्युफैक्चरिंग और ऑटोमोबाइल इंडस्ट्री के लिए उच्च गुणवत्ता वाले उत्पाद बनाए जाते हैं।...
+                </p>
+                <a href="Haryana post/Maxop.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+    <BR></BR>
+
+    <div class="job-card">
+        <div class="job-title">
+            🏢 Minda Industries Ltd., Bawal (Haryana) 
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/minda.png" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> 🏭 URGENT Hiring  UNO MINDA (Switch Division), IMT Manesar<br>
+                      Gurugram, Haryana....
+                </p>
+                <a href="Haryana post/Minda.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="job-card">
+        <div class="job-title">
+            Flipkart Warehouse, Farukhnagar (Gurgaon, Haryana) Hiring Now: Male & Female Candidates
+            <span class="new-badge">[ NEW ]</span>
+        </div>
+        <div class="job-content-wrapper">
+            <div class="job-image">
+                <img src="POSTPHOTO/Flipkart.png" alt="Company Image">
+            </div>
+            <div class="job-details">
+                <p class="company-desc">
+                    <strong>Company About:</strong> 📦 Flipkart  Warehouse में Urgent Hiring चालू है
+                    Positions: Picker / Packer / Loader
+                    Note: यह भर्ती 100% Free है और केवल Male Candidates के लिए है...
+                </p>
+                <a href="Haryana post/Flipkart.html" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-container">
+        <div class="social-title">लेटेस्ट जॉब अपडेट्स के लिए ज्वाइन करें</div>
+        <div class="social-btn-wrapper">
+            <a href="YOUR_WHATSAPP_LINK_HERE" target="_blank" class="social-btn wa-btn">
+                <i class="fab fa-whatsapp"></i> Join WhatsApp
+            </a>
+            
+            <a href="YOUR_TELEGRAM_LINK_HERE" target="_blank" class="social-btn tg-btn">
+                <i class="fab fa-telegram"></i> Join Telegram
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

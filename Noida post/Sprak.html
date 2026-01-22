@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spark Minda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset and Basics */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0f2f5; /* थोड़ा मॉडर्न ग्रे कलर */
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 650px; /* लैपटॉप पर बेहतर दिखने के लिए चौड़ाई बढ़ाई गई */
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 12px; /* थोड़े ज्यादा गोल कोने */
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        /* --- Hero Image Section --- */
+        .company-hero-image {
+            width: 100%;
+            height: 350px; 
+            object-fit: cover; 
+            display: block;
+            background-color: #ddd; /* इमेज लोड न होने पर ग्रे दिखेगा */
+        }
+
+        /* --- Header Section --- */
+        .header-section {
+            padding: 25px;
+            text-align: center;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .company-title {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 0;
+            display: inline-block;
+        }
+
+        /* Blinking [New] Badge */
+        .new-blink {
+            color: #e74c3c;
+            font-weight: bold;
+            margin-left: 10px;
+            display: inline-block;
+            animation: blink-animation 1s steps(5, start) infinite;
+        }
+
+        @keyframes blink-animation {
+            to { visibility: hidden; }
+        }
+
+        /* --- General Section Styling --- */
+        .content-section {
+            padding: 25px;
+            border-bottom: 1px solid #eee;
+        }
+
+        h3.section-title {
+            color: #3498db;
+            margin-bottom: 15px;
+            font-size: 20px;
+            border-left: 5px solid #3498db;
+            padding-left: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* --- "Table-like" Grid Structure --- */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr; 
+            gap: 12px 20px;
+        }
+
+        .grid-label {
+            font-weight: 700;
+            color: #555;
+            min-width: 120px;
+        }
+
+        .grid-value {
+            color: #333;
+            font-weight: 400;
+        }
+
+        /* --- "Who Can Apply" Box Style --- */
+        .highlight-box {
+            background-color: #eef7fc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #dceefc;
+        }
+        .highlight-box ul {
+             margin: 0;
+        }
+
+        /* --- Salary Section --- */
+        .salary-list li strong {
+            color: #27ae60;
+        }
+
+        /* --- Contact Section --- */
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-list li {
+            margin-bottom: 12px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+        .contact-list a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: 700;
+            margin-left: 5px;
+        }
+
+        .map-link {
+            display: inline-block;
+            margin-top: 5px;
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+        /* --- Social Buttons --- */
+        .social-buttons-container {
+            padding: 30px 20px;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            min-width: 220px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .btn-whatsapp { background-color: #25D366; }
+        .btn-telegram { background-color: #0088cc; }
+
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            fill: white;
+        }
+
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .container { border-radius: 8px; }
+            .company-hero-image { height: 220px; } /* Mobile height */
+            .company-title { font-size: 22px; }
+            .content-section { padding: 20px 15px; }
+
+            /* Mobile Stack View for Grid */
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 5px;
+            }
+            .grid-label {
+                margin-top: 12px;
+                color: #3498db; /* Mobile pe label highlight ho */
+            }
+            .info-grid > .grid-label:first-child { margin-top: 0; }
+
+            /* Buttons Stack on Mobile */
+            .social-buttons-container { flex-direction: column; }
+            .social-btn { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="Noidapost Photo/Spark Minda.png" alt="Ekka Company Building" class="company-hero-image">
+
+        <header class="header-section">
+            <h1 class="company-title">
+                Spark Minda Sai Company Job In Greater Noida 
+                <span class="new-blink">[New]</span>
+            </h1>
+        </header>
+
+        <section class="content-section">
+            <h3 class="section-title">Company Job Details</h3>
+            <div class="info-grid">
+                <div class="grid-label">Company Name:</div>
+                <div class="grid-value">OPPO Mobile Company</div>
+
+                <div class="grid-label">Location:</div>
+                <div class="grid-value">Kasana Gr Noida</div>
+
+                <div class="grid-label">Interview Date:</div>
+                <div class="grid-value">20, 21, 22 / 01 / 2026</div>
+
+                <div class="grid-label">Job Type:</div>
+                <div class="grid-value">Production / Mobile Assembly</div>
+
+                <div class="grid-label">Vacancy:</div>
+                <div class="grid-value">Open / Multiple</div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Who can apply?</h3>
+            <div class="highlight-box">
+                <ul>
+                    <li>Required: 10th Pass candidates.</li>
+                    <li>12th Pass Candidates।</li>
+                    <li>Diploma</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Job Responsibilities</h3>
+            <ul>
+                <li>Mobile assembly line work.</li>
+                <li>Production operations and quality checks.</li>
+                <li>Packing and basic machine handling support.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Qualification</h3>
+            <p style="padding-left: 20px;">10th, 12th, ITI, Diploma</p>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Salary and Benefits</h3>
+            <ul class="salary-list">
+                <li>Helper: <strong>₹14,800/-</strong></li>
+                <!-- <li>Molding Operator: <strong>₹23,000/-</strong></li> -->
+                <li>Attendance Award: <strong>₹2,000</strong></li>
+                <li>Overtime: As per salary (Daily up to 3 hours)</li>
+                <li>Duty / Shift: As per company schedule</li>
+            </ul>
+            <p style="margin-top: 15px; font-weight: bold;">Other Facilities:</p>
+            <ul>
+                 <li>Canteen / Lunch: (Company specific)</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Documents Required</h3>
+            <ul>
+                <li>Resume</li>
+                <li>Aadhar Card</li>
+                <li>Any educational proof (10th Certificate)</li>
+                <li>2 Passport Size Photos</li>
+            </ul>
+            <p style="margin-top: 10px; color: red; font-weight: 500; padding-left: 20px;">
+                * Original + Photocopy सभी डॉक्यूमेंट्स साथ लाना अनिवार्य है।
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Interview Details</h3>
+            <div class="info-grid">
+                <div class="grid-label">Date:</div>
+                <div class="grid-value">20, 21, 22 / 01 / 2026</div>
+
+                <div class="grid-label">Time:</div>
+                <div class="grid-value">07:00 AM (Morning)</div>
+
+                <div class="grid-label">Location:</div>
+                <div class="grid-value">Greno Enterprise</div>
+
+                <div class="grid-label">Map:</div>
+                <div class="grid-value"><a href="#" target="_blank" class="map-link">Click for Google Map Location</a></div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Contact Number</h3>
+            <p style="margin-bottom: 15px;">कॉल करने के लिए नंबर पर क्लिक करें:</p>
+            <ul class="contact-list">
+                <li>Rajkumar: <a href="tel:8569925798">8569925798</a></li>
+                <li>Vishan: <a href="tel:9315473717">9315473717</a></li>
+                <li>Sagar: <a href="tel:7084457567">7084457567</a></li>
+                <li>Adarsh: <a href="tel:9350978979">9350978979</a></li>
+            </ul>
+        </section>
+
+        <div class="social-buttons-container">
+            <a href="#" target="_blank" class="social-btn btn-whatsapp">
+                <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                Join WhatsApp Group
+            </a>
+            <a href="#" target="_blank" class="social-btn btn-telegram">
+                <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                Join Telegram Channel
+            </a>
+        </div>
+
+    </div>
+</body>
+</html>
