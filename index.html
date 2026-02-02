@@ -4,43 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NCR JOBS - Job Portal</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
     
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="header-left">
-            <div class="search-container">
-                <button class="search-btn" onclick="triggerSearch()">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-            <div class="logo">NCR JOBS</div>
-        </div>
-
-        <div class="menu-toggle" onclick="toggleMenu()">
-            <i class="fas fa-bars"></i>
-        </div>
-
-        <nav class="navbar" id="navbar">
-            <ul>
-                <li><a href="#" onclick="closeMenu()">Home</a></li>
-                <li><a href="Noida_Jobs.html" onclick="closeMenu()">Noida Jobs</a></li>
-                <li><a href="NcrJobs.html" onclick="closeMenu()">Haryana Jobs</a></li>
-                <li><a href="#other-jobs" onclick="closeMenu()">Other Jobs</a></li>
-                <li><a href="about.html"  onclick="closeMenu()">About</a></li>
-                <li><a href="Contact.html"  onclick="closeMenu()">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="marquee-container">
-        <marquee scrollamount="6">
-            लेटेस्ट जॉब अपडेट्स के लिए वेबसाइट को बुकमार्क करें | सभी नौकरियाँ फ्री हैं | New Vacancy Alert 2026!
-        </marquee>
-    </div>
+    <div id="navbar-placeholder"></div>
 
     <div class="category-grid">
         <a href="Alljobs.html" class="cat-box"><i class="fas fa-id-card"></i>Aadhar Card Jobs</a>
@@ -66,15 +35,7 @@
                     <li><a href="Noida post/Sprak.html"><i class="fas fa-angle-right"></i> Spark Minda Sai Company Job In Greater <span class="blink-new">[New]</span></a></li>
                     <li><a href="Noida post/VIVO.html"><i class="fas fa-angle-right"></i> NEW VIVO MOBILE Company Gr Noida <span class="blink-new">[New]</span></a></li>
                     <li><a href="Noida post/OPPO.html"><i class="fas fa-angle-right"></i> OPPO Mobile Kasna Factory Job <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Noida post/LVS.html"><i class="fas fa-angle-right"></i> NEW LVM Software Pvt Company Noida <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Noida post/Zepto.html"><i class="fas fa-angle-right"></i> Zepto Store Company Job in Ghaziabad <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Noida post/ECDM.html"><i class="fas fa-angle-right"></i> ECDM COMPANY JOB SURAJPUR GR NOIDA <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Noida post/PPS.html"><i class="fas fa-angle-right"></i> PPS International Choganpur Greater Noida <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Noida post/Kimbal.html"><i class="fas fa-angle-right"></i> Kimbal Company Opretor Job Greater Noida <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Noida post/JBJ.html"><i class="fas fa-angle-right"></i> JBJ Company Job Near Surajpur  <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Noida post/Blinkit.html"><i class="fas fa-angle-right"></i> Blinkit Store Job All NCR Multiple Locations <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Noida post/Xpro.html"><i class="fas fa-angle-right"></i> Xpro Molding Company Job Surajpur Gr Noida <span class="blink-new">[New]</span></a></li>
-                </ul>
+                    </ul>
                 <div class="read-more-wrapper">
                     <a href="Noida_Jobs.html" class="read-more-btn-link">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -86,16 +47,8 @@
                 <div class="job-header">NCR Jobs</div>
                 <ul class="job-links">
                     <li><a href="Haryana post/Flipkart.html"><i class="fas fa-angle-right"></i> Flipkart Warehouse Employment <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/Yazaki.html"><i class="fas fa-angle-right"></i> Yazaki India Private Limited Industrial Park, Farukhnagar <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/GrozTools.html"><i class="fas fa-angle-right"></i> Groz Tools & Engineering Company Kherki<span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/Bharat_Gears.html"><i class="fas fa-angle-right"></i> Bharat Gears Pvt. Ltd. Faridabad <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/DBG_Mobile.html"><i class="fas fa-angle-right"></i> DBG Mobile Pvt. Ltd., Bawal <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/Hella_India.html"><i class="fas fa-angle-right"></i> Hella India Pvt. Ltd., गुरुग्राम <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/ekka_job.html"><i class="fas fa-angle-right"></i> Ekka Company, Phase 4, Kundli  <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/Maxop.html"><i class="fas fa-angle-right"></i> Maxop Engineering Pvt. Ltd., मानेसर <span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/Minda.html"><i class="fas fa-angle-right"></i> Minda Industries Ltd., Bawal<span class="blink-new">[New]</span></a></li>
-                    <li><a href="Haryana post/FlipkartWarehouse.html"><i class="fas fa-angle-right"></i> Flipkart Warehouse, Farukhnagar <span class="blink-new">[New]</span></a></li>
-                </ul>
+                    <li><a href="Haryana post/Yazaki.html"><i class="fas fa-angle-right"></i> Yazaki India Private Limited <span class="blink-new">[New]</span></a></li>
+                    </ul>
                 <div class="read-more-wrapper">
                     <a href="NcrJobs.html" class="read-more-btn-link">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -105,8 +58,6 @@
                 <div class="job-header">Campus Jobs</div>
                 <ul class="job-links">
                     <li><a href="#"><i class="fas fa-angle-right"></i> Govt ITI Aliganj Campus Drive <span class="blink-new">[New]</span></a></li>
-                    <li><a href="#"><i class="fas fa-angle-right"></i> Polytechnic Diploma Placement Fair <span class="blink-new">[New]</span></a></li>
-                    <li><a href="#"><i class="fas fa-angle-right"></i> Hero Motocorp Open Campus <span class="blink-new">[New]</span></a></li>
                 </ul>
                 <div class="read-more-wrapper">
                     <a href="#" class="read-more-btn-link">Read More <i class="fas fa-arrow-right"></i></a>
@@ -117,76 +68,29 @@
 
     <footer class="custom-footer">
         <div class="footer-brand-name">NCR JOBS</div>
-        
         <p class="footer-warning">
-            हमारी वेबसाइट पर उपलब्ध सभी नौकरियाँ बिल्कुल फ्री हैं और किसी भी प्रकार का शुल्क नहीं लिया जाता। कृपया धोखाधड़ी करने वालों से सावधान रहें—यदि कोई व्यक्ति नौकरी के बदले पैसे माँगे तो तुरंत Ncrjob Team को सूचित करें। इंटरव्यू के लिए समय पर पहुँचना आवश्यक है; देर से पहुँचने की जिम्मेदारी आपकी स्वयं की होगी। धन्यवाद
+            हमारी वेबसाइट पर उपलब्ध सभी नौकरियाँ बिल्कुल फ्री हैं...
         </p>
-        
-        <p class="footer-quote">
-            "हर इंसान में एक चमक होती है। बस विश्वास रखो, चुनौतियों को अवसर बनाओ और अपनी कहानी के नायक बनो। सफलता उन्हीं की होती है जो कभी हार नहीं मानते"
-        </p>
+        <p class="footer-quote">"हर इंसान में एक चमक होती है..."</p>
 
         <div class="footer-social-icons">
-            <a href="YOUR_FACEBOOK_LINK" title="Facebook"><i class="fab fa-facebook"></i></a>
-            <a href="YOUR_INSTAGRAM_LINK" title="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="YOUR_YOUTUBE_LINK" title="YouTube"><i class="fab fa-youtube"></i></a>
-            <a href="YOUR_WHATSAPP_LINK" title="WhatsApp Channel"><i class="fab fa-whatsapp"></i></a>
-            <a href="YOUR_TELEGRAM_LINK" title="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" title="Telegram"><i class="fab fa-telegram"></i></a>
         </div>
 
         <div class="copyright-text">
             &copy; 2026 NCR JOBS. All Rights Reserved.
         </div>
     </footer>
+
     <a href="https://wa.me/YOUR_PHONE_NUMBER" class="float-wa" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <script>
-        // Mobile Menu Toggle Logic
-        function toggleMenu() {
-            const navbar = document.getElementById('navbar');
-            navbar.classList.toggle('active');
-        }
-
-        // Close menu when a link is clicked
-        function closeMenu() {
-            const navbar = document.getElementById('navbar');
-            if (navbar.classList.contains('active')) {
-                navbar.classList.remove('active');
-            }
-        }
-
-        // --- UPDATED SEARCH FUNCTIONALITY ---
-        function triggerSearch() {
-            let searchTerm = prompt("Search for a job (e.g., 'Noida Jobs', 'Haryana Jobs'):");
-            
-            if (searchTerm) {
-                // इनपुट को छोटा करें और स्पेस हटा दें
-                let cleanTerm = searchTerm.toLowerCase().replace(/\s/g, '');
-
-                if (cleanTerm.includes('noida')) {
-                    let link = document.querySelector('a[href="Noida_Jobs.html"]');
-                    if(link) {
-                        link.click();
-                    } else {
-                        alert("Noida Jobs page link not found!");
-                    }
-                } 
-                else if (cleanTerm.includes('ncr') || cleanTerm.includes('haryana')) {
-                    let link = document.querySelector('a[href="NcrJobs.html"]');
-                    if(link) {
-                        link.click();
-                    } else {
-                         alert("Haryana/NCR Jobs page link not found!");
-                    }
-                } 
-                else {
-                    alert("Searching for: " + searchTerm); 
-                }
-            }
-        }
-    </script>
+    <script src="navbar.js"></script>
 
 </body>
 </html>
