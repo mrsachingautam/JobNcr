@@ -1,15 +1,14 @@
-// navbar.js - Complete Header, Navbar, Design & Icons
+// navbar.js - Corrected Code (Fixed CSS Conflict)
 
 const navbarHTML = `
 <style>
-    /* 1. Font Awesome Icons को सीधे JS से लोड करें */
+    /* 1. Font Awesome Icons Load */
     @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
-    /* --- Navbar & Header CSS (Included inside JS) --- */
+    /* --- 2. NAVBAR CSS (Ab hum 'header' tag nahi, class use karenge) --- */
     
-    /* Header Container */
-    header {
-        background-color: #0056b3; /* गहरा नीला */
+    .main-navbar-header {
+        background-color: #0056b3; /* Dark Blue */
         height: 60px;
         width: 100%;
         position: fixed;
@@ -19,12 +18,12 @@ const navbarHTML = `
         align-items: center;
         justify-content: space-between;
         padding: 0 20px;
-        z-index: 9999; /* सबसे ऊपर रहे */
+        z-index: 99999; /* Sabse upar */
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         font-family: 'Segoe UI', Arial, sans-serif;
+        box-sizing: border-box; /* Padding ko width me include kare */
     }
 
-    /* Logo & Search Area */
     .header-left {
         display: flex;
         align-items: center;
@@ -39,9 +38,7 @@ const navbarHTML = `
         text-decoration: none;
     }
 
-    /* Search Button */
-    .search-container { position: relative; }
-
+    /* SEARCH BUTTON */
     .search-btn {
         background: rgba(255, 255, 255, 0.2);
         border: none;
@@ -50,7 +47,6 @@ const navbarHTML = `
         border-radius: 50%;
         cursor: pointer;
         font-size: 1.1rem;
-        transition: 0.3s;
         width: 40px;
         height: 40px;
         display: flex;
@@ -60,7 +56,7 @@ const navbarHTML = `
 
     .search-btn:hover { background: rgba(255, 255, 255, 0.4); }
 
-    /* Desktop Menu */
+    /* MENU LINKS */
     .navbar ul {
         display: flex;
         list-style: none;
@@ -75,7 +71,6 @@ const navbarHTML = `
         text-decoration: none;
         padding: 10px 15px;
         font-weight: 500;
-        transition: 0.3s;
         display: block;
         font-size: 16px;
     }
@@ -85,19 +80,18 @@ const navbarHTML = `
         border-radius: 4px;
     }
 
-    /* Dropdown Menu (Other Jobs) */
+    /* DROPDOWN */
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #ffffff;
+        background-color: white;
         min-width: 200px;
         box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
         top: 100%;
         left: 0;
         border-radius: 4px;
-        z-index: 10000;
     }
-
+    
     .dropdown:hover .dropdown-content { display: block; }
 
     .dropdown-content a {
@@ -106,12 +100,9 @@ const navbarHTML = `
         border-bottom: 1px solid #eee;
     }
     
-    .dropdown-content a:hover {
-        background-color: #f1f1f1 !important;
-        color: #000 !important;
-    }
+    .dropdown-content a:hover { background-color: #f1f1f1 !important; color: black !important; }
 
-    /* Mobile Menu Toggle Button */
+    /* MOBILE TOGGLE */
     .menu-toggle {
         display: none;
         color: white;
@@ -119,18 +110,18 @@ const navbarHTML = `
         cursor: pointer;
     }
 
-    /* Marquee (News Line) */
+    /* MARQUEE */
     .marquee-container {
         background: #ffeb3b;
         color: #000;
         padding: 8px 0;
         font-weight: bold;
         border-bottom: 1px solid #ccc;
-        margin-top: 60px; /* Header Height ke barabar */
-        font-family: 'Segoe UI', Arial, sans-serif;
+        margin-top: 60px; 
+        font-family: sans-serif;
     }
 
-    /* --- Responsive Design (Mobile/Tablet) --- */
+    /* --- MOBILE RESPONSIVE --- */
     @media (max-width: 768px) {
         .menu-toggle { display: block; }
 
@@ -143,28 +134,19 @@ const navbarHTML = `
             flex-direction: column;
             display: none;
             border-top: 1px solid rgba(255,255,255,0.1);
-            box-shadow: 0 5px 5px rgba(0,0,0,0.2);
         }
 
         .navbar.active { display: flex; }
-
         .navbar ul { flex-direction: column; width: 100%; }
+        .navbar ul li { text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .navbar ul li a { padding: 15px; width: 100%; }
         
-        .navbar ul li {
-            text-align: center;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-            width: 100%;
-        }
-        
-        .navbar ul li a { padding: 15px; }
-
-        /* Mobile Dropdown Fix */
         .dropdown:hover .dropdown-content { display: none; }
         .dropdown.active .dropdown-content { display: block; position: static; width: 100%; }
     }
 </style>
 
-<header>
+<header class="main-navbar-header">
     <div class="header-left">
         <div class="search-container">
             <button class="search-btn" onclick="triggerSearch()">
@@ -180,9 +162,9 @@ const navbarHTML = `
 
     <nav class="navbar" id="navbar">
         <ul>
-            <li><a href="index.html" onclick="closeMenu()">Home</a></li>
-            <li><a href="Noida_Jobs.html" onclick="closeMenu()">Noida Jobs</a></li>
-            <li><a href="NcrJobs.html" onclick="closeMenu()">Haryana Jobs</a></li>
+            <li><a href="/index.html" onclick="closeMenu()">Home</a></li>
+            <li><a href="/Noida_Jobs.html" onclick="closeMenu()">Noida Jobs</a></li>
+            <li><a href="/NcrJobs.html" onclick="closeMenu()">Haryana Jobs</a></li>
             
             <li class="dropdown" onclick="toggleDropdown(this)">
                 <a href="javascript:void(0)">Other Jobs <i class="fas fa-caret-down"></i></a>
@@ -191,11 +173,12 @@ const navbarHTML = `
                     <a href="security-guard.html">Security Guard</a>
                     <a href="helper-jobs.html">Helper / Labour</a>
                     <a href="cook-jobs.html">Cook / Maid</a>
+                    <a href="delivery-boy.html">Delivery Boy</a>
                 </div>
             </li>
 
-            <li><a href="about.html" onclick="closeMenu()">About</a></li>
-            <li><a href="Contact.html" onclick="closeMenu()">Contact</a></li>
+            <li><a href="/about.html" onclick="closeMenu()">About</a></li>
+            <li><a href="/Contact.html" onclick="closeMenu()">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -207,7 +190,7 @@ const navbarHTML = `
 </div>
 `;
 
-// HTML Inject Logic
+// Inject HTML
 document.getElementById("navbar-placeholder").innerHTML = navbarHTML;
 
 // Functions
