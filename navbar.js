@@ -153,7 +153,7 @@ const navbarHTML = `
                 <i class="fas fa-search"></i>
             </button>
         </div>
-        <a href="index.html" class="logo">NCR JOBS</a>
+        <a href="index.html" class="logo">NCRone.in</a>
     </div>
 
     <div class="menu-toggle" onclick="toggleMenu()">
