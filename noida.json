@@ -1,0 +1,15 @@
+[
+  {
+    "id": "oppo-01",
+    "title": "OPPO Mobile Company Hiring",
+    "image": "POSTPHOTO/OPPO.jpg",
+    "about": "OPPO is a smartphone manufacturer...",
+    "company_name": "OPPO Mobile",
+    "location": "Kasna, Greater Noida",
+    "date": "30.01.2026",
+    "vacancy": "100",
+    "salary": ["Helper: 14875", "OT: Double"],
+    "map_link": "https://maps.app.goo.gl/xxx",
+    "contacts": [{"name": "Abhishek", "phone": "9319459014"}]
+  }
+]
