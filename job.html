@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">NCRONE Job Post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container">
+        <img id="job-img" src="" class="company-hero-image">
+
+        <header class="header-section">
+            <h1 class="company-title" id="job-title"></h1>
+            <span class="new-blink">[New]</span>
+        </header>
+
+        <section id="sec-about" class="content-section hidden">
+            <h3 class="section-title">About Company</h3>
+            <p id="job-about"></p>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Company Job Details</h3>
+            <div class="info-grid" id="main-grid"></div>
+        </section>
+
+        <section id="sec-salary" class="content-section hidden">
+            <h3 class="section-title">Salary and Benefits</h3>
+            <ul id="salary-list"></ul>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Contact & Location</h3>
+            <ul class="contact-list" id="contact-list"></ul>
+            <br>
+            <a id="job-map" href="#" target="_blank" style="color:#3498db; font-weight:bold;">📍 Click for Google Map Location</a>
+        </section>
+
+        <div id="social-footer-placeholder"></div>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const cat = params.get('cat'); 
+        const id = params.get('id');
+
+        async function loadJobData() {
+            const response = await fetch(`${cat}.json`);
+            const jobs = await response.json();
+            const job = jobs.find(j => j.id === id);
+
+            if (!job) return;
+
+            document.getElementById('page-title').innerText = job.title;
+            document.getElementById('job-title').innerText = job.title;
+            document.getElementById('job-img').src = job.image;
+
+            // Conditional: About Section
+            if(job.about) {
+                document.getElementById('sec-about').classList.remove('hidden');
+                document.getElementById('job-about').innerText = job.about;
+            }
+
+            // Grid rendering (Jo data hai wahi dikhega)
+            const grid = document.getElementById('main-grid');
+            const details = [
+                ["Company", job.company_name],
+                ["Location", job.location],
+                ["Date", job.date],
+                ["Vacancy", job.vacancy]
+            ];
+            details.forEach(([label, value]) => {
+                if(value) {
+                    grid.innerHTML += `<div class="grid-label">${label}:</div><div>${value}</div>`;
+                }
+            });
+
+            // Salary Rendering
+            if(job.salary && job.salary.length > 0) {
+                document.getElementById('sec-salary').classList.remove('hidden');
+                job.salary.forEach(s => {
+                    document.getElementById('salary-list').innerHTML += `<li>${s}</li>`;
+                });
+            }
+
+            // Contact & Map
+            document.getElementById('job-map').href = job.map_link;
+            job.contacts.forEach(c => {
+                document.getElementById('contact-list').innerHTML += `<li>${c.name}: <a href="tel:${c.phone}">${c.phone}</a></li>`;
+            });
+        }
+        window.onload = loadJobData;
+    </script>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+</body>
+</html>
