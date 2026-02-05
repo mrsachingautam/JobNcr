@@ -128,38 +128,26 @@
             }
         }
 
-        /* --- NEW CSS: Floating Social Icons (Phone/Laptop/Tablet Sabke liye) --- */
-        .floating-social-box {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: flex;
-            flex-direction: column; /* Ek ke niche ek */
-            gap: 15px;
-            z-index: 9999;
-        }
+        
+      /* Google Form Wrapper - Scroll Box Design */
+.google-form-wrapper {
+    width: 100%;
+    height: 600px; /* Box ki height fix kar di */
+    overflow-y: auto; /* Sirf box ke andar scroll hoga */
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.05); /* Thodi depth ke liye */
+    -webkit-overflow-scrolling: touch; /* Mobile scroll smooth karne ke liye */
+}
 
-        .float-icon-btn {
-            width: 55px;
-            height: 55px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 30px;
-            text-decoration: none;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .float-icon-btn:hover {
-            transform: scale(1.1); /* Mouse le jane par bada hoga */
-            box-shadow: 0 6px 14px rgba(0,0,0,0.4);
-        }
-
-        .whatsapp-float { background-color: #25d366; }
-        .telegram-float { background-color: #0088cc; }
+/* Iframe ki height ko box ke barabar rakhein */
+.google-form-wrapper iframe {
+    width: 100%;
+    height: 1000px; /* Iframe lamba rahega taaki box ke andar scroll ho sake */
+    border: none;
+    display: block;
+}
 
     </style>
 </head>
@@ -195,30 +183,27 @@
 
         <h3 style="text-align:center; color:#2d3748; margin-bottom: 20px;">Fill out our Form</h3>
         
-        <div class="google-form-wrapper">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFagmdGF4y7ZuTYvTwZ3rgGs6PG0hIx4-sAWTOEtKJVaZ_OQ/viewform?embedded=true" 
-                    frameborder="0" 
-                    marginheight="0" 
-                    marginwidth="0">
-                Loading…
-            </iframe>
-        </div>
+       <hr style="border: 0; border-top: 2px solid #edf2f7; margin: 30px 0;">
+
+<h3 style="text-align:center; color:#2d3748; margin-bottom: 10px;">Fill out our Form</h3>
+<p style="text-align:center; font-size: 13px; color: #718096; margin-bottom: 15px;">
+    (नीचे दिए गए बॉक्स के अंदर स्क्रॉल करके फॉर्म भरें)
+</p>
+
+<div class="google-form-wrapper">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFagmdGF4y7ZuTYvTwZ3rgGs6PG0hIx4-sAWTOEtKJVaZ_OQ/viewform?embedded=true" 
+            frameborder="0" marginheight="0" marginwidth="0">
+        Loading…
+    </iframe>
+</div>
 
         <p class="footer-note">
-            यह पेज "हमसे संपर्क करें" पेज जेनरेटर की मदद से तैयार किया गया है。<br>
+           हम आपको बताना चाहते हैं कि हमारी वेबसाइट पर मौजूद सभी नौकरियां बिल्कुल फ्री हैं और इसके लिए कोई शुल्क नहीं लिया जाता 。<br>
             
         </p>
     </div>
 
-    <div class="floating-social-box">
-        <a href="https://t.me/Jobncrlive" target="_blank" class="float-icon-btn telegram-float" title="Join Telegram">
-            <i class="fab fa-telegram-plane"></i>
-        </a>
-        
-        <a href="https://whatsapp.com/channel/0029VbBfWfm05MUZXJv6pY0B" target="_blank" class="float-icon-btn whatsapp-float" title="Chat on WhatsApp">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-    </div>
+  
 
     <script src="navbar.js"></script>
 </body>
