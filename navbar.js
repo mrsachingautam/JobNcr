@@ -58,7 +58,7 @@ const navbarHTML = `
     .navbar ul li a:hover { background: rgba(255, 255, 255, 0.2); border-radius: 4px; }
 
     /* DROPDOWN */
-    .dropdown-content { display: none; position: absolute; background-color: white; min-width: 200px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); top: 100%; right: 0; border-radius: 4px; }
+    .dropdown-content { display: none; position: absolute; background-color: white; min-width: 200px; box-shadow: 0px 8px 16px rgba(0,0,0,0.2); top: 100%; right: 2; border-radius: 4px; }
     .dropdown:hover .dropdown-content { display: block; }
     .dropdown-content a { color: #333 !important; padding: 12px 16px; border-bottom: 1px solid #eee; }
     .dropdown-content a:hover { background-color: #f1f1f1 !important; color: black !important; }
@@ -153,25 +153,56 @@ function closeMenu() { document.getElementById('navbar').classList.remove('activ
 function toggleDropdown(e) { if (window.innerWidth <= 768) e.classList.toggle('active'); }
 
 // --- SMART SEARCH LOGIC (No Prompts, Inline Only) ---
+// --- SMART SEARCH LOGIC (Updated for 3 JSON Files) ---
+// --- ADVANCED SMART SEARCH LOGIC ---
 async function executeSmartSearch() {
-    let s = document.getElementById('navSearchInput').value.toLowerCase().trim();
-    if (s) {
-        try {
-            const response = await fetch('jobs.json');
-            const jobs = await response.json();
-            const foundJob = jobs.find(job => job.title.toLowerCase().includes(s));
+    const input = document.getElementById('navSearchInput');
+    let s = input.value.toLowerCase().trim();
+    
+    if (!s) return; // Agar khali hai toh kuch mat karo
 
-            if (foundJob) {
-                window.location.href = foundJob.link;
-            } else {
-                if (s.includes('noida')) window.location.href = "all-jobs.html?cat=noida";
-                else if (s.includes('ncr') || s.includes('haryana')) window.location.href = "all-jobs.html?cat=ncr";
-                else {
-                    alert("Maaf karein, '" + s + "' naam ki koi post nahi mili.");
-                    window.location.href = "all-jobs.html";
-                }
-            }
-        } catch (e) { console.error("Search error:", e); }
+    try {
+        const files = ['jobs-noida.json', 'jobs-ncr.json', 'jobs-campus.json'];
+        
+        // 1. Saari files se data load karna
+        const responses = await Promise.all(files.map(f => fetch(f)));
+        const dataArrays = await Promise.all(responses.map(r => r.json()));
+        const allJobs = [].concat(...dataArrays);
+
+        // 2. Keyword Check: Agar user ne sirf Category ka naam likha hai
+        const categories = {
+            'noida': 'all-jobs.html?cat=noida',
+            'ncr': 'all-jobs.html?cat=ncr',
+            'haryana': 'all-jobs.html?cat=ncr',
+            'gurgaon': 'all-jobs.html?cat=ncr',
+            'manesar': 'all-jobs.html?cat=ncr',
+            'campus': 'all-jobs.html?cat=campus',
+            'college': 'all-jobs.html?cat=campus'
+        };
+
+        if (categories[s]) {
+            window.location.href = categories[s];
+            return;
+        }
+
+        // 3. Deep Search: Title, Description aur Link mein keyword dhundhna
+        const foundJob = allJobs.find(job => 
+            job.title.toLowerCase().includes(s) || 
+            job.desc.toLowerCase().includes(s) ||
+            (job.category && job.category.toLowerCase() === s)
+        );
+
+        if (foundJob) {
+            window.location.href = foundJob.link;
+        } else {
+            // 4. Agar specific job nahi mili, toh 'All Jobs' page par filter result dikhana
+            // Hum URL mein query pass kar rahe hain taaki all-jobs page search result dikha sake
+            window.location.href = `all-jobs.html?search=${encodeURIComponent(s)}`;
+        }
+
+    } catch (e) {
+        console.error("Search failed:", e);
+        window.location.href = "all-jobs.html";
     }
 }
 

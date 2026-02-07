@@ -1,15 +1,273 @@
 [
-  {
-    "id": "oppo-01",
-    "title": "OPPO Mobile Company Hiring",
-    "image": "POSTPHOTO/OPPO.jpg",
-    "about": "OPPO is a smartphone manufacturer...",
-    "company_name": "OPPO Mobile",
-    "location": "Kasna, Greater Noida",
-    "date": "30.01.2026",
-    "vacancy": "100",
-    "salary": ["Helper: 14875", "OT: Double"],
-    "map_link": "https://maps.app.goo.gl/xxx",
-    "contacts": [{"name": "Abhishek", "phone": "9319459014"}]
-  }
+    {
+  "id": "dixon-85-01",
+  "title": " DIXON COMPANY – NEW PLANT HIRING ",
+  "image": "Noidapost Photo/Dixon.jpeg",
+  "company_name": "🌟 DIXON COMPANY – NEW PLANT HIRING 🌟",
+  "location": "Plot B-13, Sector-85, Noida",
+  "job_type": "Production: 300, QUALITY: 10, SMT: 50, TRC: 50",
+  "vacancy": "400+",
+  "note": "Airtel & Jio Set-Top Box aur WiFi Router Manufacturing plant.",
+  "who_can_apply": [
+    "🔹 10th / 12th / ITI / Graduate.",
+    "Requirement 👉 केवल Electronic / Electrical / Electrician / Mechanical / Engineering Trade मान्य हैं।"
+  ],
+  "responsibilities": [
+    "🏭 Airtel & Jio Set-Top Box",
+    "WiFi Router Manufacturing."
+  ],
+  "qualification": "10th, 12th, ITI, Graduate.",
+  "salary": [
+    "8 Hour Salary: ₹11,401/-",                                                                                                                                                       
+    "ITI: ₹12,534/-",
+    "Diploma: ₹14,000/-",
+    "B.Tech: ₹15,200/-",
+    "Attendance Award: ₹1,500",
+    "Night Allowance: ₹2,000",
+    "Overtime: Single (Daily up to 3 hours)",
+    "✔ 1 Time Food – ₹16 / Day",
+    "✔ 2 Time Snacks – Free",
+    "✔ Dress & Slippers – Free"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhar Card",
+    "PAN Card",
+    "10th, 12th, ITI, Diploma, B.Tech Certificate",
+    "2 Passport Size Photos"
+  ],
+  "date": "04.02.2026",
+  "interview_time": "08:00 AM to 10:00 AM (Morning)",
+  "interview_location": "Plot B-13, Sector-85, Noida",
+  "contacts": [
+    { "name": "Direct Joining Contact", "phone": "7255800262" }
+  ],
+  "map_link": ""
+},
+
+{
+  "id": "oppo-kasna-01",
+  "title": "OPPO Mobile Company (Operator) Kasna Job Gr Noida",
+  "image": "Noidapost Photo/Oppo.png",
+  "company_name": "OPPO Mobile Company",
+  "location": "Kasana Greater Noida Plant",
+  "job_type": "Production Operator",
+  "vacancy": "100",
+  "note": "सूचना: कोई भी कैंडिडेट ओप्पो में भर्ती होने के लिए फर्जी या किसी और व्यक्ति के दस्तावेज प्रयोग करता है तो उनके खिलाफ सख्त कानूनी कार्यवाही की जाएगी।",
+  "who_can_apply": [
+    "Required: 12th Pass candidates",
+    "ITI / Diploma / Graduate",
+    "Age Limit: 18 to 28 Years"
+  ],
+  "responsibilities": [
+    "Mobile assembly line work",
+    "Production operations and quality checks",
+    "Packing and basic machine handling support"
+  ],
+  "qualification": "12th, ITI, Diploma, Graduate",
+  "salary": [
+    "Helper Salary: ₹14,875/-",
+    "Attendance Award: ₹2,000",
+    "Night Allowance: ₹50/-",
+    "Overtime: Double (Double OT)",
+    "Duty / Shift: As per company schedule",
+    "Bus Facility: Free",
+    "Canteen / Lunch: Company specific"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhar Card",
+    "12th / ITI / Diploma Certificates",
+    "2 Passport Size Photos",
+    "* Original + Photocopy सभी डॉक्यूमेंट्स साथ लाना अनिवार्य है।"
+  ],
+  "date": "30.01.2026",
+  "interview_time": "08:00 AM (Morning)",
+  "interview_location": "Greno Enterprises, Dadha farm house, Ecotech ext 1, Greater Noida. Near Mirza International gate no. 4. (सिरसा गोलचक्कर आकर मिर्जा कंपनी पुछ लेना)",
+  "contacts": [
+    { "name": "Abhishek Bhati", "phone": "9319459014" },
+    { "name": "Saurabh", "phone": "8130940603" },
+    { "name": "Gaurav Tomar", "phone": "9650935099" },
+    { "name": "Ravi Singh", "phone": "8882829930" }
+  ],
+  "map_link": "https://app.goo.gl/kQc2bUWg8eb566rA9?g_st=aw"
+},
+{
+  "id": "delhivery-dadri-01",
+  "title": "Delhivery Pvt. Ltd. (Dadri/Noida)",
+  "image": "Noidapost Photo/DelhiveryPvt.jpeg",
+  "company_name": "Delhivery Pvt. Ltd.",
+  "location": "Noida Bairangpur (Dadri)",
+  "job_type": "Picker / Scanning / Unloading",
+  "vacancy": "Open / Multiple",
+  "note": "⚠️ चयन के लिए अंग्रेज़ी पढ़ना आना अनिवार्य है। जिन्हें पढ़ना नहीं आता, उनके लिए Loading–Unloading का कार्य उपलब्ध है। लड़कियों को 13 दिन नाइट ड्यूटी करनी होगी। जिनका PF/ESI कभी नहीं कटा हो, वही पात्र हैं।",
+  "who_can_apply": [
+    "Required: 10th, 12th Pass Candidates",
+    "Aadhar Card (Mobile number link hona chahiye)",
+    "PAN Card & Bank Account",
+    "Only Fresher Candidates (No PF/ESI History)"
+  ],
+  "responsibilities": [
+    "Picker",
+    "Scanning",
+    "Unloading / Loading"
+  ],
+  "qualification": "10th, 12th Pass",
+  "salary": [
+    "Basic Salary: ₹12,150/-",
+    "Attendance Award: ₹2,000",
+    "HR Bonus: ₹650",
+    "Night Shift Allowance: ₹750",
+    "DBT: ₹1,500",
+    "👉 Total CTC Salary: ₹17,100/-",
+    "👉 Every Month Increment",
+    "Bus Facility: Surajpur, Dadri (Available)"
+  ],
+  "documents": [
+    "Aadhar Card",
+    "PAN Card",
+    "Bank Account Details",
+    "10th/12th Marksheet",
+    "Original + Photocopy sabhi documents saath laayein"
+  ],
+  "date": "03.02.2026",
+  "interview_time": "09:00 AM to 01:00 PM",
+  "interview_location": "New Basti, Bairangpur, Dadri (Noida)",
+  "contacts": [
+    { "name": "Bipin Chaudhary", "phone": "8171077108" },
+    { "name": "Contact Person", "phone": "9625457029" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "lvs-software-01",
+  "title": "LVS SOFTWARE PVT LTD .(Smart school Education)",
+  "image": "Noidapost Photo/LVM.jpeg",
+  "company_name": "LVS SOFTWARE PVT LTD",
+  "location": "Plot No. 40, Sec 155, Noida",
+  "job_type": "Production Operator",
+  "vacancy": "250",
+  "note": "अलीगढ़, बुलन्दशहर, गौतमबुद्ध नगर के लड़के भी अप्लाई कर सकते हैं। कंपनी में एलईडी स्क्रीन और एलईडी टीवी बनती है। सभी नौकरियाँ बिल्कुल फ्री हैं।",
+  "who_can_apply": [
+    "Required: 10th, 12th, ITI Pass",
+    "Apply: Fresher & Experience Both",
+    "Age Limit: 18 to 35 Years Only"
+  ],
+  "responsibilities": [
+    "LCM Manpower: TV Parts Assembling",
+    "Assembling: Open Cell (Display), Motherboard, PCB"
+  ],
+  "qualification": "10th, 12th, ITI",
+  "salary": [
+    "Salary Range: ₹13,000 to ₹15,000/-",
+    "Duty / Shift: As per company schedule",
+    "Benefits: ESIC, EPF, Overtime, Snacks"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhar Card",
+    "PAN Card",
+    "Bank Passbook",
+    "2 Passport Size Photos",
+    "Marksheet (10th/12th/ITI)",
+    "Original + Photocopy sabhi documents saath laana अनिवार्य है"
+  ],
+  "date": "01.02.2026",
+  "interview_time": "09:30 AM to 02:30 PM",
+  "interview_location": "Plot No. 40, Sec 155, Noida (Smart school Education)",
+  "contacts": [
+    { "name": "Greno Enterprise", "phone": "8882829930" },
+    { "name": "Contact 2", "phone": "9650935099" },
+    { "name": "Contact 3", "phone": "9319459014" }
+  ],
+  "map_link": "https://app.goo.gl/YZA2WYCr3R6cYSfT8?g_st=aw"
+},
+{
+  "id": "minda-surajpur-01",
+  "title": "🚨 तत्काल भर्ती – MINDA CD/IPD कंपनी 🚨",
+  "image": "POSTPHOTO/minda.png",
+  "company_name": "MINDA CD/IPD",
+  "location": "Surajpur, Greater Noida",
+  "job_type": "Production / Assembly / Molding",
+  "vacancy": "Open / Urgent",
+  "note": "भर्ती पूरी तरह निःशुल्क है। गेट पर पहुँचकर बताएँ कि आप HSC टीम से आए हैं। फ्रेशर भी आवेदन कर सकते हैं।",
+  "who_can_apply": [
+    "Required: 10th, 12th, ITI Pass",
+    "Fresher Candidates can also apply",
+    "Interested candidates must reach on time"
+  ],
+  "responsibilities": [
+    "Production work",
+    "Assembly line operations",
+    "Molding machine support"
+  ],
+  "qualification": "10th, 12th, ITI Pass",
+  "salary": [
+    "10th/12th Salary: ₹11,024/-",
+    "ITI Salary: ₹12,094/-",
+    "Daily Overtime: 3.5 Hours",
+    "Overtime Rate: Single Rate",
+    "Bus & Canteen Facility: Available"
+  ],
+  "documents": [
+    "Resume / Bio-data",
+    "Aadhar Card",
+    "Marksheet (10th/12th/ITI)",
+    "2 Passport Size Photos",
+    "Bank Account Details"
+  ],
+  "date": "06.02.2026",
+  "interview_time": "09:00 AM to 11:00 AM",
+  "interview_location": "MINDA CD/IPD कंपनी, प्लॉट नं. 2D/1, उद्योग केंद्र, इकोटेक-3, न्यू हॉलैंड गोल चक्कर के पास, ग्रेटर नोएडा",
+  "contacts": [
+    { "name": "HSC Team", "phone": "9412645629" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "bhagwati-vivo-01",
+  "title": "भर्ती | भगवती प्रोडक्ट लिमिटेड (BPL) Mobile Company",
+  "image": "POSTPHOTO/VIVO.png",
+  "company_name": "भगवती प्रोडक्ट लिमिटेड (BPL)",
+  "location": "कासना, ग्रेटर नोएडा (Kasna, Greater Noida)",
+  "job_type": "Mobile Assembly / Production",
+  "vacancy": "Multiple",
+  "note": "यह कंपनी पहले VIVO Mobile के नाम से जानी जाती थी। कंपनी से घर की न्यूनतम दूरी 200+ KM होना अनिवार्य है।",
+  "who_can_apply": [
+    "Required: 10th, 12th, ITI, Graduation",
+    "Age Limit: 18 to 30 Years",
+    "Distance: 200km away from company location"
+  ],
+  "responsibilities": [
+    "Mobile assembly line work",
+    "Handset manufacturing and testing",
+    "Production support"
+  ],
+  "qualification": "10th, 12th, ITI, Graduate",
+  "salary": [
+    "Base Salary: ₹11,021/-",
+    "Attendance Award: ₹2,000",
+    "GWP: ₹1,000",
+    "Overtime: Double (Double OT)",
+    "Canteen: Free (फ्री कैंटीन)",
+    "Bus Facility: Free (फ्री बस)"
+  ],
+  "documents": [
+    "Aadhar Card",
+    "10th / 12th / ITI Marksheet",
+    "Resume",
+    "4 Passport Size Photos",
+    "Original Documents (इंटरव्यू में लाना अनिवार्य है)"
+  ],
+  "date": "06.02.2026",
+  "interview_time": "08:00 AM to 11:00 AM",
+  "interview_location": "United College of Engineering and Research,Greater Noida",
+  "contacts": [
+    { "name": "Sunny", "phone": "8527181867" },
+    { "name": "Tarun Bhati", "phone": "8218786348" },
+    { "name": "Gaurav", "phone": "9650935099" },
+    { "name": "Robin", "phone": "9650578940" }
+  ],
+  "map_link": "https://maps.app.goo.gl/1qgVZYYCZkcB2gLx7?g_st=aw"
+}
 ]

@@ -84,47 +84,48 @@
 
     <script src="navbar.js"></script>
 
-    <script>
-        async function loadHomeJobs() {
-            try {
-                const res = await fetch('jobs.json');
-                const jobs = await res.json();
-                
-                const fill = (listId, cat, limit) => {
-                    // 1. Category filter
-                    let filtered = jobs.filter(j => j.category === cat);
+  <script>
+    async function loadCategoryJobs(file, listId, limit) {
+        try {
+            const res = await fetch(file);
+            const jobs = await res.json();
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
 
-                    // 2. Sorting Logic: Position (1,2,3) pehle, baki latest (reverse)
-                    filtered.sort((a, b) => {
-                        // Agar dono mein pos hai, toh chota number upar
-                        if (a.pos && b.pos) return a.pos - b.pos;
-                        // Agar sirf a mein pos hai, toh a upar
-                        if (a.pos) return -1;
-                        // Agar sirf b mein pos hai, toh b upar
-                        if (b.pos) return 1;
-                        // Baki sabko latest (json order ka reverse) rakhega
-                        return 0; 
-                    });
+            // Sorting: Position + Date Logic
+            jobs.sort((a, b) => {
+                const dateA = a.date ? new Date(a.date.split('.').reverse().join('-')) : new Date(0);
+                const dateB = b.date ? new Date(b.date.split('.').reverse().join('-')) : new Date(0);
+                const isNewA = dateA >= today;
+                const isNewB = dateB >= today;
 
-                    // Agar 'pos' nahi hai, toh unhe reverse order mein dikhane ke liye:
-                    // Hum list ko category-wise reverse karke dikha sakte hain
-                    const topJobs = filtered.slice(0, limit);
-                    
-                    const listHtml = topJobs.map(j => 
-                        `<li><a href="${j.link}"><i class="fas fa-angle-right"></i> ${j.title} <span class="blink-new">[New]</span></a></li>`
-                    ).join('');
-                    
-                    document.getElementById(listId).innerHTML = listHtml || "<li>No jobs available</li>";
-                };
+                if (isNewA && a.pos && (!isNewB || !b.pos || a.pos < b.pos)) return -1;
+                if (isNewB && b.pos && (!isNewA || !a.pos || b.pos < a.pos)) return 1;
+                if (isNewA && !isNewB) return -1;
+                if (!isNewA && isNewB) return 1;
+                return dateB - dateA;
+            });
 
-                // Limits set kar di gayi hain
-                fill('noida-list', 'noida', 20);
-                fill('ncr-list', 'ncr', 10);
-                fill('campus-list', 'campus', 5);
+            const topJobs = jobs.slice(0, limit);
+            const listHtml = topJobs.map(j => {
+                let showNew = false;
+                if (j.date) {
+                    const parts = j.date.split('.');
+                    const jobDate = new Date(parts[2], parts[1]-1, parts[0]);
+                    if (jobDate >= today) showNew = true;
+                }
+                return `<li><a href="${j.link}"><i class="fas fa-angle-right"></i> ${j.title} ${showNew ? '<span class="blink-new">[New]</span>' : ''}</a></li>`;
+            }).join('');
 
-            } catch (e) { console.error("Error loading jobs:", e); }
-        }
-        window.addEventListener('load', loadHomeJobs);
-    </script>
+            document.getElementById(listId).innerHTML = listHtml || "<li>No jobs available</li>";
+        } catch (e) { console.error("Error:", e); }
+    }
+
+    window.addEventListener('load', () => {
+        loadCategoryJobs('jobs-noida.json', 'noida-list', 20);
+        loadCategoryJobs('jobs-ncr.json', 'ncr-list', 10);
+        loadCategoryJobs('jobs-campus.json', 'campus-list', 5);
+    });
+</script>
 </body>
 </html>
