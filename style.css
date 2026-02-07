@@ -485,3 +485,46 @@ h3.section-title {
     .info-grid { grid-template-columns: 1fr; gap: 5px; }
     .company-hero-image { height: 220px; }
 }
+
+
+
+
+
+/* --- Dynamic Footer Buttons Style --- */
+.social-buttons-container {
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    min-width: 220px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.btn-whatsapp { background-color: #25D366; }
+.btn-telegram { background-color: #0088cc; }
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    .social-buttons-container { flex-direction: column; align-items: center; }
+    .social-btn { width: 100%; max-width: 300px; }
+}

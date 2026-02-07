@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">NCRONE Job Post</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hidden { display: none !important; }
+        .important-note-box { background: #fff3cd; padding: 15px; border-radius: 8px; color: #856404; margin-bottom: 20px; border-left: 5px solid #ffeeba; }
+    </style>
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container">
+        <img id="job-img" src="" class="company-hero-image">
+
+        <header class="header-section">
+            <h1 class="company-title" id="job-title"></h1>
+        </header>
+
+        <section id="sec-note" class="content-section hidden">
+            <div class="important-note-box">
+                <h4 style="margin-bottom:5px;">⚠️ महत्वपूर्ण नोट</h4>
+                <p id="job-note"></p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Company Job Details</h3>
+            <div class="info-grid" id="main-grid"></div>
+        </section>
+
+        <section id="sec-apply" class="content-section hidden">
+            <h3 class="section-title">Who can apply?</h3>
+            <div class="highlight-box">
+                <ul id="apply-list"></ul>
+            </div>
+        </section>
+
+        <section id="sec-resp" class="content-section hidden">
+            <h3 class="section-title">Job Responsibilities</h3>
+            <ul id="resp-list"></ul>
+        </section>
+
+        <section id="sec-qual" class="content-section hidden">
+            <h3 class="section-title">Qualification</h3>
+            <p id="job-qual" style="padding-left: 20px;"></p>
+        </section>
+
+        <section id="sec-salary" class="content-section hidden">
+            <h3 class="section-title">Salary and Benefits</h3>
+            <ul class="salary-list" id="salary-list"></ul>
+        </section>
+
+        <section id="sec-docs" class="content-section hidden">
+            <h3 class="section-title">Documents Required</h3>
+            <ul id="docs-list"></ul>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Interview Details</h3>
+            <div class="info-grid" id="interview-grid"></div>
+        </section>
+
+        <section class="content-section">
+            <h3 class="section-title">Contact Number</h3>
+            <ul class="contact-list" id="contact-list"></ul>
+        </section>
+
+        <div id="social-footer-placeholder"></div>
+    </div>
+
+    <script>
+        async function loadJobData() {
+            const params = new URLSearchParams(window.location.search);
+            const fileName = params.get('file'); 
+            const jobId = params.get('id');
+
+            try {
+                const response = await fetch(`${fileName}.json`);
+                const jobs = await response.json();
+                const job = jobs.find(j => j.id === jobId);
+
+                if (job) {
+                    document.getElementById('page-title').innerText = job.title;
+                    document.getElementById('job-title').innerText = job.title;
+                    document.getElementById('job-img').src = job.image;
+
+                    const fillList = (id, sectionId, data) => {
+                        if (data && data.length > 0) {
+                            document.getElementById(sectionId).classList.remove('hidden');
+                            data.forEach(item => document.getElementById(id).innerHTML += `<li>${item}</li>`);
+                        }
+                    };
+
+                    if(job.note) { document.getElementById('sec-note').classList.remove('hidden'); document.getElementById('job-note').innerText = job.note; }
+
+                    const grid = document.getElementById('main-grid');
+                    const details = [["Company Name", job.company_name], ["Location", job.location], ["Job Type", job.job_type], ["Vacancy", job.vacancy]];
+                    details.forEach(([lbl, val]) => { if(val) grid.innerHTML += `<div class="grid-label">${lbl}:</div><div>${val}</div>`; });
+
+                    fillList('apply-list', 'sec-apply', job.who_can_apply);
+                    fillList('resp-list', 'sec-resp', job.responsibilities);
+                    
+                    if(job.qualification) {
+                        document.getElementById('sec-qual').classList.remove('hidden');
+                        document.getElementById('job-qual').innerText = job.qualification;
+                    }
+
+                    fillList('salary-list', 'sec-salary', job.salary);
+                    fillList('docs-list', 'sec-docs', job.documents);
+
+                    const iGrid = document.getElementById('interview-grid');
+                    const iDetails = [["Date", job.date], ["Time", job.interview_time], ["Location", job.interview_location]];
+                    iDetails.forEach(([lbl, val]) => { if(val) iGrid.innerHTML += `<div class="grid-label">${lbl}:</div><div>${val}</div>`; });
+                    if(job.map_link) iGrid.innerHTML += `<div class="grid-label">Map:</div><div><a href="${job.map_link}" target="_blank" style="color:#3498db; font-weight:bold;">Click for Google Map Location</a></div>`;
+
+                    job.contacts.forEach(c => document.getElementById('contact-list').innerHTML += `<li>${c.name}: <a href="tel:${c.phone}">${c.phone}</a></li>`);
+                }
+            } catch (e) { console.error("Error:", e); }
+        }
+        window.onload = loadJobData;
+    </script>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ekka-sonipat-01",
+    "title": "Ekka Company Phase 4 Kundli Sonipat",
+    "image": "Ncrpost Photo/Ekka Company.png",
+    "company_name": "EKKA ELECTRONICS COMPANY",
+    "location": "Near Gannaur Flyover, Sonipat, Haryana",
+    "date": "12.01.2026",
+    "note": "Flipkart Warehouse ka mukhya kaam hai saaman ko sambhalna, pack karna aur grahak tak pahunchana.",
+    "salary": [
+      "In Hand Salary: ₹23,000/-",
+      "Gross Salary: ₹11,500 + PF + ESI",
+      "Attendance Award: ₹600",
+      "Overtime: Daily 3 Hours"
+    ],
+    "contacts": [
+      { "name": "Raj Kumar", "phone": "8569925798" },
+      { "name": "Vishan", "phone": "9315473717" },
+      { "name": "Sagar", "phone": "7084457567" }
+    ]
+  },
+  {
+    "id": "flipkart-gurgaon-02",
+    "title": "Flipkart Warehouse Gurgaon Hiring",
+    "image": "POSTPHOTO/Flipkart.png",
+    "company_name": "Flipkart Logistics",
+    "location": "Farukhnagar, Gurgaon",
+    "date": "15.02.2026",
+    "note": "Male & Female dono candidates apply kar sakte hain.",
+    "salary": [
+      "Salary: ₹12,500/-",
+      "Night Allowance: ₹100 per night"
+    ],
+    "contacts": [
+      { "name": "HR Team", "phone": "9999988888" }
+    ]
+  }
+]
