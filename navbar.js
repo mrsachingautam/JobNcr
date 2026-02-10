@@ -1,4 +1,4 @@
-// navbar.js - Original Design with Inline Search Box Integration
+// navbar.js - Optimized for SEO and Smart Search
 
 const navbarHTML = `
 <style>
@@ -26,7 +26,7 @@ const navbarHTML = `
     .header-left { display: flex; align-items: center; gap: 15px; flex: 1; }
     .logo { color: white; font-size: 1.5rem; font-weight: bold; text-transform: uppercase; text-decoration: none; white-space: nowrap; }
     
-    /* --- INLINE SEARCH BOX (Adding inside header-left) --- */
+    /* --- INLINE SEARCH BOX --- */
     .search-container-inline {
         position: relative;
         display: flex;
@@ -67,7 +67,7 @@ const navbarHTML = `
     .menu-toggle { display: none; color: white; font-size: 1.5rem; cursor: pointer; }
     .marquee-container { background: #ffeb3b; color: #000; padding: 8px 0; font-weight: bold; border-bottom: 1px solid #ccc; margin-top: 60px; font-family: sans-serif; }
 
-    /* --- NAYE FLOATING BUTTONS KA CSS --- */
+    /* --- FLOATING BUTTONS --- */
     .global-float-box {
         position: fixed;
         bottom: 20px;
@@ -107,41 +107,39 @@ const navbarHTML = `
 
 <header class="main-navbar-header">
     <div class="header-left">
-        <a href="index.html" class="logo">NCRone.in</a>
+        <a href="index.html" class="logo" title="NCRONE.IN - Latest Private Jobs 2026">NCRone.in</a>
         <div class="search-container-inline">
-            <input type="text" id="navSearchInput" placeholder="Search jobs..." onkeypress="handleNavSearch(event)">
-            <i class="fas fa-search" onclick="executeSmartSearch()"></i>
+            <input type="text" id="navSearchInput" placeholder="Noida, ITI, Diploma Jobs..." onkeypress="handleNavSearch(event)">
+            <i class="fas fa-search" onclick="executeSmartSearch()" title="Search Private Jobs"></i>
         </div>
     </div>
     <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
     <nav class="navbar" id="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="all-jobs.html?cat=noida">Noida Jobs</a></li>
-            <li><a href="all-jobs.html?cat=ncr">Haryana Jobs</a></li>
+            <li><a href="all-jobs.html?cat=noida" title="Latest Jobs in Noida">Noida Jobs</a></li>
+            <li><a href="all-jobs.html?cat=ncr" title="Latest Jobs in Haryana & Gurgaon">Haryana Jobs</a></li>
             <li class="dropdown" onclick="toggleDropdown(this)">
-                <a href="javascript:void(0)">Other Jobs <i class="fas fa-caret-down"></i></a>
+                <a href="javascript:void(0)">Job Categories <i class="fas fa-caret-down"></i></a>
                 <div class="dropdown-content">
-                    <a href="all-jobs.html?cat=driver">Driver Jobs</a>
-                    <a href="all-jobs.html?cat=security">Security Guard</a>
-                    <a href="all-jobs.html?cat=helper">Helper / Labour</a>
-                    <a href="all-jobs.html?cat=cook">Cook / Maid</a>
-                    <a href="all-jobs.html?cat=delivery">Delivery Boy</a>
+                    <a href="all-jobs.html?cat=campus">Campus Placements</a>
+                    <a href="all-jobs.html?cat=noida">Greater Noida Jobs</a>
+                    <a href="all-jobs.html?cat=driver">Driver Jobs 2026</a>
                 </div>
             </li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="about.html">About NCRONE</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
         </ul>
     </nav>
 </header>
 
 <div class="marquee-container">
-    <marquee scrollamount="6">लेटेस्ट जॉब अपडेट्स के लिए वेबसाइट को बुकमार्क करें | सभी नौकरियाँ फ्री हैं | New Vacancy Alert 2026!</marquee>
+    <marquee scrollamount="6">NCRONE.IN: नोएडा, गुड़गांव और दिल्ली NCR की लेटेस्ट प्राइवेट नौकरियाँ 2026 | सभी नौकरियाँ 100% फ्री हैं | Join WhatsApp for Fast Job Updates!</marquee>
 </div>
 
 <div class="global-float-box">
-    <a href="https://t.me/Jobncrlive" target="_blank" class="g-float-btn g-telegram"><i class="fab fa-telegram-plane"></i></a>
-    <a href="https://whatsapp.com/channel/0029VbBfWfm05MUZXJv6pY0B" target="_blank" class="g-float-btn g-whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://t.me/Jobncrlive" target="_blank" class="g-float-btn g-telegram" title="Join Telegram for Jobs"><i class="fab fa-telegram-plane"></i></a>
+    <a href="https://whatsapp.com/channel/0029VbBfWfm05MUZXJv6pY0B" target="_blank" class="g-float-btn g-whatsapp" title="Join WhatsApp Job Group"><i class="fab fa-whatsapp"></i></a>
 </div>
 `;
 
@@ -152,32 +150,29 @@ function toggleMenu() { document.getElementById('navbar').classList.toggle('acti
 function closeMenu() { document.getElementById('navbar').classList.remove('active'); }
 function toggleDropdown(e) { if (window.innerWidth <= 768) e.classList.toggle('active'); }
 
-// --- SMART SEARCH LOGIC (No Prompts, Inline Only) ---
-// --- SMART SEARCH LOGIC (Updated for 3 JSON Files) ---
-// --- ADVANCED SMART SEARCH LOGIC ---
+// --- SMART SEARCH LOGIC (Optimized) ---
 async function executeSmartSearch() {
     const input = document.getElementById('navSearchInput');
     let s = input.value.toLowerCase().trim();
     
-    if (!s) return; // Agar khali hai toh kuch mat karo
+    if (!s) return;
 
     try {
         const files = ['jobs-noida.json', 'jobs-ncr.json', 'jobs-campus.json'];
-        
-        // 1. Saari files se data load karna
         const responses = await Promise.all(files.map(f => fetch(f)));
         const dataArrays = await Promise.all(responses.map(r => r.json()));
         const allJobs = [].concat(...dataArrays);
 
-        // 2. Keyword Check: Agar user ne sirf Category ka naam likha hai
         const categories = {
             'noida': 'all-jobs.html?cat=noida',
+            'greno': 'all-jobs.html?cat=noida',
             'ncr': 'all-jobs.html?cat=ncr',
             'haryana': 'all-jobs.html?cat=ncr',
             'gurgaon': 'all-jobs.html?cat=ncr',
             'manesar': 'all-jobs.html?cat=ncr',
             'campus': 'all-jobs.html?cat=campus',
-            'college': 'all-jobs.html?cat=campus'
+            'iti': 'all-jobs.html?search=iti',
+            'diploma': 'all-jobs.html?search=diploma'
         };
 
         if (categories[s]) {
@@ -185,7 +180,6 @@ async function executeSmartSearch() {
             return;
         }
 
-        // 3. Deep Search: Title, Description aur Link mein keyword dhundhna
         const foundJob = allJobs.find(job => 
             job.title.toLowerCase().includes(s) || 
             job.desc.toLowerCase().includes(s) ||
@@ -195,8 +189,6 @@ async function executeSmartSearch() {
         if (foundJob) {
             window.location.href = foundJob.link;
         } else {
-            // 4. Agar specific job nahi mili, toh 'All Jobs' page par filter result dikhana
-            // Hum URL mein query pass kar rahe hain taaki all-jobs page search result dikha sake
             window.location.href = `all-jobs.html?search=${encodeURIComponent(s)}`;
         }
 

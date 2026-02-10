@@ -143,10 +143,40 @@ body {
     text-decoration: none;
     color: #004a99;
     font-weight: 500;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
+    display: block; /* Flex hata kar block kiya taki text flow natural rahe */
+    padding: 8px 4px;
+    font-size: 11px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+/* Text ko 2 lines tak limit karne ke liye */
+.job-text {
+    display: inline; /* Ise inline rakhein taki badge iske turant baad aaye */
+    word-wrap: break-word;
+}
+
+/* Container jo 2 line ke baad content chhupaye */
+.job-links li {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 2 line limit */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    border-bottom: 1px dotted #ccc;
+}
+
+.blink-new {
+    display: inline-block; /* Text khatam hote hi line ke end mein aane ke liye */
+    color: red;
+    font-weight: bold;
+    font-size: 9px;
+    animation: blinker 1s linear infinite;
+    background: #ffe6e6;
+    padding: 1px 4px;
+    border-radius: 3px;
+    margin-left: 5px;
+    vertical-align: middle;
+    white-space: nowrap;
 }
 
 .job-links a:hover { color: var(--secondary-color); }
@@ -197,7 +227,7 @@ body {
 }
 
 .footer-brand-name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 15px;
     letter-spacing: 2px;
@@ -282,11 +312,35 @@ body {
 
 .float-wa:hover { transform: scale(1.1); }
 
-/* --- Responsive Main Content --- */
 @media (max-width: 768px) {
-    .job-container { grid-template-columns: 1fr; }
-    .footer-brand-name { font-size: 2rem; }
-    .footer-warning { font-size: 0.9rem; padding: 0 10px; }
+    /* List container ki default padding hatayi */
+    .job-links {
+        padding: 0 !important; 
+        margin: 0 !important;
+    }
+
+    .job-links li {
+        display: block;
+        padding: 8px 2px; /* Left-Right padding ekdum kam kar di */
+        border-bottom: 1px dotted #ccc;
+        list-style: none; /* Taki koi bullet point space na le */
+    }
+
+    .job-links a {
+        font-size: 11px; 
+        display: inline;
+        line-height: 1.3;
+        padding-left: 0; /* Ekdum boundary se shuru hoga */
+        margin-left: 0;
+        word-break: break-word; /* Taki lamba word box se bahar na jaye */
+    }
+
+    .blink-new {
+        font-size: 7px !important;
+        padding: 1px 2px !important;
+        margin-left: 2px;
+        vertical-align: middle;
+    }
 }
 
 
@@ -481,10 +535,7 @@ h3.section-title {
 .contact-list a { text-decoration: none; color: #3498db; font-weight: 700; }
 .hidden { display: none !important; } /* Isse khali data apne aap chhup jayega */
 
-@media (max-width: 768px) {
-    .info-grid { grid-template-columns: 1fr; gap: 5px; }
-    .company-hero-image { height: 220px; }
-}
+
 
 
 
@@ -527,4 +578,26 @@ h3.section-title {
 @media (max-width: 768px) {
     .social-buttons-container { flex-direction: column; align-items: center; }
     .social-btn { width: 100%; max-width: 300px; }
+}
+
+/* Desktop ke liye (Badi screen par font size bada rahega) */
+@media (min-width: 769px) {
+    .job-links a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px; /* Ise aap 18px bhi kar sakte hain agar aur bada chahiye */
+        padding: 12px 10px; /* Desktop par space badhane ke liye */
+        font-weight: 600;
+    }
+
+    .blink-new {
+        font-size: 0.85rem; /* Desktop par normal/bada size */
+        padding: 2px 6px;
+    }
+
+    /* Desktop par agar aap chahte hain ki boundary se thoda gap rahe */
+    .job-links li {
+        padding: 10px;
+    }
 }

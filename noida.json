@@ -269,5 +269,440 @@
     { "name": "Robin", "phone": "9650578940" }
   ],
   "map_link": "https://maps.app.goo.gl/1qgVZYYCZkcB2gLx7?g_st=aw"
+},
+{
+  "id": "pigeon-greno-01",
+  "title": "PIGEON INDIA PRIVATE LIMITED",
+  "image": "noidapost photo/Pigeon India.png",
+  "company_name": "Pigeon India Private Limited",
+  "location": "Ecotech-1, Greater Noida",
+  "job_type": "Apprentice (Production Quality)",
+  "vacancy": "Multiple",
+  "note": "यह एक अच्छी जॉब है, कंपनी कैंडिडेट को बाहर नहीं निकालती है। अगर परफॉरमेंस अच्छा है तो कंपनी On-role भी कर लेती है। न्यूनतम दूरी 100km होनी चाहिए।",
+  "who_can_apply": [
+    "Only Boys",
+    "ITI (All Trades)",
+    "Diploma (All Trades)",
+    "Distance: Minimum 100 km from Noida"
+  ],
+  "responsibilities": [
+    "Production department work",
+    "Quality inspection and checking",
+    "Operational support"
+  ],
+  "qualification": "ITI & Diploma (All Trades)",
+  "salary": [
+    "Diploma In-Hand: ₹14,500 + ₹1,000 Bonus",
+    "ITI In-Hand: ₹13,000 + ₹1,000 Bonus",
+    "Lunch: ₹10/Day",
+    "Job Type: Apprentice"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhar Card",
+    "ITI / Diploma Certificate",
+    "Passport Size Photos"
+  ],
+  "date": "10.02.2026",
+  "interview_time": "09:00 AM",
+  "interview_location": "Pigeon India Private Limited, 6E Sector 40-41 Ecotech-1, Greater Noida",
+  "contacts": [
+    { "name": "Lokesh", "phone": "9690643861" },
+    { "name": "Sachin", "phone": "8178338632" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "utl-solar-01",
+  "title": "UTL SOLAR (FUJIYAHAMA POWER PVT LTD)",
+  "image": "noidapost photo/Utl.png",
+  "company_name": "UTL SOLAR (Fujiyahama Power Pvt Limited)",
+  "location": "Ecotech ext I, Greater Noida (Near Alentec Company)",
+  "job_type": "Operator and Helper",
+  "vacancy": "Multiple",
+  "note": "⚠️ भर्ती के लिए किसी भी व्यक्ति से पैसे नही लेते, यह job बिल्कुल फ्री है। पहले अच्छे से पोस्ट को पढ़ ले उसके बाद कंपनी ज्वाइन करे।",
+  "who_can_apply": [
+    "Only Boys",
+    "10th, 12th, ITI Pass",
+    "Distance: Minimum 100 km",
+    "Position: Operator and Helper"
+  ],
+  "responsibilities": [
+    "Inverter and TRX Department work",
+    "Machine operations",
+    "Production support"
+  ],
+  "qualification": "10th, 12th, ITI",
+  "salary": [
+    "10th & 12th Salary: ₹13,181/-",
+    "ITI Salary: ₹14,600/-",
+    "Overtime: Single",
+    "Other Benefits: PF, ESIC",
+    "Canteen: Available (₹20 per diet)",
+    "Bus Facility: Available (Dadri, Pari Chowk, Kasna routes)"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhar Card",
+    "Qualification Certificates",
+    "Passport Size Photos"
+  ],
+  "date": "10.02.2026",
+  "interview_time": "08:00 AM",
+  "interview_location": "Ecotech ext I, G Noida, Near Alentec Company",
+  "contacts": [
+    { "name": "Abhishek Bhati", "phone": "9319459014" }
+  ],
+  "map_link": ""
+}
+,{
+  "id": "Spark-01",
+  "title": "Spark Minda Sai Company Greater Noida",
+  "image": "noidapost photo/Utl.png",
+  "company_name": "Spark Minda Sai Company Greater Noida",
+  "location": "Surajpur, Greater Noida",
+  "job_type": "Operator and Helper",
+  "vacancy": "Multiple",
+  "note": "⚠️ भर्ती के लिए किसी भी व्यक्ति से पैसे नही लेते, यह job बिल्कुल फ्री है। पहले अच्छे से पोस्ट को पढ़ ले उसके बाद कंपनी ज्वाइन करे।",
+  "who_can_apply": [
+    "Only Boys",
+    "10th, 12th, ITI Pass",
+    "Distance: Minimum 100 km",
+    "Position: Operator and Helper"
+  ],
+  "responsibilities": [
+  
+    "Machine operations",
+    "Production support"
+  ],
+  "qualification": "10th, 12th, ITI",
+  "salary": [
+    "10th & 12th Salary: ₹11,021/-",
+    "Overtime: Single",
+    "Other Benefits: PF, ESIC",
+    "Canteen: Available Free",
+    "Bus Facility: Free (फ्री बस)"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhar Card",
+    "Qualification Certificates",
+    "Passport Size Photos"
+  ],
+  "date": "10.02.2026",
+  "interview_time": "08:00 AM",
+  "interview_location": "Surajpur, Greater Noida ",
+  "contacts": [
+    { "name": " Lokesh Sir", "phone": "9582744001" }
+  ],
+  "map_link": ""
+},{
+  "id": "new-vivo-greno-01",
+  "title": "NEW VIVO MOBILE COMPANY",
+  "image": "Noidapost Photo/NEW VIVO .png",
+  "company_name": "NEW VIVO COMPANY",
+  "location": "New Vivo Plant, Greater Noida",
+  "job_type": "Production Operator",
+  "vacancy": "250",
+  "note": "⚠️ सूचना: हमारी वेबसाइट पर सभी नौकरियाँ फ्री हैं। यदि कोई पैसे माँगे तो तुरंत NCRONE TEAM को सूचित करें। बेसिक इंग्लिश पढ़ना और लिखना अनिवार्य है।",
+  "who_can_apply": [
+    "ITI, Diploma, BA, B.Com, BSC, BBA Graduate Pass",
+    "Fresher & Experience Both",
+    "Age Limit: 1991 to 2006 Only",
+    "Basic English Read & Write is must"
+  ],
+  "responsibilities": [
+    "Mobile assembly line work",
+    "Production operations and quality checks",
+    "Packing and basic machine handling support"
+  ],
+  "qualification": "ITI, Diploma, BA, B.Com, BSC, BBA Graduate",
+  "salary": [
+    "Salary CTC: ₹15,786 /-",
+    "Attendance Award: ₹2,000",
+    "GWP Award: ₹1,000",
+    "Service Allowance: ₹500 - ₹1,500 (based on tenure)",
+    "Overtime: Double",
+    "Canteen & Bus: Free (Company Specific)"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhar Card",
+    "All Original Educational Documents (ITI, Diploma, Degree)",
+    "2 Passport Size Photos",
+    "Original + Photocopy लाना अनिवार्य है"
+  ],
+  "date": "30.01.2026",
+  "interview_time": "08:00 AM - 02:30 PM",
+  "interview_location": "Hari Associates (Makoda Village - Jagat Farm Gol Chakkar से ऑटो लें)",
+  "contacts": [
+    { "name": "Hari Associates Team", "phone": "9821008674" },
+    { "name": "Team Contact", "phone": "7840009632" },
+    { "name": "Team Contact", "phone": "7840002569" },
+    { "name": "Team Contact", "phone": "7840003515" },
+    { "name": "Team Contact", "phone": "7840009637" },
+    { "name": "Team Contact", "phone": "7835000319" },
+    { "name": "Team Contact", "phone": "9311068556" },
+    { "name": "Team Contact", "phone": "9311068561" }
+  ],
+  "map_link": "https://maps.app.goo.gl/XMGAJPG5R1cE5Xcb9"
+},
+{
+  "id": "zepto-greno-01",
+  "title": "ZEPTO STORE JOBS",
+  "image": "Noidapost Photo/Zepto .png",
+  "company_name": "Zepto Store",
+  "location": "Greater Noida (UP East)",
+  "job_type": "Packing, Scanning, Loading & Unloading",
+  "vacancy": "Multiple",
+  "note": "⚠️ सावधान: हमारी वेबसाइट पर उपलब्ध सभी नौकरियाँ बिल्कुल फ्री हैं। यदि कोई व्यक्ति नौकरी के बदले पैसे माँगे तो तुरंत NCRONE TEAM को सूचित करें।",
+  "who_can_apply": [
+    "Only Boys",
+    "Freshers and Experienced both",
+    "Age Limit: 18 to 35 Years",
+    "Basic Reading & Writing skills"
+  ],
+  "responsibilities": [
+    "Packing and Scanning of items",
+    "Loading and Unloading stock",
+    "Inventory and material handling",
+    "Stock counting"
+  ],
+  "qualification": "8th, 10th, 12th Pass",
+  "salary": [
+    "Salary In-Hand: ₹14,500 - ₹18,500 (As per role)",
+    "Attendance Award: ₹2,000",
+    "Other Benefits: PF & ESIC",
+    "Shift: Day & Night both available"
+  ],
+  "documents": [
+    "Aadhar Card",
+    "PAN Card",
+    "Educational Certificates",
+    "Bank Account details",
+    "Passport Size Photos"
+  ],
+  "date": "10.02.2026",
+  "interview_time": "09:00 AM onwards",
+  "interview_location": "Zepto Warehouse, Greater Noida",
+  "contacts": [
+    { "name": "HR Team", "phone": "9311068561" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "jbj-tech-greno-01",
+  "title": "JBJ TECHNOLOGY LIMITED COMPANY",
+  "image": "POSTPHOTO/OPPO.jpg",
+  "company_name": "JBJ Technology Limited Company",
+  "location": "Plot No. 351, Near Yamaha Company, Police Line, Ecotech 3, Greater Noida",
+  "job_type": "Injection Moulding Operator",
+  "vacancy": "Multiple",
+  "note": "⚠️ आवश्यक सूचना: यह भर्ती पूरी तरह निःशुल्क है। केवल दिए गए नंबर पर कॉल करके ही डॉक्यूमेंट दें। कंपनी में जाकर VM Workforce Team को ही डॉक्यूमेंट दें। Injection Moulding अनुभव अनिवार्य है।",
+  "who_can_apply": [
+    "Only Boys",
+    "8th, 10th, 12th, Graduation, ITI & CPED Diploma",
+    "Experience Required: 1 to 5 Years",
+    "Injection Moulding Experience Mandatory"
+  ],
+  "responsibilities": [
+    "Injection Moulding Machine Operation",
+    "Production and quality maintenance",
+    "Maintaining output as per targets"
+  ],
+  "qualification": "8th, 10th, 12th, Graduation, ITI, CPED Diploma",
+  "salary": [
+    "In-Hand Salary: ₹13,000 - ₹18,000",
+    "Duty: 8 Hours + 3.5 Hours Fixed OT",
+    "Shift: 12 Hours (Day & Night)",
+    "Attendance Award: ₹500",
+    "Overtime: Single OT",
+    "Facilities: Canteen & Bus Available"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhar Card",
+    "Qualification Marksheet",
+    "Bank Account Details"
+  ],
+  "date": "03.02.2026",
+  "interview_time": "09:00 AM",
+  "interview_location": "Plot No. 351, Police Line, Pahla Cut, Ecotech-3, Surajpur, Greater Noida",
+  "contacts": [
+    { "name": "HR", "phone": "9289980357" },
+    { "name": "Contact", "phone": "8800796376" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "pps-greno-01",
+  "title": "PPS INTERNATIONAL",
+  "image": "Noidapost Photo/PPS l.png",
+  "company_name": "PPS International",
+  "location": "Plot No. 32, Choganpur, Greater Noida (Near Surajpur Gol Chakkar)",
+  "job_type": "Soldering Operator",
+  "vacancy": "Multiple",
+  "note": "⚠️ आवश्यक सूचना: यह भर्ती पूरी तरह से फ्री है। केवल मेल कैंडिडेट्स ही अप्लाई करें। इंटरव्यू के समय ओरिजिनल और फोटोकॉपी डॉक्यूमेंट्स लाना अनिवार्य है।",
+  "who_can_apply": [
+    "Only Male Candidates",
+    "10th, 12th Pass",
+    "Distance: Meerut, Hapur & Aligarh candidates can apply"
+  ],
+  "responsibilities": [
+    "Soldering operation work",
+    "Assembly and production line tasks",
+    "Maintaining quality standards"
+  ],
+  "qualification": "10th, 12th Pass",
+  "salary": [
+    "Salary: Based on Interview",
+    "Attendance Award: ₹500",
+    "Duty: 8 Hours General Duty (Night Shift also available)",
+    "Permanent Policy: 1 Year in Third Party, then permanent in company",
+    "Canteen: Available (Chargeable)"
+  ],
+  "documents": [
+    "Resume",
+    "Original Documents",
+    "Photocopy of Documents"
+  ],
+  "date": "10.02.2026",
+  "interview_time": "08:30 AM to 10:00 AM",
+  "interview_location": "Plot No. 32, PPS International, Choganpur, Greater Noida",
+  "contacts": [
+    { "name": "HR Team", "phone": "7827154774" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "Kimbal-01",
+  "title": "Kimbal Technologies.",
+  "image": "POSTPHOTO/BIG machine.jpg",
+  "company_name": "Kimbal Technologies.",
+  "location": "Knowledge Park 5, Greater Noida",
+  "job_type": "Maintenance / Production Maintenance",
+  "vacancy": "Multiple",
+  "note": "⚠️ आवश्यक सूचना: यह भर्ती निःशुल्क है। केवल इच्छुक उम्मीदवार ही अपना रिज्यूमे व्हाट्सएप पर भेजें।",
+  "who_can_apply": [
+    "ITI or Diploma in Mechanical, Electrical, or Electronics",
+    "Experience Required: Knowledge of pneumatic and hydraulic systems",
+    "Ability to read electrical and mechanical blueprints"
+  ],
+  "responsibilities": [
+    "Preventive and corrective maintenance of production machinery",
+    "Troubleshooting electrical and mechanical issues",
+    "Maintaining production line uptime",
+    "Ensuring safety standards during repairs"
+  ],
+  "qualification": "ITI or Diploma (Mechanical/Electrical/Electronics)",
+  "salary": [
+    "Salary: Best in Industry (As per experience)",
+    "Duty: 8 Hours",
+    "Overtime: Single OT",
+    "Other Benefits: PF, ESIC"
+  ],
+  "documents": [
+    "Updated Resume",
+    "Aadhar Card",
+    "Qualification Certificates",
+    "Bank Account Details"
+  ],
+  "date": "10.02.2026",
+  "interview_time": "10:00 AM onwards",
+  "interview_location": "Knowledge Park 5, Greater Noida",
+  "contacts": [
+    { "name": "WhatsApp Resume", "phone": "8802012112" },
+    { "name": "HR Team", "phone": "7428197284" }
+  ],
+  "map_link": "https://www.google.com/maps/search/Kent+RO+Greater+Noida"
+},
+{
+  "id": "xpro-india-greno-01",
+  "title": "XPRO INDIA PVT. LTD.",
+  "image": "Noidapost Photo/Xpro .png",
+  "company_name": "Xpro India Pvt. Ltd.",
+  "location": "Udyog Vihar, Near Navrang Durga Talkies, Greater Noida, Uttar Pradesh - 201306",
+  "job_type": "Molding Manufacturing / Production",
+  "vacancy": "20 Boys",
+  "note": "⚠️ आवश्यक सूचना: यह भर्ती पूरी तरह से निःशुल्क (Free Recruitment) है। कोई चार्ज नहीं लिया जाता। आधार कार्ड पर 100 किमी की दूरी अनिवार्य है।",
+  "who_can_apply": [
+    "Only Male Candidates",
+    "Qualification: 10th / 12th Pass",
+    "Distance: 100 km and above from Noida"
+  ],
+  "responsibilities": [
+    "Production work",
+    "Molding Manufacturing",
+    "Assembly Line work",
+    "Quality inspection",
+    "Warehouse and Loading/Unloading support"
+  ],
+  "qualification": "10th / 12th Pass",
+  "salary": [
+    "Salary: ₹11,037/- Per Month",
+    "Overtime: Daily OT Available (Single OT - Approx 3.5 Hrs)",
+    "Attendance Award: ₹500/- Per Month",
+    "Other Benefits: PF, ESIC",
+    "Facilities: Canteen Free"
+  ],
+  "documents": [
+    "Updated Resume",
+    "Aadhar Card",
+    "10th Marksheet",
+    "Bank Account Details",
+    "2 Passport Size Photos"
+  ],
+  "date": "07 February 2026",
+  "interview_time": "07:00 AM - 10:00 AM (Interview) / 07:00 PM - 10:00 PM (Shift)",
+  "interview_location": "Xpro India Pvt. Ltd. Plot No: 32, Ecotech II, Udyog Vihar, Near Navrang Durga Talkies, Greater Noida - 201306",
+  "contacts": [
+    { "name": "HR Team", "phone": "9289980352" },
+    { "name": "Contact", "phone": "9289980351" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "ecdm-surajpur-01",
+  "title": "ECDM MOBILE COMPANY RECRUITMENT",
+  "image": "Noidapost Photo/ECDM Company.png",
+  "company_name": "ECDM Mobile Company",
+  "location": "Surajpur Police Line, Greater Noida",
+  "job_type": "Standing Work (Mobile Assembly)",
+  "vacancy": "Multiple",
+  "note": "⚠️ आवश्यक सूचना: यह भर्ती पूरी तरह से निःशुल्क है। किसी को भी कोई पैसे न दें। नीचे दिए गए नंबर पर कॉल करें और अपना नाम लिखवाएं।",
+  "who_can_apply": [
+    "Only Boys",
+    "Qualification: 10th / 12th / ITI Pass",
+    "Fresher & Experienced Candidates",
+    "Standing Work (Mobile Company)"
+  ],
+  "responsibilities": [
+    "Mobile manufacturing and assembly",
+    "Production line operations",
+    "Standing work duty"
+  ],
+  "qualification": "10th, 12th, ITI Pass",
+  "salary": [
+    "10th, 12th In-Hand Salary: ₹11,020/-",
+    "ITI Gross Salary: ₹12,800/-",
+    "Attendance Award: ₹700/-",
+    "Overtime: ₹105/- Per Hour (Double OT)",
+    "Facilities: Canteen & Bus Facility Available"
+  ],
+  "documents": [
+    "Resume (Biodata)",
+    "2 Passport Size Photos",
+    "10th / 12th / ITI Marksheet (Original + Photocopy)",
+    "Aadhar Card",
+    "Bank Passbook / Cheque Book"
+  ],
+  "date": "09 Feb 2026",
+  "interview_time": "Morning Time: 07:00 AM - 10:00 AM / Evening Time: 07:00 PM",
+  "interview_location": "ECDM Mobile Company, Surajpur Police Line, Greater Noida",
+  "contacts": [
+    { "name": "Kapil Deohra", "phone": "9521160127" },
+    { "name": "Ravi", "phone": "8103013832" }
+  ],
+  "map_link": ""
 }
 ]

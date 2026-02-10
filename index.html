@@ -3,7 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NCR JOBS - Job Portal</title>
+    
+    <title>NCRONE JOBS - Noida, Gurgaon, Delhi NCR Job Portal 2026</title>
+    <meta name="title" content="NCRONE JOBS - Latest Private & Campus Jobs in NCR">
+    <meta name="description" content="Noida, Gurgaon और Delhi NCR में 10th, 12th, ITI, Diploma और B.Tech पास के लिए लेटेस्ट प्राइवेट और कैंपस जॉब्स। ncrone.in पर आज ही अप्लाई करें।">
+    
+    <meta name="keywords" content="ncrone, ncrone.in, jobs in noida, private jobs in ncr, 10th 12th pass jobs, iti campus placement 2026, diploma jobs in noida, b.tech jobs ncr, latest job vacancy 2026, job ncr live, free job alerts">
+    
+    <meta name="author" content="NCRONE Team">
+    <script type="application/ld+json">
+  {
+     "@context": "https://schema.org",
+     "@type": "WebSite",
+     "name": "NCRONE",
+      "alternateName": ["NCRONE Jobs", "NCRONE.IN"],
+      "url": "https://www.ncrone.in/"
+   }
+</script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -63,7 +79,7 @@
     </div>
 
     <footer class="custom-footer">
-        <div class="footer-brand-name">NCR one.in * JOBS</div>
+        <div class="footer-brand-name">NCRone.in - Best Job Portal for Noida & Delhi NCR</div>
         <p class="footer-warning">
             प्रिय उम्मीदवारों, हम आपको बताना चाहते हैं कि हमारी वेबसाइट पर मौजूद सभी नौकरियां बिल्कुल फ्री हैं और इसके लिए कोई शुल्क नहीं लिया जाता। कृपया नौकरी के नाम पर पैसे मांगने वाले लोगों से सावधान रहें। अगर कोई ऐसा करता है, तो तुरंत NCR One Team को बताएं।
         </p>
@@ -114,7 +130,8 @@
                     const jobDate = new Date(parts[2], parts[1]-1, parts[0]);
                     if (jobDate >= today) showNew = true;
                 }
-                return `<li><a href="${j.link}"><i class="fas fa-angle-right"></i> ${j.title} ${showNew ? '<span class="blink-new">[New]</span>' : ''}</a></li>`;
+// Example of how to return the link without the arrow icon
+return `<li><a href="${j.link}"><span class="job-text">${j.title}</span> ${showNew ? '<span class="blink-new">[New]</span>' : ''}</a></li>`;           
             }).join('');
 
             document.getElementById(listId).innerHTML = listHtml || "<li>No jobs available</li>";
