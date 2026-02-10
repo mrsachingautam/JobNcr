@@ -358,6 +358,25 @@ body {
     }
 }
 
+/* मोबाइल के लिए विशेष सुधार */
+@media (max-width: 600px) {
+    .company-hero-image {
+        width: 100% !important;
+        height: auto !important; /* ऊंचाई अपने आप सेट होगी ताकि फोटो न कटे */
+        max-height: 250px; /* एक लिमिट सेट की है ताकि फोटो बहुत बड़ी न दिखे */
+        object-fit: contain !important; /* पूरी फोटो बिना कटे फ्रेम में दिखेगी */
+        background-color: #f4f4f4; /* खाली जगह पर हल्का रंग दिखेगा */
+        padding: 5px;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+    }
+}
+
 /* Job Card ka naya design jo har page par kaam karega */
 
 
