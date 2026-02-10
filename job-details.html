@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">NCRONE Job Post</title>
+    <title id="page-title">NCRONE Job Post - Latest Private Jobs 2026</title>
     <link rel="stylesheet" href="style.css">
     <style>
         .hidden { display: none !important; }
@@ -14,7 +14,7 @@
     <div id="navbar-placeholder"></div>
 
     <div class="container">
-        <img id="job-img" src="" class="company-hero-image">
+        <img id="job-img" src="" class="company-hero-image" alt="NCRONE Job Vacancy">
 
         <header class="header-section">
             <h1 class="company-title" id="job-title"></h1>
@@ -22,18 +22,18 @@
 
         <section id="sec-note" class="content-section hidden">
             <div class="important-note-box">
-                <h4 style="margin-bottom:5px;">⚠️ महत्वपूर्ण नोट</h4>
+                <h4 style="margin-bottom:5px;">⚠️ महत्वपूर्ण नोट (Important Note)</h4>
                 <p id="job-note"></p>
             </div>
         </section>
 
         <section class="content-section">
-            <h3 class="section-title">Company Job Details</h3>
+            <h3 class="section-title">Latest Company Job Details 2026</h3>
             <div class="info-grid" id="main-grid"></div>
         </section>
 
         <section id="sec-apply" class="content-section hidden">
-            <h3 class="section-title">Who can apply?</h3>
+            <h3 class="section-title">Who can apply? (Eligibility)</h3>
             <div class="highlight-box">
                 <ul id="apply-list"></ul>
             </div>
@@ -45,31 +45,35 @@
         </section>
 
         <section id="sec-qual" class="content-section hidden">
-            <h3 class="section-title">Qualification</h3>
+            <h3 class="section-title">Educational Qualification</h3>
             <p id="job-qual" style="padding-left: 20px;"></p>
         </section>
 
         <section id="sec-salary" class="content-section hidden">
-            <h3 class="section-title">Salary and Benefits</h3>
+            <h3 class="section-title">Job Salary and Company Benefits</h3>
             <ul class="salary-list" id="salary-list"></ul>
         </section>
 
         <section id="sec-docs" class="content-section hidden">
-            <h3 class="section-title">Documents Required</h3>
+            <h3 class="section-title">Documents Required for Interview</h3>
             <ul id="docs-list"></ul>
         </section>
 
         <section class="content-section">
-            <h3 class="section-title">Interview Details</h3>
+            <h3 class="section-title">Interview Details & Location</h3>
             <div class="info-grid" id="interview-grid"></div>
         </section>
 
         <section class="content-section">
-            <h3 class="section-title">Contact Number</h3>
+            <h3 class="section-title">Contact Number / HR Details</h3>
             <ul class="contact-list" id="contact-list"></ul>
         </section>
 
         <div id="social-footer-placeholder"></div>
+
+        <div style="font-size: 10px; color: #ccc; margin-top: 20px; text-align: center;">
+            Keywords: NCRONE.IN, Private Jobs 2026, ITI Jobs Noida, Diploma Jobs NCR, Latest Campus Placement.
+        </div>
     </div>
 
     <script>
@@ -84,9 +88,23 @@
                 const job = jobs.find(j => j.id === jobId);
 
                 if (job) {
-                    document.getElementById('page-title').innerText = job.title;
+                    // --- SEO Dynamic Meta Update Start ---
+                    // 1. ब्राउज़र टैब टाइटल अपडेट करना
+                    const seoTitle = `${job.title} - Private Job in ${job.location} | NCRONE.IN`;
+                    document.getElementById('page-title').innerText = seoTitle;
                     document.getElementById('job-title').innerText = job.title;
-                    document.getElementById('job-img').src = job.image;
+
+                    // 2. गूगल सर्च के लिए डायनामिक डिस्क्रिप्शन बनाना
+                    let metaDesc = document.createElement('meta');
+                    metaDesc.name = "description";
+                    metaDesc.content = `${job.company_name} में ${job.job_type} की भर्ती। Qualification: ${job.qualification}, Salary: ${job.salary ? job.salary[0] : 'As per industry'}. पूरी जानकारी ncrone.in पर पढ़ें।`;
+                    document.getElementsByTagName('head')[0].appendChild(metaDesc);
+
+                    // 3. इमेज का Alt टेक्स्ट अपडेट करना
+                    const jobImg = document.getElementById('job-img');
+                    jobImg.src = job.image;
+                    jobImg.alt = `${job.company_name} Job Vacancy 2026 - NCRONE.IN`;
+                    // --- SEO Dynamic Meta Update End ---
 
                     const fillList = (id, sectionId, data) => {
                         if (data && data.length > 0) {
@@ -113,9 +131,9 @@
                     fillList('docs-list', 'sec-docs', job.documents);
 
                     const iGrid = document.getElementById('interview-grid');
-                    const iDetails = [["Date", job.date], ["Time", job.interview_time], ["Location", job.interview_location]];
+                    const iDetails = [["Interview Date", job.date], ["Interview Time", job.interview_time], ["Interview Location", job.interview_location]];
                     iDetails.forEach(([lbl, val]) => { if(val) iGrid.innerHTML += `<div class="grid-label">${lbl}:</div><div>${val}</div>`; });
-                    if(job.map_link) iGrid.innerHTML += `<div class="grid-label">Map:</div><div><a href="${job.map_link}" target="_blank" style="color:#3498db; font-weight:bold;">Click for Google Map Location</a></div>`;
+                    if(job.map_link) iGrid.innerHTML += `<div class="grid-label">Google Map:</div><div><a href="${job.map_link}" target="_blank" style="color:#3498db; font-weight:bold;">Click for Location</a></div>`;
 
                     job.contacts.forEach(c => document.getElementById('contact-list').innerHTML += `<li>${c.name}: <a href="tel:${c.phone}">${c.phone}</a></li>`);
                 }

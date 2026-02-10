@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jobs Portal</title>
+    
+    <title>Latest Private Jobs 2026 | Noida, NCR & Campus Placement - NCRONE</title>
+    
+    <meta name="description" content="Noida, Gurgaon और Delhi NCR की सभी लेटेस्ट प्राइवेट नौकरियों की लिस्ट यहाँ देखें। 10th pass से लेकर B.Tech तक की सभी जॉब्स के डायरेक्ट लिंक।">
+    
+    <meta name="keywords" content="all jobs ncr, private job list noida, latest vacancy 2026, campus drive 2026, ncrone job list, company hiring in noida">
+    
     <link rel="stylesheet" href="style.css">
     <style>
         /* Pagination Styling */
@@ -70,7 +76,7 @@
             });
 
             filteredJobs = allJobs;
-            document.getElementById('page-title').innerText = selectedCat ? selectedCat.toUpperCase() + " Jobs" : "All Latest Jobs";
+            document.getElementById('page-title').innerText = selectedCat ? selectedCat.toUpperCase() + " Private Jobs - NCRONE" : "All Latest Private Jobs 2026";
             displayPage(1);
         } catch (e) { 
             console.error("Error loading files:", e);
@@ -104,7 +110,7 @@
                 <div class="job-card">
                     <div class="job-title">${job.title} ${showNewBadge ? '<span class="new-badge">[ NEW ]</span>' : ''}</div>
                     <div class="job-content-wrapper">
-                        <div class="job-image"><img src="${job.image}"></div>
+                        <div class="job-image"><img src="${job.image}" alt="${job.title} - NCRONE Jobs"></div>
                         <div class="job-details">
                             <p class="company-desc"><strong>About:</strong> ${job.desc}</p>
                             <a href="${job.link}" class="read-more-btn">पोस्ट को पूरा पढ़ें</a>
