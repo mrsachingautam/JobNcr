@@ -5,8 +5,8 @@
     "image": "Ncrpost Photo/Ekka Company.png",
     "company_name": "EKKA ELECTRONICS COMPANY",
     "location": "Near Gannaur Flyover, Sonipat, Haryana",
-    "date": "12.01.2026",
-    "note": "Flipkart Warehouse ka mukhya kaam hai saaman ko sambhalna, pack karna aur grahak tak pahunchana.",
+    "date": "08.01.2026",
+    "note": "ka mukhya kaam hai saaman ko sambhalna, pack karna aur grahak tak pahunchana.",
     "salary": [
       "In Hand Salary: ₹23,000/-",
       "Gross Salary: ₹11,500 + PF + ESI",
@@ -25,7 +25,7 @@
     "image": "POSTPHOTO/Flipkart.png",
     "company_name": "Flipkart Logistics",
     "location": "Farukhnagar, Gurgaon",
-    "date": "15.02.2026",
+    "date": "08.02.2026",
     "note": "Male & Female dono candidates apply kar sakte hain.",
     "salary": [
       "Salary: ₹12,500/-",
@@ -118,7 +118,7 @@
     "Diploma Marksheet (Original & Photocopy)",
     "Passport Size Photos"
   ],
-  "date": "11.02.2026",
+  "date": "09.02.2026",
   "interview_time": "09:30 AM",
   "interview_location": "Govt. ITI Una, Dist- Una (HP)",
   "contacts": [
@@ -431,7 +431,7 @@
     "2 Passport Size Photos",
     "Original + Photocopy लाना अनिवार्य है"
   ],
-  "date": "17 to 20 January 2026",
+  "date": "08.02.2026",
   "interview_time": "07:00 AM (Morning)",
   "interview_location": "Gurugram Bus Stand से Farrukhnagar के लिए बस मिलेगी। Farrukhnagar पहुँचकर नीचे दिए गए नंबर पर कॉल करें।",
   "contacts": [
@@ -477,6 +477,55 @@
   "interview_location": "MINDA CD/IPD Company, Plot No: -2D/1 Udyog Kendra, Ecotech-3, Nearby - Newholland Golchakkar, Greater Noida",
   "contacts": [
     { "name": "HSC TEAM", "phone": "9412645629" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "myntra-mega-hiring-01",
+  "title": "MEGA RECRUITMENT OFFER – MYNTRA WAREHOUSE",
+  "image": "Ncrpost Photo/mayntra.png",
+  "company_name": "MYNTRA WAREHOUSE",
+  "location": " Fatehpur Taoru Road,Shekhpur Mod, Gurugram, Haryana",
+  "job_type": "Picking, Packing, Scanning, Audit, Quality Check",
+  "vacancy": "सीमित सीटें (Limited Seats)",
+  "note": "⚠️ आवश्यक सूचना: ₹1000/- पक्का इनाम हर एक जॉइनिंग पर। ऑफ़र 14 फ़रवरी तक वैलिड है। 10 लोगों का ग्रुप अनिवार्य है। लोकल कैंडिडेट नॉट अलाउड।",
+  "who_can_apply": [
+    "लड़के और लड़कियाँ (Male & Female)",
+    "उम्र: 18 से 45 साल",
+    "अंग्रेज़ी पढ़ना आना चाहिए",
+    "फ्रेशर और वेयरहाउस एक्सपीरियंस वाले",
+    "अनपढ़ कैंडिडेट के लिए काम नहीं है"
+  ],
+  "responsibilities": [
+    "पिकिंग और पैकिंग",
+    "स्कैनिंग और ऑडिट",
+    "क्वालिटी चेक",
+    "कोई लोडिंग–अनलोडिंग नहीं",
+    "कोई भारी या जोखिम भरा काम नहीं"
+  ],
+  "qualification": "अंग्रेज़ी पढ़ना अनिवार्य (No Uneducated)",
+  "salary": [
+    "A SHIFT SALARY : ₹13,500 – ₹14,500 In-Hand ➕ PF + ESIC",
+    "🌆 B SHIFT SALARY 💵 ₹15,000 – ₹16,000 In-Hand ➕ PF + ESIC",
+    "🌙 NIGHT SHIFT SALARY ⏱️ (9 Hours | 26 Days) ",
+    "💵 ₹17,000 – ₹18,000 In-Hand ➕ PF + ESIC",
+     "Incentive: ₹1000/- per candidate joining",
+    "100% गारंटी के साथ भुगतान",
+    "कैंडिडेट का जॉइन करना और काम करना ज़रूरी"
+  ],
+  "documents": [
+    "आधार कार्ड",
+    "पैन कार्ड",
+    "बैंक डिटेल",
+    "एजुकेशन सर्टिफिकेट"
+  ],
+  "date": "14 फ़रवरी 2026 तक",
+  "interview_time": "10 AM",
+  "interview_location": " Fatehpur Taoru Road, Shekhpur Mod, Gurugram, Haryana",
+  "contacts": [
+    { "name": "HR 9084141215", "phone": "9084141215" },
+    { "name": "HR 8954717161", "phone": "8954717161" },
+    { "name": "SURAJ TEAM – HR", "phone": "" }
   ],
   "map_link": ""
 }
