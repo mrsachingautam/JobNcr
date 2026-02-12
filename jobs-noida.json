@@ -97,6 +97,7 @@
     "date": "06.02.2026"
   },
   {
+    "source": "WhatsApp Group - ZISHAN REAL JOB",
     "title": "Delhivery Noida Dadri Warehouse Jobs",
     "category": "noida",
     "image": "Noidapost Photo/DelhiveryPvt.jpeg",
@@ -148,7 +149,7 @@
     "source": "Ark Workforce",
     "title": "Hye Woo India Pvt Ltd Hiring 2026",
     "category": "noida",
-    "image": "POSTPHOTO/HYE_WOO.png",
+    "image": "noidapost photo/Hey wo.png",
     "desc": "Hye Woo India कंपनी में 100 पदों पर भर्ती। 10th, 12th Pass Jobs. डेली 3 घंटे OT उपलब्ध।",
     "link": "job-details.html?file=noida&id=hye-woo-noida-11",
     "pos": 1,
@@ -159,7 +160,7 @@
   "source": "WhatsApp Group - ARK WORKFORCE",
   "title": "Asian Paints Ltd Kasna Hiring 2026",
   "category": "noida",
-  "image": "POSTPHOTO/ASIAN_PAINTS.png",
+  "image": "noidapost photo/Asain.png",
   "desc": "Asian Paints Ltd में Apprenticeship (ITI and Diploma) पदों पर भर्ती। वेतन ₹15,000/- प्रति माह।",
   "link": "job-details.html?file=noida&id=asian-paints-kasna-01",
   "pos": 1,
@@ -170,7 +171,7 @@
   "source": "WhatsApp Group - ARK WORKFORCE",
   "title": "Luxor Company Phase-2 Hiring 2026",
   "category": "noida",
-  "image": "POSTPHOTO/LUXOR.png",
+  "image": "noidapost photo/Luxor.png",
   "desc": "Luxor Company Phase-2 में Girls and boys के लिए भर्ती। Salary - 11021।",
   "link": "job-details.html?file=noida&id=luxor-phase2-01",
   "pos": 1,
@@ -181,7 +182,7 @@
   "source": "WhatsApp Group - ARK WORKFORCE",
   "title": "KHY New Transsion Company Phase 2 Hiring 2026",
   "category": "noida",
-  "image": "POSTPHOTO/KHY.png",
+  "image": "noidapost photo/KHY.png",
   "desc": "KHY कंपनी (मैन्युफैक्चरिंग) के लिए भर्ती। Total Quantity :- 100(Only Boys)।",
   "link": "job-details.html?file=noida&id=khy-transsion-phase2-01",
   "pos": 1,
@@ -191,7 +192,7 @@
   "source": "WhatsApp Group - ARK WORKFORCE",
   "title": "KHVatec India Pvt Ltd Hiring 2026",
   "category": "noida",
-  "image": "POSTPHOTO/KHVatec.png",
+  "image": "noidapost photo/Knvatech.png",
   "desc": "KHVatec India Pvt. Ltd. Mobile Company के लिए भर्ती। Only Boys। Salary 10995।",
   "link": "job-details.html?file=noida&id=khvatec-india-09",
   "pos": 0,
@@ -201,7 +202,7 @@
   "source": "ARK WORK FORCE",
   "title": "Ahuja Radios Phase-2 Noida Hiring 2025",
   "category": "noida",
-  "image": "POSTPHOTO/AHUJA.png",
+  "image": "noidapost photo/Ahuja.png",
   "desc": "Speaker बनाने वाली कंपनी Ahuja Radios में Apprenticeship पदों पर भर्ती। Salary: 10750 In-hand।",
   "link": "job-details.html?file=noida&id=ahuja-radios-noida-07",
   "pos": 0,
@@ -211,7 +212,7 @@
     "source": "Ark_workforce pvt Ltd",
     "title": "BJD Company Charger Manufacturing Hiring 2026",
     "category": "noida",
-    "image": "POSTPHOTO/BJD_COMPANY.png",
+    "image": "noidapost photo/Bjd.png",
     "desc": "भर्ती है “Charger बनाने वाली ” कंपनी “BJD Company” में। Boys and girls dono apply kr skti hai.",
     "link": "job-details.html?file=noida&id=bjd-company-sec65-04",
     "pos": 1,
@@ -221,7 +222,7 @@
     "source": "WhatsApp Group - ARK WORKFORCE",
     "title": "AVINYA BATTERY LTD Noida Hiring 2026",
     "category": "noida",
-    "image": "POSTPHOTO/AVINYA_BATTERY.png",
+    "image": "noidapost photo/Avinya.png",
     "desc": "AVINYA BATTERY LTD में प्रोडक्शन और क्वालिटी ऑपरेटर पदों पर MALE AND FEMALE भर्ती।",
     "link": "job-details.html?file=noida&id=avinya-battery-noida-01",
     "pos": 1,
@@ -232,11 +233,45 @@
   "source": "WhatsApp Group - ARK WORKFORCE",
   "title": "Pti Automotive Ltd Greater Noida Hiring 2026",
   "category": "noida",
-  "image": "POSTPHOTO/PTI_AUTO.png",
+  "image": "noidapost photo/pti.png",
   "desc": "Pti Automotive Ltd में प्रोडक्शन / क्वालिटी ऑपरेटर पदों पर तत्काल भर्ती। सैलरी: ₹12,203 – ₹15,300।",
   "link": "job-details.html?file=noida&id=pti-auto-kasna-01",
   "pos": 1,
   "date": "04.02.2026"
   
+},
+{
+  "source": "ARK Work Force",
+  "title": "Mopo technology Pvt Ltd Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/MOPO tech.png",
+  "desc": "Mopo technology Pvt Ltd में Boys & Girls के लिए भारी भर्ती। Salary up to 20tk CTC।",
+  "link": "job-details.html?file=noida&id=mopo-tech-surajpur-12",
+  "pos": 0,
+  "date": "12.02.2026"
+ 
+},
+{
+  "source": "WhatsApp Group jobs and Apprentice ",
+  "title": "CNH Industrial India (New Holland) Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/CNH.png",
+  "desc": "CNH Industrial (New Holland) में Assembly Operator (On Roll) के 300+ पदों पर भर्ती।",
+  "link": "job-details.html?file=noida&id=cnh-new-holland-2026",
+  "pos": 1,
+  "date": "16.02.2026"
+  
+},
+{
+  "source": "WhatsApp Group jobs and Apprentice ",
+  "title": "Colorjet India Pvt. Ltd. Noida Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/Colorjet.png",
+  "desc": "Colorjet India Pvt. Ltd. में Apprentice Training पदों पर भर्ती। ITI योग्यता अनिवार्य।",
+  "link": "job-details.html?file=noida&id=colorjet-noida-01",
+  "pos": 1,
+  "date": "11.02.2026"
+ 
 }
+
 ]
