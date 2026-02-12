@@ -180,7 +180,7 @@
     { "name": "Contact 2", "phone": "9650935099" },
     { "name": "Contact 3", "phone": "9319459014" }
   ],
-  "map_link": "https://app.goo.gl/YZA2WYCr3R6cYSfT8?g_st=aw"
+  "map_link": ""
 },
 {
   "id": "minda-surajpur-01",
@@ -259,7 +259,7 @@
     "4 Passport Size Photos",
     "Original Documents (इंटरव्यू में लाना अनिवार्य है)"
   ],
-  "date": "06.02.2026",
+  "date": "12.02.2026",
   "interview_time": "08:00 AM to 11:00 AM",
   "interview_location": "United College of Engineering and Research,Greater Noida",
   "contacts": [
@@ -390,7 +390,7 @@
     "Qualification Certificates",
     "Passport Size Photos"
   ],
-  "date": "10.02.2026",
+  "date": "12.02.2026",
   "interview_time": "08:00 AM",
   "interview_location": "Surajpur, Greater Noida ",
   "contacts": [
@@ -398,7 +398,7 @@
   ],
   "map_link": ""
 },{
-  "id": "new-vivo-greno-01",
+  "id": "newvivo-greno-01",
   "title": "NEW VIVO MOBILE COMPANY",
   "image": "Noidapost Photo/NEW VIVO .png",
   "company_name": "NEW VIVO COMPANY",
@@ -433,7 +433,7 @@
     "2 Passport Size Photos",
     "Original + Photocopy लाना अनिवार्य है"
   ],
-  "date": "30.01.2026",
+  "date": "12.02.2026",
   "interview_time": "08:00 AM - 02:30 PM",
   "interview_location": "Hari Associates (Makoda Village - Jagat Farm Gol Chakkar से ऑटो लें)",
   "contacts": [
