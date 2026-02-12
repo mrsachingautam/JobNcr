@@ -36,7 +36,7 @@
     "10th, 12th, ITI, Diploma, B.Tech Certificate",
     "2 Passport Size Photos"
   ],
-  "date": "04.02.2026",
+  "date": "12 to 14 Feb 2026 Tak ",
   "interview_time": "08:00 AM to 10:00 AM (Morning)",
   "interview_location": "Plot B-13, Sector-85, Noida",
   "contacts": [
@@ -259,7 +259,7 @@
     "4 Passport Size Photos",
     "Original Documents (इंटरव्यू में लाना अनिवार्य है)"
   ],
-  "date": "06.02.2026",
+  "date": "12.02.2026",
   "interview_time": "08:00 AM to 11:00 AM",
   "interview_location": "United College of Engineering and Research,Greater Noida",
   "contacts": [
@@ -348,7 +348,7 @@
     "Qualification Certificates",
     "Passport Size Photos"
   ],
-  "date": "11.02.2026",
+  "date": "13.02.2026",
   "interview_time": "08:00 AM",
   "interview_location": "Ecotech ext I, G Noida, Near Alentec Company",
   "contacts": [
@@ -433,7 +433,7 @@
     "2 Passport Size Photos",
     "Original + Photocopy लाना अनिवार्य है"
   ],
-  "date": "30.01.2026",
+  "date": "13.02.2026",
   "interview_time": "08:00 AM - 02:30 PM",
   "interview_location": "Hari Associates (Makoda Village - Jagat Farm Gol Chakkar से ऑटो लें)",
   "contacts": [
@@ -816,7 +816,7 @@
   "documents": [
     "Resume"
   ],
-  "date": "11.02.2026",
+  "date": "13.02.2026",
   "interview_time": "8:00 बजे",
   "interview_location": "C-42 Sector 80, Noida",
   "contacts": [
@@ -855,7 +855,7 @@
     "Resume",
     "Photos"
   ],
-  "date": "09.02.2026",
+  "date": "13.02.2026",
   "interview_time": "अभी 9: बजे तक आ सकते है",
   "interview_location": "Shop no 2 , hotel silver inn, water tank Road, near old court, nagla charan das, phase -2 Noida sector 80",
   "contacts": [
@@ -932,7 +932,7 @@
     "Aadhar Card",
     "Resume"
   ],
-  "date": "07.02.2025",
+  "date": "13.02.2025",
   "interview_time": "10:00AM सुबह",
   "interview_location": "C-45, Noida Phase-2, Phase-2, Noida",
   "contacts": [
@@ -1039,7 +1039,7 @@
     "10वीं / 12वीं / ITI / डिप्लोमा / B.Sc Marksheet",
     "Aadhar Card"
   ],
-  "date": "04.02.2026",
+  "date": "13.02.2026",
   "interview_time": "सुबह 8:30– बजे",
   "interview_location": "B-4, साइट-5, कसना, ग्रेटर नोएडा (Amichand Inter College के पास)",
   "contacts": [
@@ -1082,7 +1082,7 @@
     "डॉक्यूमेंट",
     "फोटो"
   ],
-  "date": "12.02.2026",
+  "date": "13.02.2026",
   "interview_time": "8:00 bje",
   "interview_location": "Plot no 18 sector Ecotec 2, Surajpur greater Noida",
   "contacts": [
@@ -1175,6 +1175,49 @@
   "interview_location": "A-6 & A-7, Samsung Display Unit के सामने, Block-A, Sector-81, Noida, Uttar Pradesh – 201305",
   "contacts": [
     { "name": "Lavkush Pathak", "phone": "8745052026" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "spheros-motherson-01",
+  "title": "Urgent Requirement :- BOYS | Spheros Motherson Ltd",
+  "image": "noidapost photo/Motherson.png",
+  "company_name": "Spheros Motherson Ltd",
+  "location": "Plot No. A-75, Ecotech 12, Ek murti near by Greater Noida",
+  "job_type": "Fresher & Experience",
+  "vacancy": "",
+  "note": "लोकल के कैंडीडेट भी जॉइन कर सकते है नोएडा ग़ाज़ियाबाद अलीगढ़ हापुड़, Resume and adhar card, pen card qualifications, photo copy 1 photo lekar hi aye.",
+  "who_can_apply": [
+    "BOYS",
+    "Fresher & Experience",
+    "Local candidates (Noida, Ghaziabad, Aligarh, Hapur)"
+  ],
+  "responsibilities": [
+    "Production work"
+  ],
+  "qualification": "10th, 12th, ITI, GRADUATION",
+  "salary": [
+    "10/12th:- 13800 ctc",
+    "Graduation: 15000 ctc",
+    "ITI, Experience & Fresher:- 17000 ctc",
+    "Overtime:- Double",
+    "Canteen Available lunch/Dinner",
+    "20 Leave yearly",
+    "yearly increment",
+    "Salary On interview Depend"
+  ],
+  "documents": [
+    "Resume",
+    "Adhar card",
+    "Pen card",
+    "Qualifications photo copy",
+    "1 photo"
+  ],
+  "date": "12.02.2026",
+  "interview_time": "10:00 am",
+  "interview_location": "Plot No. A-75, Ecotech 12, Ek murti near by Greater Noida",
+  "contacts": [
+    { "name": "Atul", "phone": "9696484935" }
   ],
   "map_link": ""
 }
