@@ -25,7 +25,7 @@
     "image": "POSTPHOTO/Spark.png",
     "desc": "Spark Minda Ltd. (Greater Noida) – 100+ Operator Jobs पर सीधी भर्ती। Direct Joining Available.",
     "link": "job-details.html?file=noida&id=Spark-01",
-    "pos": 2,
+    "pos": 0,
     "date": "09.02.2026"
   },
   {
@@ -58,9 +58,15 @@
     "category": "noida",
     "image": "POSTPHOTO/VIVO.png",
     "desc": "Vivo Mobile Company में Production और Assembling पदों पर भारी भर्ती। 10th, 12th Pass Jobs.",
+<<<<<<< HEAD
     "link": "job-details.html?file=noida&id=newvivo-greno-01",
     "pos": 2,
     "date": "12.02.2026"
+=======
+    "link": "job-details.html?file=noida&id=new-vivo-greno-01",
+    "pos": 1,
+    "date": "13.02.2026"
+>>>>>>> pages
   },
   {
     "title": "Kimbal Warehouse Greater Noida Jobs",
@@ -85,8 +91,8 @@
     "image": "POSTPHOTO/Dixon.jpeg",
     "desc": "Dixon Sector-85 Noida: Airtel & Jio Router मैन्युफैक्चरिंग प्लांट में भारी भर्ती। Free Recruitment.",
     "link": "job-details.html?file=noida&id=dixon-85-01",
-    "pos": 4,
-    "date": "11.02.2026"
+    "pos": 3,
+    "date": "14.02.2026"
   },
   {
     "title": "Xpro Molding Surajpur Greater Noida Jobs",
@@ -97,6 +103,7 @@
     "date": "06.02.2026"
   },
   {
+    "source": "WhatsApp Group - ZISHAN REAL JOB",
     "title": "Delhivery Noida Dadri Warehouse Jobs",
     "category": "noida",
     "image": "Noidapost Photo/DelhiveryPvt.jpeg",
@@ -121,7 +128,7 @@
     "desc": "Bhagwati Product Limited (Old VIVO) कासना में भर्ती। ₹11,021 सैलरी + Double OT + Free Food.",
     "date": "12.02.2026",
     "link": "job-details.html?file=noida&id=bhagwati-vivo-01",
-    "pos": 5
+    "pos": 1
   },
   {
     "source": "WhatsApp Group - ARK WORKFORCE",
@@ -139,8 +146,151 @@
     "category": "noida",
     "image": "Noidapost Photo/Utl.png",
     "desc": "UTL Solar (Fujiyahama Power) में Operator और Helper की भर्ती। Free Jobs for Boys - NCRONE.IN",
+<<<<<<< HEAD
     "date": "12.02.2026",
+=======
+    "date": "13.02.2026",
+>>>>>>> pages
     "link": "job-details.html?file=noida&id=utl-solar-01",
     "pos": 0
-  }
+  },
+
+  {
+    "source": "Ark Workforce",
+    "title": "Hye Woo India Pvt Ltd Hiring 2026",
+    "category": "noida",
+    "image": "noidapost photo/Hey wo.png",
+    "desc": "Hye Woo India कंपनी में 100 पदों पर भर्ती। 10th, 12th Pass Jobs. डेली 3 घंटे OT उपलब्ध।",
+    "link": "job-details.html?file=noida&id=hye-woo-noida-11",
+    "pos": 6,
+    "date": "11.02.2026"
+    
+  },
+  {
+  "source": "WhatsApp Group - ARK WORKFORCE",
+  "title": "Asian Paints Ltd Kasna Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/Asain.png",
+  "desc": "Asian Paints Ltd में Apprenticeship (ITI and Diploma) पदों पर भर्ती। वेतन ₹15,000/- प्रति माह।",
+  "link": "job-details.html?file=noida&id=asian-paints-kasna-01",
+  "pos": 1,
+  "date": "12.02.2026"
+  
+},
+{
+  "source": "WhatsApp Group - ARK WORKFORCE",
+  "title": "Luxor Company Phase-2 Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/Luxor.png",
+  "desc": "Luxor Company Phase-2 में Girls and boys के लिए भर्ती। Salary - 11021।",
+  "link": "job-details.html?file=noida&id=luxor-phase2-01",
+  "pos": 1,
+  "date": "13.02.2026"
+ 
+},
+{
+  "source": "WhatsApp Group - ARK WORKFORCE",
+  "title": "KHY New Transsion Company Phase 2 Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/KHY.png",
+  "desc": "KHY कंपनी (मैन्युफैक्चरिंग) के लिए भर्ती। Total Quantity :- 100(Only Boys)।",
+  "link": "job-details.html?file=noida&id=khy-transsion-phase2-01",
+  "pos": 1,
+  "date": "13.02.2026"
+ 
+},{
+  "source": "WhatsApp Group - ARK WORKFORCE",
+  "title": "KHVatec India Pvt Ltd Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/Knvatech.png",
+  "desc": "KHVatec India Pvt. Ltd. Mobile Company के लिए भर्ती। Only Boys। Salary 10995।",
+  "link": "job-details.html?file=noida&id=khvatec-india-09",
+  "pos": 0,
+  "date": "09.02.2026"
+ 
+},{
+  "source": "ARK WORK FORCE",
+  "title": "Ahuja Radios Phase-2 Noida Hiring 2025",
+  "category": "noida",
+  "image": "noidapost photo/Ahuja.png",
+  "desc": "Speaker बनाने वाली कंपनी Ahuja Radios में Apprenticeship पदों पर भर्ती। Salary: 10750 In-hand।",
+  "link": "job-details.html?file=noida&id=ahuja-radios-noida-07",
+  "pos": 0,
+  "date": "13.02.2025"
+},
+{
+    "source": "Ark_workforce pvt Ltd",
+    "title": "BJD Company Charger Manufacturing Hiring 2026",
+    "category": "noida",
+    "image": "noidapost photo/Bjd.png",
+    "desc": "भर्ती है “Charger बनाने वाली ” कंपनी “BJD Company” में। Boys and girls dono apply kr skti hai.",
+    "link": "job-details.html?file=noida&id=bjd-company-sec65-04",
+    "pos": 1,
+    "date": "04.02.2026"
+    
+},{
+    "source": "WhatsApp Group - ARK WORKFORCE",
+    "title": "AVINYA BATTERY LTD Noida Hiring 2026",
+    "category": "noida",
+    "image": "noidapost photo/Avinya.png",
+    "desc": "AVINYA BATTERY LTD में प्रोडक्शन और क्वालिटी ऑपरेटर पदों पर MALE AND FEMALE भर्ती।",
+    "link": "job-details.html?file=noida&id=avinya-battery-noida-01",
+    "pos": 1,
+    "date": "04.02.2026"
+    
+  },
+  {
+  "source": "WhatsApp Group - ARK WORKFORCE",
+  "title": "Pti Automotive Ltd Greater Noida Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/pti.png",
+  "desc": "Pti Automotive Ltd में प्रोडक्शन / क्वालिटी ऑपरेटर पदों पर तत्काल भर्ती। सैलरी: ₹12,203 – ₹15,300।",
+  "link": "job-details.html?file=noida&id=pti-auto-kasna-01",
+  "pos": 1,
+  "date": "13.02.2026"
+  
+},
+{
+  "source": "ARK Work Force",
+  "title": "Mopo technology Pvt Ltd Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/MOPO tech.png",
+  "desc": "Mopo technology Pvt Ltd में Boys & Girls के लिए भारी भर्ती। Salary up to 20tk CTC।",
+  "link": "job-details.html?file=noida&id=mopo-tech-surajpur-12",
+  "pos": 0,
+  "date": "13.02.2026"
+ 
+},
+{
+  "source": "WhatsApp Group jobs and Apprentice ",
+  "title": "CNH Industrial India (New Holland) Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/CNH.png",
+  "desc": "CNH Industrial (New Holland) में Assembly Operator (On Roll) के 300+ पदों पर भर्ती।",
+  "link": "job-details.html?file=noida&id=cnh-new-holland-2026",
+  "pos": 1,
+  "date": "16.02.2026"
+  
+},
+{
+  "source": "WhatsApp Group jobs and Apprentice ",
+  "title": "Colorjet India Pvt. Ltd. Noida Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/Colorjet.png",
+  "desc": "Colorjet India Pvt. Ltd. में Apprentice Training पदों पर भर्ती। ITI योग्यता अनिवार्य।",
+  "link": "job-details.html?file=noida&id=colorjet-noida-01",
+  "pos": 1,
+  "date": "11.02.2026"
+ 
+},{
+  "source": "WhatsApp Group Israr",
+  "title": "Spheros Motherson Ltd Greater Noida Hiring 2026",
+  "category": "noida",
+  "image": "noidapost photo/Motherson.png",
+  "desc": "Spheros Motherson Ltd में BOYS के लिए भर्ती। 10th, 12th, ITI, GRADUATION Jobs।",
+  "link": "job-details.html?file=noida&id=spheros-motherson-01",
+  "pos": 1,
+  "date": "12.02.2026"
+}
+
 ]

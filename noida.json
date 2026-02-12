@@ -36,7 +36,7 @@
     "10th, 12th, ITI, Diploma, B.Tech Certificate",
     "2 Passport Size Photos"
   ],
-  "date": "04.02.2026",
+  "date": "12 to 14 Feb 2026 Tak ",
   "interview_time": "08:00 AM to 10:00 AM (Morning)",
   "interview_location": "Plot B-13, Sector-85, Noida",
   "contacts": [
@@ -348,7 +348,7 @@
     "Qualification Certificates",
     "Passport Size Photos"
   ],
-  "date": "11.02.2026",
+  "date": "13.02.2026",
   "interview_time": "08:00 AM",
   "interview_location": "Ecotech ext I, G Noida, Near Alentec Company",
   "contacts": [
@@ -433,7 +433,11 @@
     "2 Passport Size Photos",
     "Original + Photocopy लाना अनिवार्य है"
   ],
+<<<<<<< HEAD
   "date": "12.02.2026",
+=======
+  "date": "13.02.2026",
+>>>>>>> pages
   "interview_time": "08:00 AM - 02:30 PM",
   "interview_location": "Hari Associates (Makoda Village - Jagat Farm Gol Chakkar से ऑटो लें)",
   "contacts": [
@@ -705,5 +709,521 @@
     { "name": "Ravi", "phone": "8103013832" }
   ],
   "map_link": ""
+},{
+  "id": "hye-woo-noida-11",
+  "title": "भर्ती है HYE WOO INDIA PVT LTD में Ark Workforce से",
+  "image": "noidapost photo/Hey wo.png",
+  "company_name": "HYE WOO INDIA PVT LTD",
+  "location": "Plot-97 Udyog Kendra Ecotec 3, Noida",
+  "job_type": "Manufacturing",
+  "vacancy": "100",
+  "note": "डेली 3 घंटे OT (Overtime) चलता है। कॉल न उठने पर अपना resume WhatsApp कर दें।",
+  "who_can_apply": [
+    "Required: 10th, 12th Pass",
+    "Gender: Male/Female"
+    
+  ],
+  "responsibilities": [
+    "Manufacturing support",
+    "Production line work",
+    "3 hours daily overtime"
+  ],
+  "qualification": "10th, 12th Pass",
+  "salary": [
+    "Base Salary: ₹11,021/-",
+    "PF + ESIC: Yes",
+    "Overtime: ₹70/hr",
+    "Attendance Award: ₹500",
+    "Lunch & Dinner: Free"
+  ],
+  "documents": [
+    "Aadhar Card",
+    "10th / 12th Marksheet",
+    "Resume",
+    "Passport Size Photos"
+  ],
+  "date": "11.02.2026",
+  "interview_time": "08:00 AM",
+  "interview_location": "Plot-97 Udyog Kendra Ecotec 3, Noida",
+  "contacts": [
+    { "name": "Bablu", "phone": "9759445454" }
+  ],
+  "map_link": "https://maps.app.goo.gl/asx826vNgtk5y1CL8?g_st=ipc"
+},
+{
+  "id": "asian-paints-kasna-01",
+  "title": "भर्ती | ASIAN PAINTS LTD, KASNA (GREATER NOIDA)",
+  "image": "noidapost photo/Asain.png",
+  "company_name": "ASIAN PAINTS LTD",
+  "location": "Kasna, Greater Noida",
+  "job_type": "Apprenticeship (ITI and Diploma)",
+  "vacancy": "",
+  "note": "मेडिकल सुविधा ₹1,00,000 तक फ्री। रोटेशनल शिफ्ट में कार्य होगा।",
+  "who_can_apply": [
+    "Required: ITI and Diploma Candidates",
+    "Gender: Male"
+  ],
+  "responsibilities": [
+    "Apprenticeship training",
+    "8 hours shift work"
+  ],
+  "qualification": "ITI and Diploma",
+  "salary": [
+    "Stipend: ₹15,000/- per month",
+    "Canteen: ₹3.75 per meal",
+    "Medical: Free up to ₹1,00,000"
+  ],
+  "documents": [
+    "All Educational Certificates",
+    "Aadhar Card",
+    "PAN Card",
+    "2 Passport Size Photos",
+    "Bank Passbook"
+  ],
+  "date": "12.02.2026",
+  "interview_time": "",
+  "interview_location": "Asian Paints Ltd, Kasna, Greater Noida",
+  "contacts": [
+    { "name": "Contact", "phone": "9690643861" },
+    { "name": "Contact", "phone": "8178338632" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "luxor-phase2-01",
+  "title": "भर्ती है कल 50 कैंडिडेट Girls and boys #Luxor_Company_Phase-2",
+  "image": "noidapost photo/Luxor.png",
+  "company_name": "Luxor International Pvt Ltd",
+  "location": "C-42 Sector 80, Noida",
+  "job_type": "Assembly",
+  "vacancy": "50",
+  "note": "Boys and girls apply_kar_sakte_h, local_candidate भी apply कर सकते h, अपना_रिज्यूमे_केवल_Bablu _को _दे_और_फ्रॉड_से_बचे, Phone na Uthane per Resume ko whatsapp kre",
+  "who_can_apply": [
+    "Girls and boys",
+    
+    "local_candidate bhi apply kar sakte h"
+  ],
+  "responsibilities": [
+    "Department -Assembly"
+  ],
+  "qualification": "",
+  "salary": [
+    "Salary -11021",
+    "OT sellery According singal",
+    "Leave Bonus",
+    "EL",
+    "45 Days after 1 CL PASS Available",
+    "Att_award_700",
+    "Overtime_Yes",
+    "Canteen_Subsdise"
+  ],
+  "documents": [
+    "Resume"
+  ],
+  "date": "13.02.2026",
+  "interview_time": "8:00 बजे",
+  "interview_location": "C-42 Sector 80, Noida",
+  "contacts": [
+    { "name": "Sandeep", "phone": "7703893089" },
+    { "name": "Arpit", "phone": "9026901887" }
+  ],
+  "map_link": "https://maps.google.com/maps?q=28.537572860717773%2C77.41412353515625&z=17&h=e"
+},
+{
+  "id": "khy-transsion-phase2-01",
+  "title": "भर्ती है # KHY new transsion company phase 2",
+  "image": "noidapost photo/KHY.png",
+  "company_name": "KHY new transsion company",
+  "location": "phase -2 Noida sector 80",
+  "job_type": "Manufacturing (ASSY WH. SMT WH production)",
+  "vacancy": "100(Only Boys)",
+  "note": "सभी अपने साथ एक ताला जरूर लेकर आए",
+  "who_can_apply": [
+    "Only Boys",
+    "10th 12th graduate ITI or Diploma"
+  ],
+  "responsibilities": [
+    "ASSY WH. SMT WH production"
+  ],
+  "qualification": "10th 12th graduate ITI or Diploma",
+  "salary": [
+    "Salary_12094_Inhand",
+    "attendance_award_1000",
+    "Night_Alowance_50_Per_Night",
+    "Overtime_100_Per_Hour",
+    "Lunch_Dinner_Free"
+  ],
+  "documents": [
+    "Aadhar Card",
+    "Marksheet",
+    "Resume",
+    "Photos"
+  ],
+  "date": "13.02.2026",
+  "interview_time": "अभी 9: बजे तक आ सकते है",
+  "interview_location": "Shop no 2 , hotel silver inn, water tank Road, near old court, nagla charan das, phase -2 Noida sector 80",
+  "contacts": [
+    { "name": "Arpit", "phone": "9026901887" },
+    { "name": "Sachin", "phone": "8178338632" },
+    { "name": "Ankit", "phone": "8477873797" }
+  ],
+  "map_link": "https://maps.google.com/?q=28.540602,77.410286"
+},
+{
+  "id": "khvatec-india-09",
+  "title": "भर्ती है #KHVatec_India_Pvt_Ltd. Only Boys",
+  "image": "noidapost photo/Knvatech.png",
+  "company_name": "KHVatec India Pvt. Ltd.",
+  "location": "Kasna greater Noida (G.B Nagar) UP, near Asian paint company",
+  "job_type": "Mobile Company",
+  "vacancy": "",
+  "note": "Only Boys, जूते पहन कर आये ?# चप्पल में किसी का भी इंटरव्यू नहीं होगा, original_Documents_leke_aaye, Phone na Uthane per Resume ko whatsapp kre",
+  "who_can_apply": [
+    "Only Boys",
+    "Education: 12th, Graduate, ITI"
+  ],
+  "responsibilities": [
+    ""
+  ],
+  "qualification": "12th, Graduate, ITI",
+  "salary": [
+    "salary_10995",
+    "Att_award_1000",
+    "Overtime_106 per hours",
+    "Canteen_free",
+    "Transport_free"
+  ],
+  "documents": [
+    "ओर्जिनल डॉक्यूमेंट",
+    "फोटो"
+  ],
+  "date": "09/02/2026",
+  "interview_time": "7:00 bje",
+  "interview_location": "KHVatec India Pvt. Ltd. Kasna greater Noida (G.B Nagar) UP",
+  "contacts": [
+    { "name": "Sachin", "phone": "8178338632" },
+    { "name": "Lokesh", "phone": "9690643861" },
+    { "name": "Only WhatsApp", "phone": "9277392711" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "ahuja-radios-noida-07",
+  "title": "भर्ती है Ahuja-radios Speaker बनाने वाली कंपनी में",
+  "image": "noidapost photo/Ahuja.png",
+  "company_name": "AHUJA RADIOS",
+  "location": "C-45, Noida Phase-2, Phase-2, Noida",
+  "job_type": "Apprenticeship jobs",
+  "vacancy": "Total Vacancy-20",
+  "note": "Attendance Award will not be deducted if you take 2 leave. यह एक अच्छी जॉब है कंपनी कैंडिडेट को बाहर नहीं निकलती है, अगर परफॉरमेंस अच्छा है तो on-role भी कर लेती है। #mobile_allow #only day shift",
+  "who_can_apply": [
+    "Required: 10th & 12th",
+    "Performance based on-role chance"
+  ],
+  "responsibilities": [
+    "Speaker manufacturing",
+    "Duty - 8 hours"
+  ],
+  "qualification": "10th & 12th",
+  "salary": [
+    "Salary-: #IN_HAND_10750",
+    "#attendance_award_500",
+    "Over Time- Double"
+  ],
+  "documents": [
+    "10th Marksheet",
+    "12th Marksheet",
+    "Aadhar Card",
+    "Resume"
+  ],
+  "date": "13.02.2025",
+  "interview_time": "10:00AM सुबह",
+  "interview_location": "C-45, Noida Phase-2, Phase-2, Noida",
+  "contacts": [
+    { "name": "Ankit", "phone": "8477873797" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "bjd-company-sec65-04",
+  "title": "!! भर्ती है BJD-company “Charger बनाने वाली ” कंपनी में !! Day shift शिफ्ट के लिए।।",
+  "image": "noidapost photo/Bjd.png",
+  "company_name": "BJD Company",
+  "location": "B-5 Sec-65, Noida",
+  "job_type": "Operator and Soldering department Quality and wherehouse",
+  "vacancy": "50 Day shift",
+  "note": "Boys and girls dono apply kr skti hai. DAY shift. ओरिगेनल आधार कार्ड लाना अनिवार्य है,डॉक्यूमेंट के साथ बैंक अकाउंट, दो फोटो लाना अनिवार्य है",
+  "who_can_apply": [
+    "Boys and girls dono apply kr skti hai"
+  ],
+  "responsibilities": [
+    "Operator",
+    "Soldering department",
+    "Quality",
+    "wherehouse"
+  ],
+  "qualification": "10th, 12th",
+  "salary": [
+    "Soldering salary - 12716",
+    "Operator salary - 11021-",
+    "Overtime: Rs60/-",
+    "Attendance Rs200/"
+  ],
+  "documents": [
+    "ओरिगेनल आधार कार्ड",
+    "बैंक अकाउंट",
+    "दो फोटो"
+  ],
+  "date": "04-02-2026",
+  "interview_time": "सुबह 08:00 बजे",
+  "interview_location": "B-5 Sec-65",
+  "contacts": [
+    { "name": "Ankush", "phone": "7011276205" }
+  ],
+  "map_link": "https://maps.app.goo.gl/5hYqdBJyEemkDfrg6?g_st=aw"
+},{
+  "id": "avinya-battery-noida-01",
+  "title": "AVINYA BATTERY LTD में डायरेक्ट इंटरव्यू",
+  "image": "noidapost photo/Avinya.png",
+  "company_name": "AVINYA BATTERY LTD",
+  "location": "B-45, सेक्टर-81, फेज-II, नोएडा, उत्तर प्रदेश",
+  "job_type": "प्रोडक्शन ऑपरेटर / क्वालिटी ऑपरेटर (Production Operator/ QUALITY OPRATOR)",
+  "vacancy": "",
+  "note": "सीधा इंटरव्यू – कृपया निर्धारित समय पर कंपनी के पते पर स्वयं पहुँचें। अगर कॉल रिसीव न हो, तो कृपया व्हाट्सएप करे।",
+  "who_can_apply": [
+    "MALE AND FEMALE",
+    "Diploma / ITI – Electrical / Electronics Trade"
+  ],
+  "responsibilities": [
+    "Production Operator",
+    "QUALITY OPRATOR"
+  ],
+  "qualification": "डिप्लोमा / आईटीआई– इलेक्ट्रिकल / इलेक्ट्रॉनिक्स ट्रेड",
+  "salary": [
+    "वेतन: ₹13500 से ₹17,000 प्रति माह",
+    "उपस्थिति पुरस्कार – ₹1500",
+    "DBT NAP/NATS 2250/750",
+    "कैन्टीन सुविधा",
+    "यूनिफॉर्म व सेफ्टी शूज़ उपलब्ध"
+  ],
+  "documents": [
+    "Resume",
+    "Qualification Marksheets",
+    "Aadhar Card"
+  ],
+  "date": "04.02.2026",
+  "interview_time": "सुबह 8:30 बजे से 11:00 बजे तक",
+  "interview_location": "B-45, सेक्टर-81, फेज-II, नोएडा, उत्तर प्रदेश",
+  "contacts": [
+    { "name": "Contact", "phone": "9319256092" }
+  ],
+  "map_link": ""
+},{
+  "id": "pti-auto-kasna-01",
+  "title": "तत्काल भर्ती – Pti Automotive Ltd",
+  "image": "noidapost photo/pti.png",
+  "company_name": "Pti Automotive Ltd",
+  "location": "B-4, साइट-5, कसना, ग्रेटर नोएडा",
+  "job_type": "प्रोडक्शन / क्वालिटी ऑपरेटर",
+  "vacancy": "",
+  "note": "Amichand Inter College के पास। अप्रेंटिस पद के लिए भर्ती।",
+  "who_can_apply": [
+    "लड़के अप्लाई कर सकते है"
+  ],
+  "responsibilities": [
+    "प्रोडक्शन / क्वालिटी ऑपरेटर"
+  ],
+  "qualification": "10वीं / 12वीं / ITI / डिप्लोमा / B.Sc",
+  "salary": [
+    "सैलरी: ₹12,203 – ₹15,300",
+    "Attendance Award: ₹2250 + ₹1500",
+    "सुविधाएं: यूनिफॉर्म, सेफ्टी शूज़, कैंटीन, बस"
+  ],
+  "documents": [
+    "10वीं / 12वीं / ITI / डिप्लोमा / B.Sc Marksheet",
+    "Aadhar Card"
+  ],
+  "date": "13.02.2026",
+  "interview_time": "सुबह 8:30– बजे",
+  "interview_location": "B-4, साइट-5, कसना, ग्रेटर नोएडा (Amichand Inter College के पास)",
+  "contacts": [
+    {
+      "name": "Sachin",
+      "phone": "8178338632"
+    }
+  ],
+  "map_link": "https://whatsapp.com/channel/0029Va8aXj4LI8YXceFAsY0"
+},
+{
+  "id": "mopo-tech-surajpur-12",
+  "title": "भर्ती है #Mopo technology_Pvt_Ltd. Boys & Girls",
+  "image": "noidapost photo/MOPO tech.png",
+  "company_name": "Mopo technology Pvt. Ltd.",
+  "location": "Surajpur greater Noida (G.B Nagar) UP, near Global autotec company",
+  "job_type": "Quality, Soldering, Loading Unloading, SMT Mounter",
+  "vacancy": "",
+  "note": "Phone na Uthane per Resume ko whatsapp kre. सभी अपने साथ डॉक्यूमेंट और फोटो भी जरूर लाएं।",
+  "who_can_apply": [
+    "Boys & Girls"
+  ],
+  "responsibilities": [
+    "Quality",
+    "Soldering",
+    "loading unloading",
+    "smt mounter"
+  ],
+  "qualification": "10th 12th graduation ITI diploma",
+  "salary": [
+    "10th, 12th, graduation: 13241",
+    "Quality: 15000 Ctc",
+    "Soldering: 16 to 20 tk ctc",
+    "loading unloading: 15 to 18 tk ctc",
+    "smt mounter: 16 to 20 ctc",
+    "Att_award: 500",
+    "Overtime: 90/H"
+  ],
+  "documents": [
+    "डॉक्यूमेंट",
+    "फोटो"
+  ],
+  "date": "13.02.2026",
+  "interview_time": "8:00 bje",
+  "interview_location": "Plot no 18 sector Ecotec 2, Surajpur greater Noida",
+  "contacts": [
+    { "name": "Ankit", "phone": "8477873797" },
+    { "name": "Sachin", "phone": "8178338632" },
+    { "name": "Lokesh", "phone": "9690643861" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "cnh-new-holland-2026",
+  "title": "🚨 URGENT REQUIREMENT | 300+ OPENINGS 🚨 Immediate Hiring – CNH Industrial India Pvt. Ltd.( New Holland )",
+  "image": "noidapost photo/CNH.png",
+  "company_name": "CNH Industrial India Pvt. Ltd.( New Holland )",
+  "location": "Greater Noida, Tusyana, Uttar Pradesh – 201306",
+  "job_type": "Assembly Operator (On Roll)",
+  "vacancy": "300+",
+  "note": "Immediate Hiring – Share in All Your Groups. Eligibility Criteria - Weight: More than 50 Kg. Passing Year: 2021, 2022, 2023, 2024, 2025.",
+  "who_can_apply": [
+    "ITI Trades: Fitter, Machinist, Diesel Mechanic, Tractor Mechanic, MMV, Painter, Turner",
+    "Diploma: Mechanical / Automobile / Electrical",
+    "Age: 18 to 25 Years"
+  ],
+  "responsibilities": [
+    "Assembly Operator"
+  ],
+  "qualification": "ITI, Diploma",
+  "salary": [
+    "ITI Salary: ₹14,000 + PF + ESI",
+    "Diploma Stipend: ₹15,000 + PF + ESI",
+    "Canteen: Free",
+    "Bus Facility: Free"
+  ],
+  "documents": [
+    "Resume",
+    "Aadhaar Card",
+    "PAN Card",
+    "ITI Marksheet",
+    "Graduation Marksheet",
+    "10th Marksheet",
+    "12th Marksheet (If Available)",
+    "Bank Passbook",
+    "4 Passport Size Photographs"
+  ],
+  "date": "16.02.2026",
+  "interview_time": "7:30 AM to 8:30 AM",
+  "interview_location": "Plot No. 03, New Holland Road, Udyog Kendra 2, Ecotech III, Greater Noida, Tusyana, Uttar Pradesh – 201306",
+  "contacts": [
+    { "name": "HR Lavkush Pathak", "phone": "8745052026" },
+    { "name": "WhatsApp", "phone": "7060734004" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "colorjet-noida-01",
+  "title": "जॉब वैकेंसी – Colorjet India Pvt. Ltd.",
+  "image": "noidapost photo/Colorjet.png",
+  "company_name": "Colorjet India Pvt. Ltd.",
+  "location": "A-6 & A-7, Samsung Display Unit के सामने, Block-A, Sector-81, Noida, Uttar Pradesh – 201305",
+  "job_type": "Apprentice Training",
+  "vacancy": "",
+  "note": "फ्रेशर व अनुभवी दोनों आवेदन कर सकते हैं। अपना Resume अभी WhatsApp करें या कॉल करें।",
+  "who_can_apply": [
+    "ITI (Fitter, Turner, Machinist, Electrician, Diesel Mechanic, Tractor Mechanic)",
+    "Freshers and Experienced"
+  ],
+  "responsibilities": [
+    "मशीन ऑपरेशन एवं प्रोडक्शन कार्य",
+    "सीनियर/सुपरवाइज़र के निर्देश अनुसार काम",
+    "क्वालिटी व सेफ्टी नियमों का पालन",
+    "इंडस्ट्रियल ट्रेनिंग के माध्यम से स्किल डेवलपमेंट"
+  ],
+  "qualification": "ITI (Fitter, Turner, Machinist, Electrician, Diesel Mechanic, Tractor Mechanic)",
+  "salary": [
+    "₹12,000 प्रति माह + Over time",
+    "कैंटीन सुविधा – पूरी तरह फ्री 🍽️",
+    "On-time Payment",
+    "Performance के आधार पर आगे Job Opportunity"
+  ],
+  "documents": [
+    "Aadhaar Card",
+    "Bank Account Details",
+    "4 Passport Size Photos",
+    "Resume",
+    "10th & 12th Marksheet",
+    "ITI Marksheet"
+  ],
+  "date": "11.02.2026",
+  "interview_time": "सुबह 10:00 बजे",
+  "interview_location": "A-6 & A-7, Samsung Display Unit के सामने, Block-A, Sector-81, Noida, Uttar Pradesh – 201305",
+  "contacts": [
+    { "name": "Lavkush Pathak", "phone": "8745052026" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "spheros-motherson-01",
+  "title": "Urgent Requirement :- BOYS | Spheros Motherson Ltd",
+  "image": "noidapost photo/Motherson.png",
+  "company_name": "Spheros Motherson Ltd",
+  "location": "Plot No. A-75, Ecotech 12, Ek murti near by Greater Noida",
+  "job_type": "Fresher & Experience",
+  "vacancy": "",
+  "note": "लोकल के कैंडीडेट भी जॉइन कर सकते है नोएडा ग़ाज़ियाबाद अलीगढ़ हापुड़, Resume and adhar card, pen card qualifications, photo copy 1 photo lekar hi aye.",
+  "who_can_apply": [
+    "BOYS",
+    "Fresher & Experience",
+    "Local candidates (Noida, Ghaziabad, Aligarh, Hapur)"
+  ],
+  "responsibilities": [
+    "Production work"
+  ],
+  "qualification": "10th, 12th, ITI, GRADUATION",
+  "salary": [
+    "10/12th:- 13800 ctc",
+    "Graduation: 15000 ctc",
+    "ITI, Experience & Fresher:- 17000 ctc",
+    "Overtime:- Double",
+    "Canteen Available lunch/Dinner",
+    "20 Leave yearly",
+    "yearly increment",
+    "Salary On interview Depend"
+  ],
+  "documents": [
+    "Resume",
+    "Adhar card",
+    "Pen card",
+    "Qualifications photo copy",
+    "1 photo"
+  ],
+  "date": "12.02.2026",
+  "interview_time": "10:00 am",
+  "interview_location": "Plot No. A-75, Ecotech 12, Ek murti near by Greater Noida",
+  "contacts": [
+    { "name": "Atul", "phone": "9696484935" }
+  ],
+  "map_link": ""
 }
+
 ]

@@ -93,7 +93,11 @@
     "category": "ncr",
     "image": "POSTPHOTO/Ekka Company.png",
     "desc": "Ekka Electronics Sonipat: Molding Operator, Helper और B.Tech पदों पर सीधी भर्ती। NCRONE.IN",
+<<<<<<< HEAD
     "date": "12.02.2026",
+=======
+    "date": "13.02.2026",
+>>>>>>> pages
     "link": "job-details.html?file=ncr&id=ekka-sonipat-02",
     "pos": 1
   },
@@ -101,10 +105,56 @@
   "source": "WhatsApp Group - मुफ्त रोजगार Online",
   "title": "MEGA RECRUITMENT OFFER – MYNTRA WAREHOUSE",
   "category": "ncr",
-  "image": "Ncrpost Photo/mayntra.png",
+  "image": "Ncrpost Photo/Myntra.png",
   "desc": "Myntra Warehouse: ₹1000/- Joining Bonus Offer, Picking, Packing और Scanning पदों पर भर्ती। NCRONE.IN",
   "date": "14.02.2026",
   "link": "job-details.html?file=ncr&id=myntra-mega-hiring-01",
+<<<<<<< HEAD
   "pos": 0
+=======
+  "pos": 1
+},
+{
+    "source": "WhatsApp Group - ZISHAN REAL",
+    "title": "Shriram Piston & Ring Ltd. Bhiwadi Hiring 2026",
+    "category": "ncr",
+    "image": "Ncrpost Photo/Shriram.png",
+    "desc": "Shriram Piston & Ring Ltd. में 200 पदों पर केवल पुरुष उम्मीदवारों के लिए भर्ती। आईटीआई और नॉन-आईटीआई दोनों के लिए मौका।",
+    "link": "job-details.html?file=ncr&id=shriram-piston-bhiwadi-01",
+    "pos": 1,
+    "date": "01.02.2026"
+   
+  },
+  {
+    "source": "WhatsApp Group - ZISHAN REAL",
+    "title": "Krishna Maruti IMT Manesar Hiring 2026",
+    "category": "ncr",
+    "image": "Ncrpost Photo/Krishana.png",
+    "desc": "Krishna Maruti में डिप्लोमा और फ्रेशर के लिए बड़ी भर्ती। डिप्लोमा उम्मीदवारों के लिए सैलरी ₹16,200 + अवॉर्ड।",
+    "link": "job-details.html?file=ncr&id=krishna-maruti-manesar-01",
+    "pos": 0,
+    "date": "10.01.2026"
+   
+  },{
+  "source": "WhatsApp Group jobs and Apprentice ",
+  "title": "Rockman Industries Limited ( Hero Group ) Hiring 2026",
+  "category": "haryana",
+  "image": "Ncrpost Photo/Rock man.png",
+  "desc": "Rockman Industries Limited में Machine operator and Production पदों पर भर्ती। Salary 20000+ (12 Hours)।",
+  "link": "job-details.html?file=ncr&id=rockman-bawal-01",
+  "pos": 1,
+  "date": "05.02.2026"
+},
+{
+  "source": "WhatsApp Group jobs and Apprentice ",
+  "title": "Revent Precision Engineering Limited Training & Jobs 2026",
+  "category": "ncr",
+  "image": "Ncrpost Photo/Revent.png",
+  "desc": "20 दिन की निःशुल्क ट्रेनिंग | 100% जॉब गारंटी। ITI / डिप्लोमा उम्मीदवारों के लिए अवसर।",
+  "link": "job-details.html?file=ncr&id=revent-precision-2026",
+  "pos": 1,
+  "date": "27.01.2026"
+
+>>>>>>> pages
 }
 ]

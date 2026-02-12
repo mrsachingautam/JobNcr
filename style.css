@@ -18,6 +18,12 @@ html { scroll-behavior: smooth; }
 }
 
 body {
+    /* आपके स्पेसिफिक सेक्शन या पूरी बॉडी के लिए */
+    font-weight: 450;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 2;  /* पढ़ने में आसानी के लिए */
+     color: #333;     /* प्रोफेशनल लुक के लिए */
+
     background-color: var(--bg-color);
     padding-top: 70px; /* Header Space */
 }
