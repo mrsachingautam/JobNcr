@@ -93,11 +93,7 @@
     "category": "ncr",
     "image": "POSTPHOTO/Ekka Company.png",
     "desc": "Ekka Electronics Sonipat: Molding Operator, Helper और B.Tech पदों पर सीधी भर्ती। NCRONE.IN",
-<<<<<<< HEAD
-    "date": "12.02.2026",
-=======
     "date": "13.02.2026",
->>>>>>> pages
     "link": "job-details.html?file=ncr&id=ekka-sonipat-02",
     "pos": 1
   },
@@ -109,9 +105,6 @@
   "desc": "Myntra Warehouse: ₹1000/- Joining Bonus Offer, Picking, Packing और Scanning पदों पर भर्ती। NCRONE.IN",
   "date": "14.02.2026",
   "link": "job-details.html?file=ncr&id=myntra-mega-hiring-01",
-<<<<<<< HEAD
-  "pos": 0
-=======
   "pos": 1
 },
 {
@@ -155,6 +148,5 @@
   "pos": 1,
   "date": "27.01.2026"
 
->>>>>>> pages
 }
 ]
