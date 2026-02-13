@@ -60,7 +60,7 @@
     "desc": "Vivo Mobile Company में Production और Assembling पदों पर भारी भर्ती। 10th, 12th Pass Jobs.",
     "link": "job-details.html?file=noida&id=newvivo-greno-01",
     "pos": 1,
-    "date": "13.02.2026"
+    "date": "14.02.2026"
   },
   {
     "title": "Kimbal Warehouse Greater Noida Jobs",
@@ -120,7 +120,7 @@
     "category": "noida",
     "image": "POSTPHOTO/VIVO.png",
     "desc": "Bhagwati Product Limited (Old VIVO) कासना में भर्ती। ₹11,021 सैलरी + Double OT + Free Food.",
-    "date": "12.02.2026",
+    "date": "14.02.2026",
     "link": "job-details.html?file=noida&id=bhagwati-vivo-01",
     "pos": 1
   },
@@ -140,7 +140,7 @@
     "category": "noida",
     "image": "Noidapost Photo/Utl.png",
     "desc": "UTL Solar (Fujiyahama Power) में Operator और Helper की भर्ती। Free Jobs for Boys - NCRONE.IN",
-    "date": "13.02.2026",
+    "date": "14.02.2026",
     "link": "job-details.html?file=noida&id=utl-solar-01",
     "pos": 0
   },
@@ -175,7 +175,7 @@
   "desc": "Luxor Company Phase-2 में Girls and boys के लिए भर्ती। Salary - 11021।",
   "link": "job-details.html?file=noida&id=luxor-phase2-01",
   "pos": 1,
-  "date": "13.02.2026"
+  "date": "14.02.2026"
  
 },
 {
@@ -186,7 +186,7 @@
   "desc": "KHY कंपनी (मैन्युफैक्चरिंग) के लिए भर्ती। Total Quantity :- 100(Only Boys)।",
   "link": "job-details.html?file=noida&id=khy-transsion-phase2-01",
   "pos": 1,
-  "date": "13.02.2026"
+  "date": "14.02.2026"
  
 },{
   "source": "WhatsApp Group - ARK WORKFORCE",
@@ -248,7 +248,7 @@
   "desc": "Mopo technology Pvt Ltd में Boys & Girls के लिए भारी भर्ती। Salary up to 20tk CTC।",
   "link": "job-details.html?file=noida&id=mopo-tech-surajpur-12",
   "pos": 0,
-  "date": "13.02.2026"
+  "date": "14.02.2026"
  
 },
 {
@@ -281,6 +281,47 @@
   "link": "job-details.html?file=noida&id=spheros-motherson-01",
   "pos": 1,
   "date": "12.02.2026"
-}
+},
+{
+    "source": "WhatsApp Group - GS Job Portal",
+    "title": "Califonix Boat Sector 85 Hiring 2026",
+    "category": "noida",
+    "image": "Noidapost Photo/Califoni.jpeg",
+    "desc": "Califonix boat sector 85 में भारी संख्या मे Boys & Girls के लिए भर्ती। Salary up to 20875 per- month.",
+    "link": "job-details.html?file=noida&id=califonix-boat-85",
+    "pos": 1,
+    "date": "13.02.2026"
+  },
+  {
+  "source": "WhatsApp Group NEERAJ  NCR JOB",
+  "title": "Mobile Charger Manufacturing Company Xihi Hiring 2026",
+  "category": "noida",
+  "image": "Noidapost Photo/Xih.jpeg",
+  "desc": "मोबाइल के चार्जर बनाने वाली कंपनी में Xihi भर्ती। Boys and Girls के लिए Day और Night शिफ्ट उपलब्ध।",
+  "link": "job-details.html?file=noida&id=xihi-charger-noida-13",
+  "pos": 1,
+  "date": "13.02.2026"
+ 
+},{
+    "source": "WhatsApp Group - Greno Enterprise",
+    "title": "Shinsung Mobile Greater Noida Hiring 2026",
+    "category": "noida",
+    "image": "Noidapost Photo/Korea.jpeg",
+    "desc": "Korean MNC Company SHINSUNG C&T में Boys & Girls के लिए भर्ती। 12th / ITI / Diploma Jobs.",
+    "link": "job-details.html?file=noida&id=shinsung-greno-14",
+    "pos": 1,
+    "date": "14.02.2026"
+},
+{
+    "source": "WhatsApp Group - Greno Enterprise",
+    "title": "BMR HAVC ltd. Greater Noida Hiring 2026",
+    "category": "noida",
+    "image": "Noidapost Photo/HAV.jpeg",
+    "desc": "BMR HAVC ltd. (New company) में Production और Quality पदों पर भर्ती। 8th, 10th, 12th Pass Jobs.",
+    "link": "job-details.html?file=noida&id=bmr-havc-greno-14",
+    "pos": 1,
+    "date": "14.02.2026"
+   
+  }
 
 ]

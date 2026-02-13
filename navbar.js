@@ -24,7 +24,17 @@ const navbarHTML = `
     }
 
     .header-left { display: flex; align-items: center; gap: 15px; flex: 1; }
-    .logo { color: white; font-size: 1.5rem; font-weight: bold; text-transform: uppercase; text-decoration: none; white-space: nowrap; }
+    
+    /* LOGO CIRCLE STYLE - Naya Added */
+    .nav-logo-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid white;
+    }
+
+    .logo { color: white; font-size: 1.5rem; font-weight: bold; text-transform: uppercase; text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 10px; }
     
     /* --- INLINE SEARCH BOX --- */
     .search-container-inline {
@@ -67,6 +77,9 @@ const navbarHTML = `
     .menu-toggle { display: none; color: white; font-size: 1.5rem; cursor: pointer; }
     .marquee-container { background: #ffeb3b; color: #000; padding: 8px 0; font-weight: bold; border-bottom: 1px solid #ccc; margin-top: 60px; font-family: sans-serif; }
 
+    /* --- COLORS --- */
+    .text-orange{ color:orange; }
+
     /* --- FLOATING BUTTONS --- */
     .global-float-box {
         position: fixed;
@@ -94,20 +107,47 @@ const navbarHTML = `
     .g-whatsapp { background-color: #25d366; }
     .g-telegram { background-color: #0088cc; }
 
-    @media (max-width: 768px) {
-        .menu-toggle { display: block; }
-        .search-container-inline { max-width: 140px; }
-        .navbar { position: absolute; top: 60px; left: 0; width: 100%; background-color: #0056b3; flex-direction: column; display: none; border-top: 1px solid rgba(255,255,255,0.1); }
-        .navbar.active { display: flex; }
-        .navbar ul { flex-direction: column; width: 100%; }
-        .navbar ul li a { padding: 15px; width: 100%; }
-        .dropdown.active .dropdown-content { display: block; position: static; width: 100%; }
+    /* Mobile View Optimization */
+@media (max-width: 768px) {
+    .logo { font-size: 1.1rem; gap: 5px; } 
+    .nav-logo-img { width: 30px; height: 30px; }
+    .menu-toggle { display: block; }
+    .search-container-inline { max-width: 140px; }
+
+    /* अपडेटेड मोबाइल मेनू */
+    .navbar { 
+        position: absolute; 
+        top: 60px; 
+        left: 0; 
+        width: 100%; 
+        background-color: rgba(0, 86, 179, 0.98); /* थोड़ा सा पारदर्शी */
+        flex-direction: column; 
+        display: none; 
+        border-top: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+        max-height: 80vh; /* स्क्रीन के 80% से ज्यादा लंबा नहीं होगा */
+        overflow-y: auto; /* अगर ज्यादा लिंक हों तो स्क्रॉल हो जाएगा */
     }
+
+    .navbar.active { display: flex; }
+    .navbar ul { flex-direction: column; width: 100%; }
+
+    /* कम पैडिंग ताकि जगह कम घेरे */
+    .navbar ul li a { 
+        padding: 12px 20px; 
+        width: 100%; 
+        font-size: 15px; 
+        border-bottom: 1px solid rgba(255,255,255,0.05); 
+    }
+}
 </style>
 
 <header class="main-navbar-header">
     <div class="header-left">
-        <a href="index.html" class="logo" title="NCRONE.IN - Latest Private Jobs 2026">NCRone.in</a>
+        <a href="index.html" class="logo" title="NCRONE.IN - Latest Private Jobs 2026">
+            <img src="POSTPHOTO/Logo.jpeg" alt="Logo" class="nav-logo-img">
+            <span><span class="text-blue">NCRONE</span><span class="text-orange">.IN</span></span>
+        </a>
         <div class="search-container-inline">
             <input type="text" id="navSearchInput" placeholder="Noida, ITI, Diploma Jobs..." onkeypress="handleNavSearch(event)">
             <i class="fas fa-search" onclick="executeSmartSearch()" title="Search Private Jobs"></i>
@@ -150,7 +190,7 @@ function toggleMenu() { document.getElementById('navbar').classList.toggle('acti
 function closeMenu() { document.getElementById('navbar').classList.remove('active'); }
 function toggleDropdown(e) { if (window.innerWidth <= 768) e.classList.toggle('active'); }
 
-// --- SMART SEARCH LOGIC (Optimized) ---
+// --- AAPKA SMART SEARCH LOGIC (BINA KISI BADLAV KE) ---
 async function executeSmartSearch() {
     const input = document.getElementById('navSearchInput');
     let s = input.value.toLowerCase().trim();
@@ -182,7 +222,7 @@ async function executeSmartSearch() {
 
         const foundJob = allJobs.find(job => 
             job.title.toLowerCase().includes(s) || 
-            job.desc.toLowerCase().includes(s) ||
+            (job.desc && job.desc.toLowerCase().includes(s)) ||
             (job.category && job.category.toLowerCase() === s)
         );
 
@@ -203,3 +243,14 @@ function handleNavSearch(event) {
         executeSmartSearch();
     }
 }
+
+// मेनू के बाहर कहीं भी क्लिक करने पर मेनू बंद हो जाए
+document.addEventListener('click', function (event) {
+    const navbar = document.getElementById('navbar');
+    const menuToggle = document.querySelector('.menu-toggle');
+
+    // अगर क्लिक मेनू पर नहीं हुआ है और न ही टॉगल बटन पर हुआ है
+    if (!navbar.contains(event.target) && !menuToggle.contains(event.target)) {
+        navbar.classList.remove('active');
+    }
+});
