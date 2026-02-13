@@ -77,69 +77,108 @@
     </div>
 
     <script>
-        async function loadJobData() {
-            const params = new URLSearchParams(window.location.search);
-            const fileName = params.get('file'); 
-            const jobId = params.get('id');
+     async function loadJobData() {
+    const params = new URLSearchParams(window.location.search);
+    const fileName = params.get('file'); 
+    const jobId = params.get('id');
 
-            try {
-                const response = await fetch(`${fileName}.json`);
-                const jobs = await response.json();
-                const job = jobs.find(j => j.id === jobId);
+    try {
+        const response = await fetch(`${fileName}.json`);
+        const jobs = await response.json();
+        const job = jobs.find(j => j.id === jobId);
 
-                if (job) {
-                    // --- SEO Dynamic Meta Update Start ---
-                    // 1. ब्राउज़र टैब टाइटल अपडेट करना
-                    const seoTitle = `${job.title} - Private Job in ${job.location} | NCRONE.IN`;
-                    document.getElementById('page-title').innerText = seoTitle;
-                    document.getElementById('job-title').innerText = job.title;
+        if (job) {
+            // --- SEO Dynamic Meta Update Start ---
+            const seoTitle = `${job.title} - Private Job in ${job.location} | NCRONE.IN`;
+            document.getElementById('page-title').innerText = seoTitle;
+            document.getElementById('job-title').innerText = job.title;
 
-                    // 2. गूगल सर्च के लिए डायनामिक डिस्क्रिप्शन बनाना
-                    let metaDesc = document.createElement('meta');
-                    metaDesc.name = "description";
-                    metaDesc.content = `${job.company_name} में ${job.job_type} की भर्ती। Qualification: ${job.qualification}, Salary: ${job.salary ? job.salary[0] : 'As per industry'}. पूरी जानकारी ncrone.in पर पढ़ें।`;
-                    document.getElementsByTagName('head')[0].appendChild(metaDesc);
+            let metaDesc = document.createElement('meta');
+            metaDesc.name = "description";
+            metaDesc.content = `${job.company_name} में ${job.job_type} की भर्ती। Qualification: ${job.qualification}, Salary: ${job.salary ? job.salary[0] : 'As per industry'}. पूरी जानकारी ncrone.in पर पढ़ें।`;
+            document.getElementsByTagName('head')[0].appendChild(metaDesc);
 
-                    // 3. इमेज का Alt टेक्स्ट अपडेट करना
-                    const jobImg = document.getElementById('job-img');
-                    jobImg.src = job.image;
-                    jobImg.alt = `${job.company_name} Job Vacancy 2026 - NCRONE.IN`;
-                    // --- SEO Dynamic Meta Update End ---
+            const jobImg = document.getElementById('job-img');
+            jobImg.src = job.image;
+            jobImg.alt = `${job.company_name} Job Vacancy 2026 - NCRONE.IN`;
+            // --- SEO Dynamic Meta Update End ---
 
-                    const fillList = (id, sectionId, data) => {
-                        if (data && data.length > 0) {
-                            document.getElementById(sectionId).classList.remove('hidden');
-                            data.forEach(item => document.getElementById(id).innerHTML += `<li>${item}</li>`);
-                        }
-                    };
-
-                    if(job.note) { document.getElementById('sec-note').classList.remove('hidden'); document.getElementById('job-note').innerText = job.note; }
-
-                    const grid = document.getElementById('main-grid');
-                    const details = [["Company Name", job.company_name], ["Location", job.location], ["Job Type", job.job_type], ["Vacancy", job.vacancy]];
-                    details.forEach(([lbl, val]) => { if(val) grid.innerHTML += `<div class="grid-label">${lbl}:</div><div>${val}</div>`; });
-
-                    fillList('apply-list', 'sec-apply', job.who_can_apply);
-                    fillList('resp-list', 'sec-resp', job.responsibilities);
-                    
-                    if(job.qualification) {
-                        document.getElementById('sec-qual').classList.remove('hidden');
-                        document.getElementById('job-qual').innerText = job.qualification;
-                    }
-
-                    fillList('salary-list', 'sec-salary', job.salary);
-                    fillList('docs-list', 'sec-docs', job.documents);
-
-                    const iGrid = document.getElementById('interview-grid');
-                    const iDetails = [["Interview Date", job.date], ["Interview Time", job.interview_time], ["Interview Location", job.interview_location]];
-                    iDetails.forEach(([lbl, val]) => { if(val) iGrid.innerHTML += `<div class="grid-label">${lbl}:</div><div>${val}</div>`; });
-                    if(job.map_link) iGrid.innerHTML += `<div class="grid-label">Google Map:</div><div><a href="${job.map_link}" target="_blank" style="color:#3498db; font-weight:bold;">Click for Location</a></div>`;
-
-                    job.contacts.forEach(c => document.getElementById('contact-list').innerHTML += `<li>${c.name}: <a href="tel:${c.phone}">${c.phone}</a></li>`);
+            const fillList = (id, sectionId, data) => {
+                if (data && data.length > 0) {
+                    document.getElementById(sectionId).classList.remove('hidden');
+                    data.forEach(item => document.getElementById(id).innerHTML += `<li>${item}</li>`);
                 }
-            } catch (e) { console.error("Error:", e); }
+            };
+
+            if(job.note) { 
+                document.getElementById('sec-note').classList.remove('hidden'); 
+                document.getElementById('job-note').innerText = job.note; 
+            }
+
+            const grid = document.getElementById('main-grid');
+            const details = [["Company Name", job.company_name], ["Location", job.location], ["Job Type", job.job_type], ["Vacancy", job.vacancy]];
+            details.forEach(([lbl, val]) => { if(val) grid.innerHTML += `<div class="grid-label">${lbl}:</div><div>${val}</div>`; });
+
+            fillList('apply-list', 'sec-apply', job.who_can_apply);
+            fillList('resp-list', 'sec-resp', job.responsibilities);
+            
+            if(job.qualification) {
+                document.getElementById('sec-qual').classList.remove('hidden');
+                document.getElementById('job-qual').innerText = job.qualification;
+            }
+
+            fillList('salary-list', 'sec-salary', job.salary);
+            fillList('docs-list', 'sec-docs', job.documents);
+
+            const iGrid = document.getElementById('interview-grid');
+            const iDetails = [["Interview Date", job.date], ["Interview Time", job.interview_time], ["Interview Location", job.interview_location]];
+            iDetails.forEach(([lbl, val]) => { if(val) iGrid.innerHTML += `<div class="grid-label">${lbl}:</div><div>${val}</div>`; });
+            if(job.map_link) iGrid.innerHTML += `<div class="grid-label">Google Map:</div><div><a href="${job.map_link}" target="_blank" style="color:#3498db; font-weight:bold;">Click for Location</a></div>`;
+
+            job.contacts.forEach(c => document.getElementById('contact-list').innerHTML += `<li>${c.name}: <a href="tel:${c.phone}">${c.phone}</a></li>`);
+
+            // --- Google Job Schema Start (Placed INSIDE if(job) block) ---
+            const jobSchema = {
+                "@context": "https://schema.org/",
+                "@type": "JobPosting",
+                "title": job.title,
+                "description": job.note || `Latest job vacancy at ${job.company_name} in ${job.location}. Apply now!`,
+                "datePosted": new Date().toISOString().split('T')[0],
+                "validThrough": "2026-12-31T23:59:59Z",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": job.company_name,
+                    "sameAs": "https://ncrone.in"
+                },
+                "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": job.location,
+                        "addressRegion": "NCR",
+                        "addressCountry": "IN"
+                    }
+                },
+                "baseSalary": {
+                    "@type": "MonetaryAmount",
+                    "currency": "INR",
+                    "value": {
+                        "@type": "QuantitativeValue",
+                        "value": job.salary ? job.salary[0].match(/\d+/g)?.join('') : 0,
+                        "unitText": "MONTH"
+                    }
+                }
+            };
+
+            const script = document.createElement('script');
+            script.setAttribute('type', 'application/ld+json');
+            script.textContent = JSON.stringify(jobSchema);
+            document.head.appendChild(script);
+            // --- Google Job Schema End ---
         }
-        window.onload = loadJobData;
+    } catch (e) { console.error("Error:", e); }
+}
+window.onload = loadJobData;
     </script>
     <script src="navbar.js"></script>
     <script src="footer.js"></script>
