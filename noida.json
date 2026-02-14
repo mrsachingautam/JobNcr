@@ -36,7 +36,7 @@
     "10th, 12th, ITI, Diploma, B.Tech Certificate",
     "2 Passport Size Photos"
   ],
-  "date": "12 to 14 Feb 2026 Tak ",
+  "date": "16 to 18 Feb 2026 Tak ",
   "interview_time": "08:00 AM to 10:00 AM (Morning)",
   "interview_location": "Plot B-13, Sector-85, Noida",
   "contacts": [
@@ -257,9 +257,9 @@
     "10th / 12th / ITI Marksheet",
     "Resume",
     "4 Passport Size Photos",
-    "Original Documents (इंटरव्यू में लाना अनिवार्य है)"
+    "Original Documents (इंटरव्यू में लाना अनिवार्य है)"   
   ],
-  "date": "14.02.2026",
+  "date": "15.02.2026",
   "interview_time": "08:00 AM to 11:00 AM",
   "interview_location": "United College of Engineering and Research,Greater Noida",
   "contacts": [
@@ -433,7 +433,7 @@
     "2 Passport Size Photos",
     "Original + Photocopy लाना अनिवार्य है"
   ],
-  "date": "14.02.2026",
+  "date": "15.02.2026",
   "interview_time": "08:00 AM - 02:30 PM",
   "interview_location": "Hari Associates (Makoda Village - Jagat Farm Gol Chakkar से ऑटो लें)",
   "contacts": [
@@ -665,7 +665,7 @@
 {
   "id": "ecdm-surajpur-01",
   "title": "ECDM MOBILE COMPANY RECRUITMENT",
-  "image": "Noidapost Photo/ECDM Company.png",
+  "image": "Noidapost Photo/ECDM.png",
   "company_name": "ECDM Mobile Company",
   "location": "Surajpur Police Line, Greater Noida",
   "job_type": "Standing Work (Mobile Assembly)",
@@ -1297,7 +1297,7 @@
     "Bank passbook",
     "Marksheet ki photo copy"
   ],
-  "date": "13.02.2026",
+  "date": "16.02.2026",
   "interview_time": "subah 8.00 बजे से 5:30 am sakta hai",
   "interview_location": "plot No G216 secter 63",
   "contacts": [
@@ -1379,6 +1379,81 @@
   "contacts": [
     { "name": "Ravinder", "phone": "9720894009" },
     { "name": "Gaurav", "phone": "9650935099" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "new-export-sec85-01",
+  "title": "ONLY FEMLAE URGENT REQUAIRMENT (NEW EXPORT COMPANY)",
+  "image": "Noidapost Photo/Export.jpeg",
+  "company_name": "NEW EXPORT COMPANY",
+  "location": "Noida sector 85",
+  "job_type": "EXPORT COMPANY",
+  "vacancy": "",
+  "note": "अपना resume वाट्सअप करें, बिना इंटरव्यू सीधे जोइनिंग, * ओरिजिनल डॉक्यूमेंट होना चाहिए*, फ़ोन करके पता और इंटरव्यू की जानकारी ले सकते हैं",
+  "who_can_apply": [
+    "ONLY FEMLAE",
+    "Age: - 18 से 35 साल"
+  ],
+  "responsibilities": [
+    "DIRECT JOINING"
+  ],
+  "qualification": "10th,12th, BA, BSC, B. Com, ITI & Diploma",
+  "salary": [
+    "Salary 13000",
+    "OVERTIME 120",
+    "ESIC",
+    "EPF"
+  ],
+  "documents": [
+    "ओरिजिनल डॉक्यूमेंट"
+  ],
+  "date": "15.02.2025",
+  "interview_time": "8.00am 10.30 am tak",
+  "interview_location": "Noida sector 85",
+  "contacts": [
+    { "name": "Resume", "phone": "8057413653" }
+  ],
+  "map_link": ""
+},
+{
+  "id": "idemia-syscom-01",
+  "title": "Urgent Requirement :- 200 BOYS , Idemia syscom PVT LTD",
+  "image": "Noidapost Photo/Idemi.jpeg",
+  "company_name": "Idemia syscom PVT LTD",
+  "location": "NSEZ A BLOCK PLOT NO. 60-61",
+  "job_type": "quility, production, maintenance, computer operator",
+  "vacancy": "200 BOYS",
+  "note": "ATM 🏧 card banane vali company। Interview time; resume and adhar card, qualifications, photo copy and 2 photo lekar hi aaye",
+  "who_can_apply": [
+    "Fresher & experience dono",
+    "Only Boys"
+  ],
+  "responsibilities": [
+    "quility, production, maintenance, computer operator"
+  ],
+  "qualification": "10th, 12th, ITI, GRADUATION, DIPLOMA",
+  "salary": [
+    "10th, 12th, ITI, graduation: 12000 plus (interview depend)",
+    "Diploma: 14500 plus (INTERWIVE DEPEND)",
+    "Attendance award: 1200",
+    "Lunch & dinner: 05/",
+    "Overtime: Double"
+  ],
+  "documents": [
+    "resume",
+    "adhar card",
+    "qualifications photo copy",
+    "2 photo"
+  ],
+  "date": "16.02.2026",
+  "interview_time": "10:00 am",
+  "interview_location": "plot no 60-61 NSEZ NOIDA",
+  "contacts": [
+    {
+      "name": "Ravi Gupta",
+      "phone": "8920041795"
+    }
   ],
   "map_link": ""
 }
