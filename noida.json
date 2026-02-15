@@ -816,7 +816,7 @@
   "documents": [
     "Resume"
   ],
-  "date": "14.02.2026",
+  "date": "16.02.2026",
   "interview_time": "8:00 बजे",
   "interview_location": "C-42 Sector 80, Noida",
   "contacts": [
@@ -855,7 +855,7 @@
     "Resume",
     "Photos"
   ],
-  "date": "15.02.2026",
+  "date": "16.02.2026",
   "interview_time": "अभी 9: बजे तक आ सकते है",
   "interview_location": "Shop no 2 , hotel silver inn, water tank Road, near old court, nagla charan das, phase -2 Noida sector 80",
   "contacts": [
@@ -1454,6 +1454,45 @@
       "name": "Ravi Gupta",
       "phone": "8920041795"
     }
+  ],
+  "map_link": ""
+},
+
+{
+  "id": "ppap-auto-noida-2026",
+  "title": "अत्यंत आवश्यक भर्ती सूचना | PPAP AUTOMOTIVE LTD में डायरेक्ट इंटरव्यू",
+  "image": "Noidapost Photo/PPAP.jpeg",
+  "company_name": "PPAP AUTOMOTIVE LTD",
+  "location": "B-206A, सेक्टर-81, फेज-II, नोएडा, उत्तर प्रदेश",
+  "job_type": "प्रोडक्शन ऑपरेटर / क्वालिटी ऑपरेटर (Production Operator/ QUALITY OPRATOR)",
+  "vacancy": "",
+  "note": "सीधा इंटरव्यू – कृपया निर्धारित समय पर कंपनी के पते पर स्वयं पहुँचें। अगर कॉल रिसीव न हो, तो कृपया व्हाट्सएप करे",
+  "who_can_apply": [
+    "MALE AND FEMALE dono aashkte hai",
+    "Direct Interview"
+  ],
+  "responsibilities": [
+    "Production Operator",
+    "QUALITY OPRATOR"
+  ],
+  "qualification": "10th/12th/ITI/Diploma all trade/ BA/BSC/B COM",
+  "salary": [
+    "वेतन: ₹13500 से ₹16000 प्रति माह",
+    "उपस्थिति पुरस्कार – ₹1500",
+    "DBT NAP/NATS 2250/750+35+30",
+    "कैन्टीन सुविधा/ Bus available",
+    "यूनिफॉर्म व सेफ्टी शूज़ उपलब्ध"
+  ],
+  "documents": [
+    "All Educational Certificates",
+    "Aadhar Card",
+    "Resume"
+  ],
+  "date": "16 Feb , 18 Feb 2026,  dono din hai ",
+  "interview_time": "सुबह 8:30 बजे से 11:00 बजे तक",
+  "interview_location": "B-206A, सेक्टर-81, फेज-II, नोएडा, उत्तर प्रदेश",
+  "contacts": [
+    { "name": "Contact", "phone": "9319256092" }
   ],
   "map_link": ""
 }
