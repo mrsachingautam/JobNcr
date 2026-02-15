@@ -172,7 +172,7 @@
     "Marksheet (10th/12th/ITI)",
     "Original + Photocopy sabhi documents saath laana अनिवार्य है"
   ],
-  "date": "01.02.2026",
+  "date": "16.02.2026",
   "interview_time": "09:30 AM to 02:30 PM",
   "interview_location": "Plot No. 40, Sec 155, Noida (Smart school Education)",
   "contacts": [
@@ -259,7 +259,7 @@
     "4 Passport Size Photos",
     "Original Documents (इंटरव्यू में लाना अनिवार्य है)"   
   ],
-  "date": "15.02.2026",
+  "date": "16.02.2026",
   "interview_time": "08:00 AM to 11:00 AM",
   "interview_location": "United College of Engineering and Research,Greater Noida",
   "contacts": [
@@ -348,7 +348,7 @@
     "Qualification Certificates",
     "Passport Size Photos"
   ],
-  "date": "14.02.2026",
+  "date": "16.02.2026",
   "interview_time": "08:00 AM",
   "interview_location": "Ecotech ext I, G Noida, Near Alentec Company",
   "contacts": [
@@ -1493,6 +1493,53 @@
   "interview_location": "B-206A, सेक्टर-81, फेज-II, नोएडा, उत्तर प्रदेश",
   "contacts": [
     { "name": "Contact", "phone": "9319256092" }
+  ],
+  "map_link": ""
+},
+
+{
+  "id": "dixon-sector68-v5-01",
+  "title": "Dixon Technology services Pvt Ltd Roll on V5 global services pvt ltd",
+  "image": "Noidapost Photo/Dixon-68.jpeg",
+  "company_name": "Dixon Technology services Pvt Ltd",
+  "location": "Noida sector-68",
+  "job_type": "Mobile-manufacturing Company",
+  "vacancy": "",
+  "note": "Local candidate be apply kar sakte Hain, All sitting and sitting work, OT is not optional it is mandatory for all Candidates",
+  "who_can_apply": [
+    "Girls and boys",
+    "Requirement girls and boys dono aa skte ha",
+    "Local candidate be apply kar sakte Hain"
+  ],
+  "responsibilities": [
+    "Depart-: PRODUCTION Quality and SMT",
+    "work:-Mobile-manufacturing Company",
+    "DAY and night shift"
+  ],
+  "qualification": "10th,12th, Graduation ( ITI ), ( Electrician, Eloctronic, Electrical,)",
+  "salary": [
+    "Salary For 10th,12th:- 12500",
+    "Salary For ITI Gross Salary:- ₹13500/-",
+    "Attendance award 1000",
+    "Night allowance 1000",
+    "Canteen Free for all",
+    "2 times tea snacks Free for all",
+    "1 time lunch free",
+    "Currently OT rate 10th,12th- 95 per hrs, ITI - 100 per hrs"
+  ],
+  "documents": [
+    "10th,12th, Graduation ( ITI )",
+    "Aadhaar Card",
+    "PAN Card",
+    "Resume (Biodata)",
+    "Original + Photocopy लाना अनिवार्य है"
+  ],
+  "date": "15.02.2026",
+  "interview_time": "Morning 8:30 To 5:30 / Night 8:30 to 5:30",
+  "interview_location": "Noida sector-68",
+  "contacts": [
+    { "name": "Aditya Kumar", "phone": "7060710574" },
+    { "name": "Vikash kumar", "phone": "8851328001" }
   ],
   "map_link": ""
 }
