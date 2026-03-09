@@ -8,14 +8,6 @@
     "date": "08.02.2026"
   },
   {
-    "title": "DBG Mobile Bawal Haryana Job Vacancy",
-    "category": "ncr",
-    "image": "POSTPHOTO/DBG.png",
-    "desc": "DBG Technology (Vsun Mobiles) बावल स्थित मोबाइल निर्माण कंपनी में नई भर्ती। Mobile Manufacturing Jobs.",
-    "link": "job-details.html?file=ncr&id=dbg-tech-bawal-01",
-    "date" :"08.02.2026"
-  },
-  {
     "title": "Hella India Gurugram Private Jobs 2026",
     "category": "ncr",
     "image": "POSTPHOTO/post1_y.jpg",
@@ -148,5 +140,15 @@
   "pos": 1,
   "date": "23.02.2026"
 
+},
+{
+  "source": "WhatsApp bawalritik Job. DBG",
+  "title": "DBG TECHNOLOGY (India) Pvt Ltd Hiring 2026",
+  "category": "haryana",
+  "image": "Ncrpost Photo/Dbg.jpeg",
+  "desc": "DBG TECHNOLOGY मोबाइल फ़ोन कंपनी में भर्ती। Salary - 21000/- In Hand (12 Hours)। Only Boys.",
+  "link": "job-details.html?file=ncr&id=dbg-bawal-01",
+  "pos": 1,
+  "date": "12.03.2026"
 }
 ]

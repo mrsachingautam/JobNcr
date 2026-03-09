@@ -265,51 +265,6 @@
   "map_link": "http://googleusercontent.com/maps.google.com/6"
 },
 {
-  "id": "dbg-tech-bawal-01",
-  "title": "DBG TECHNOLOGY RECRUITMENT 2026",
-  "image": "Ncrpost Photo/DBG.png",
-  "company_name": "DBG Technology - Vsun Mobiles",
-  "location": "Bawal, Rewari, Haryana",
-  "job_type": "Free of Cost Recruitment",
-  "vacancy": "Multiple",
-  "note": "⚠️ आवश्यक सूचना: यह भर्ती पूरी तरह से फ्री है। केवल मेल कैंडिडेट्स (Male Only) ही आवेदन करें। हरियाणा के लोकल कैंडिडेट्स नॉट अलाउड (Not Allowed)।",
-  "who_can_apply": [
-    "Only Male Candidates",
-    "Qualification: 12th or ITI Pass",
-    "Rajasthan Candidates: Allowed up to 200 km (Alwar & Bharatpur Not Allowed)",
-    "Rejoining: Allowed (Only if left before Dec 2024)"
-  ],
-  "responsibilities": [
-    "Mobile manufacturing and assembly",
-    "Production line operations",
-    "Quality checks for Vsun Mobiles"
-  ],
-  "qualification": "12th / ITI Pass",
-  "salary": [
-    "Gross Salary: ₹11,259/-",
-    "Total Salary (12 hrs): ₹19,000/- to ₹20,000/- (In-hand)",
-    "Attendance Award: ₹700/-",
-    "OT: ₹105/- per hour",
-    "Night Shift Allowance: ₹50/- per night",
-    "Duty Hours: 12 Hours Daily",
-    "Facilities: Canteen & Bus (Rewari & Bawal)"
-  ],
-  "documents": [
-    "12th / ITI Certificate (Original & Copy)",
-    "Aadhar Card",
-    "Passport Size Photos",
-    "Bank Account Details",
-    "Resume / Bio-data"
-  ],
-  "date": "30 January 2026",
-  "interview_time": "07:00 AM to 09:00 AM",
-  "interview_location": "Company Gate No. 1 par pahunchkar call karein",
-  "contacts": [
-    { "name": "HR Contact", "phone": "7041932315" }
-  ],
-  "map_link": ""
-},
-{
   "id": "yazaki-india-01",
   "title": "YAZAKI INDIA PVT. LTD. RECRUITMENT",
   "image": "Ncrpost Photo/Yazaki.png",
@@ -700,5 +655,54 @@
     }
   ],
   "map_link": ""
+},
+{
+  "id": "dbg-bawal-01",
+  "title": "मोबाइल फोन वाली कंपनी में भर्ती चल रही है | DBG 01",
+  "image": "Ncrpost Photo/Dbg.jpeg",
+  "company_name": "DBG TECHNOLOGY (India) Pvt Ltd",
+  "location": "Sector 08 Plot No 02 Bawal Rewari Haryana 123501",
+  "job_type": "Mobile Assembly (खड़े होकर काम करना है)",
+  "vacancy": "सीमित समय के लिये",
+  "note": "EURO THAR MANPOWER का फॉर्म लेना है। ओरिजनल डोकोमेंट्स होने जरूरी है। जिसको रूम चाहिए उसको रूम का किराया साथ लेके आना 1200 पर लड़के का लगता हैं। Distance Required: Haryana Not allowed. Rajasthan में Alwar, sikar and Bhartpur and up me mathura, Etah, Mainpuri not allowed. बाकी 200km दूर के सभी आ सकते है।",
+  "who_can_apply": [
+    "Only Boys",
+    "Age limit 18 to 30 (1995 to 2007)",
+    "Distance: 200km away (Specific districts restricted)"
+  ],
+  "responsibilities": [
+    "मोबाइल फ़ोन बनाना",
+    "खड़े होकर काम करना",
+    "Day shift: 07:00 am to 07:00 pm",
+    "Night shift: 07:00 pm to 07:00 am"
+  ],
+  "qualification": "12th PASS और, ITI PASS",
+  "salary": [
+    "Basic salary: 11259",
+    "Attendance award: 700",
+    "Night allowance: 50 rupy pr night",
+    "Daily 3 hours OT (108 rupy/hour)",
+    "Salary - 21000/- In Hand Duty 12 Hours 26 Days",
+    "Sunday off चलेगा तो 1188 अलग से मिलेगा",
+    "Canteen + Bus free"
+  ],
+  "documents": [
+    "आधार कार्ड की 2 फोटो कॉपी",
+    "10th और 12th की मार्कशीट की फोटो कॉपी",
+    "बैंक अकॉउंट की फोटो कॉपी",
+    "3 पासपोर्ट साइज फोटो",
+    "फॉर्म भरने के लिए इक पेन",
+    "पैंट शर्ट जूते पहन कर आना है"
+  ],
+  "date": "06-03-2026 to 12-03-2026",
+  "interview_time": "07:00 से 08:30 AM तक",
+  "interview_location": "DBG 01 कंपनी गेट नंबर 1, Sector 08 Plot No 02 Bawal Rewari",
+  "contacts": [
+    {
+      "name": "Rajender Ritik",
+      "phone": "7041932315"
+    }
+  ],
+  "map_link": "https://maps.app.goo.gl/TUpfoyM8sqYYQwco9?g_st=ac"
 }
 ]
