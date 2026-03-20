@@ -393,7 +393,7 @@
     "Qualification Certificates",
     "Passport Size Photos"
   ],
-  "date": "17/03/26",
+  "date": "20/03/26",
   "interview_time": "सुबह 9:30 बजे",
   "interview_location": "Dhada Gaon ke paas, Greater Noida, Uttar Pradesh",
   "contacts": [
@@ -905,7 +905,7 @@
     "Resume",
     "Photos"
   ],
-  "date": "17.03.2026",
+  "date": "20.03.2026",
   "interview_time": "अभी 9: बजे तक आ सकते है",
   "interview_location": "Shop no 2 , hotel silver inn, water tank Road, near old court, nagla charan das, phase -2 Noida sector 80",
   "contacts": [
@@ -943,7 +943,7 @@
     "ओर्जिनल डॉक्यूमेंट",
     "फोटो"
   ],
-  "date": "17/03/2026",
+  "date": "20/03/2026",
   "interview_time": "7:00 bje",
   "interview_location": "KHVatec India Pvt. Ltd. Kasna greater Noida (G.B Nagar) UP",
   "contacts": [
@@ -1347,7 +1347,7 @@
     "Bank passbook",
     "Marksheet ki photo copy"
   ],
-  "date": "16.02.2026",
+  "date": "20.02.2026",
   "interview_time": "subah 8.00 बजे से 5:30 am sakta hai",
   "interview_location": "plot No G216 secter 63",
   "contacts": [
@@ -1684,6 +1684,41 @@
     { "name": "Avinash", "phone": "7303663007" }
   ],
   "map_link": "https://maps.google.com/?q=28.464029,77.587212"
+},
+{
+  "source": "WhatsApp Lavkush Pathak",
+  "id": "haldirams-noida-62-01",
+  "title": "Urgent Hiring–Quality Department | Same day joining",
+  "image": "Noidapost Photo/haldira.jpeg",
+  "company_name": "Haldiram's",
+  "location": "Noida Sector 62",
+  "job_type": "Quality Trainee / Quality Department",
+  "vacancy": "100",
+  "note": "Interested Candidates Resume WhatsApp Kare, Apne Friends & Groups me Jarur Share Kare",
+  "who_can_apply": [
+    "Required: ITI / Diploma / B.Sc / BA",
+    "Freshers can also apply"
+  ],
+  "responsibilities": [
+    "Food product quality checking",
+    "Hygiene & safety standards maintain karna",
+    "Production line par quality inspection"
+  ],
+  "qualification": "ITI / Diploma / B.Sc / BA",
+  "salary": [
+    "Salary: ₹13,500 per month"
+  ],
+  "documents": [
+    "Resume"
+  ],
+  "date": "20.03.2026",
+  "interview_time": "10:00 am",
+  "interview_location": "Noida Sector 62",
+  "contacts": [
+    { "name": "Lavkush Pathak", "phone": "8745052026" },
+    { "name": "WhatsApp", "phone": "7060734004" }
+  ],
+  "map_link": ""
 }
 
 ]
