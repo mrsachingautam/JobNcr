@@ -172,7 +172,7 @@
     "Marksheet (10th/12th/ITI)",
     "Original + Photocopy sabhi documents saath laana अनिवार्य है"
   ],
-  "date": "16.03.2026",
+  "date": "27.03.2026",
   "interview_time": "09:30 AM to 02:30 PM",
   "interview_location": "Plot No. 40, Sec 155, Noida (Smart school Education)",
   "contacts": [
@@ -826,7 +826,7 @@
     "2 Passport Size Photos",
     "Bank Passbook"
   ],
-  "date": "16.03.2026",
+  "date": "27.03.2026",
   "interview_time": "",
   "interview_location": "Asian Paints Ltd, Kasna, Greater Noida",
   "contacts": [
@@ -1386,7 +1386,7 @@
     "Bank Passbook",
     "Original + Photocopy mandatory"
   ],
-  "date": "17/03/2026",
+  "date": "27/03/2026",
   "interview_time": "",
   "interview_location": "Shinsung Mobile Company, Plot No. 69, Ecotech-I, Village – Dadha, Near Mirza Company, Greater Noida",
   "contacts": [
@@ -1630,7 +1630,7 @@
     "Bank Pass book",
     "2 Photo"
   ],
-  "date": "26.03.2026",
+  "date": "27.03.2026 to 28.03.2026 Two days",
   "interview_time": "8:30 Am To 10:30Am",
   "interview_location": "DIXON TECHNOLOGIES SECTOR-90 PLOT NO.A-06",
   "contacts": [
@@ -1717,6 +1717,52 @@
   "contacts": [
     { "name": "Lavkush Pathak", "phone": "8745052026" },
     { "name": "WhatsApp", "phone": "7060734004" }
+  ],
+  "map_link": ""
+},
+
+
+
+{
+  "source": "WhatsApp Group noida job portal",
+  "id": "lava-noida-sec63-01",
+  "title": "Lava Mobile Company Noida NAPS Role Boys भर्ती",
+  "image": "Noidapost Photo/Lava.jpeg",
+  "company_name": "Lava Mobile Company",
+  "location": "A-154D Sector 63 Noida, Near Sec 62 Metro station Gate no 2",
+  "job_type": "NAPS Role",
+  "vacancy": "",
+  "note": "After 1 year the complete company promotes the Lava roll। कंपनी के गेट पर नीचे दिए गए नंबर पर कॉल करके ही अपने डाक्यूमेंट्स दें और किसी अन्य व्यक्ति को नहीं।",
+  "who_can_apply": [
+    "Only Boys",
+    "Age Limit: 18-26 वर्ष"
+  ],
+  "responsibilities": [
+    "NAPS Role training",
+    "8 घंटे की वर्किंग",
+    "Production work"
+  ],
+  "qualification": "10वी, 12वी, ITI all trade",
+  "salary": [
+    "Salary- 10000+1500 dbt amount =11500",
+    "Attendance Award: 750 प्रतिमाह",
+    "Quarterly award: 2000",
+    "Production incentive: As per performance (certificate also)",
+    "Overtime: 95 rs per hrs (GWR प्रोडक्शन के आधार पर)",
+    "Food: एक टाइम का खाना फ्री (12 घंटे में दोनों टाइम लंच है)"
+  ],
+  "documents": [
+    "10th / 12th / ITI Marksheet",
+    "Aadhar Card",
+    "Resume",
+    "Passport Size Photos"
+  ],
+  "date": "27.03.2026",
+  "interview_time": "",
+  "interview_location": "A-154D Sector 63 Noida, Near Sec 62 Metro station Gate no 2",
+  "contacts": [
+    { "name": "Hitesh", "phone": "9773711498" },
+    { "name": "Alok", "phone": "9716801206" }
   ],
   "map_link": ""
 }
