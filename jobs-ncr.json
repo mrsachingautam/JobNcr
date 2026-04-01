@@ -85,7 +85,7 @@
     "category": "ncr",
     "image": "POSTPHOTO/Ekka Company.png",
     "desc": "Ekka Electronics Sonipat: Molding Operator, Helper और B.Tech पदों पर सीधी भर्ती। NCRONE.IN",
-    "date": "25.03.2026",
+    "date": "01.04.2026",
     "link": "job-details.html?file=ncr&id=ekka-sonipat-02",
     "pos": 1
   },
@@ -124,7 +124,7 @@
   },{
   "source": "WhatsApp Group jobs and Apprentice ",
   "title": "Rockman Industries Limited ( Hero Group ) Hiring 2026",
-  "category": "haryana",
+  "category": "ncr",
   "image": "Ncrpost Photo/Rock man.png",
   "desc": "Rockman Industries Limited में Machine operator and Production पदों पर भर्ती। Salary 20000+ (12 Hours)।",
   "link": "job-details.html?file=ncr&id=rockman-bawal-01",
@@ -145,11 +145,54 @@
 {
   "source": "WhatsApp bawalritik Job. DBG",
   "title": "DBG TECHNOLOGY (India) Pvt Ltd Hiring 2026",
-  "category": "haryana",
+  "category": "ncr",
   "image": "Ncrpost Photo/Dbg.jpeg",
   "desc": "DBG TECHNOLOGY मोबाइल फ़ोन कंपनी में भर्ती। Salary - 21000/- In Hand (12 Hours)। Only Boys.",
   "link": "job-details.html?file=ncr&id=dbg-bawal-01",
   "pos": 1,
-  "date": "31.03.2026"
-}
+  "date": "10.04.2026"
+},
+{
+  "source": "WhatsApp Group ALL JOB HARIYANA ",
+  "title": "Magnum Company Bawal Hiring 2026",
+  "category": "ncr",
+  "image": "POSTPHOTO/MAGNUM.png",
+  "desc": "Magnum Company Bawal में Boys & Girls के लिए भर्ती। AC के पार्ट्स बनाने का काम। Salary ₹19500 तक।",
+  "link": "job-details.html?file=ncr&id=magnum-bawal-30",
+  "pos": 1,
+  "date": "30.03.2026"
+
+},
+{
+  "source": "WhatsApp Group ALL JOB HARIYANA ",
+  "title": "Nidec Company Neemrana Hiring 2026",
+  "category": "ncr",
+  "image": "Ncrpost Photo/nidc.jpeg",
+  "desc": "Nidec Company में Male & Female के लिए भर्ती। Room Free (26 दिन ड्यूटी पर)। Salary up to ₹20,700।",
+  "link": "job-details.html?file=ncr&id=nidec-neemrana-01",
+  "pos": 1,
+  "date": "02.04.2026"
+ 
+},
+{
+    "source": "WhatsApp Group -My group my Hiring",
+    "title": "Eastman Power Technologies Hiring 2026",
+    "category": "haryana",
+    "image": "POSTPHOTO/EASTMAN.png",
+    "desc": "Direct Joining - No Interview | Only Boys | 100% Free. Total Vacancies: 250.",
+    "link": "job-details.html?file=ncr&id=eastman-sonipat-01",
+    "pos": 1,
+    "date": "26.03.2026"
+    
+  },
+  {
+    "source": "ALL india jobs placement group",
+    "title": "JRG company Bawal Rewari Hiring 2026",
+    "category": "haryana",
+    "image": "Ncrpost Photo/dr.jpeg",
+    "desc": "JRG company में Male / Female के लिए भारी भर्ती। 8 Hour + 3.5 OT daily ड्यूटी।",
+    "link": "job-details.html?file=ncr&id=jrg-bawal-02",
+    "pos": 1,
+    "date": "02.04.2026"
+  }
 ]
